@@ -16,7 +16,7 @@ Telegram: https://t.me/divinityskyblock
 - Создайте мир, согласившись с предупреждением на экране
 
 
-Видео инструкция: 
+Видео инструкция: https://youtu.be/27oPkUU6lXI
 ---
 
 ![](https://github.com/smitexq/resources/blob/main/divinity_skyblock_reborn/img/img1.png)
