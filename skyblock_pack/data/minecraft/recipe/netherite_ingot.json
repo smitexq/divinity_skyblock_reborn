@@ -1,0 +1,9 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    "air"
+  ],
+  "result": {
+    "id": "minecraft:air"
+  }
+}

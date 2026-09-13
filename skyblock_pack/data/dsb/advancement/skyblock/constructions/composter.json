@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:composter"
+    },
+    "title": {
+      "translate": "dsb.advancement.cst.composter.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.cst.composter.lore",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/constructions/create_fire"
+}

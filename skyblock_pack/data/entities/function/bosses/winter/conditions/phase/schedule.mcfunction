@@ -1,0 +1,1 @@
+$function dc:get_call {tick:$(timeToSelect), command:"function entities:bosses/winter/conditions/phase/select_ability", requirePos:false, requireEntity:true}

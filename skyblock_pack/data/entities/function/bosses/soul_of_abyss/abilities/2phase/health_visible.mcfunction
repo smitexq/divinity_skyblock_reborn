@@ -1,0 +1,1 @@
+$execute as @e[type=text_display, tag=SoulOfAbyss_HP, sort=nearest, limit=1] run data modify entity @s text set value '{"text":"$(hp)/150","color":"yellow"}'

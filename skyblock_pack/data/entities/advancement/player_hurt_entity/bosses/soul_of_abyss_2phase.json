@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast",
+          "nbt": "{Tags:[\"2phase\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "entities:bosses/soul_of_abyss/abilities/2phase/damage_point"
+  }
+}

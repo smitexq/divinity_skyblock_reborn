@@ -1,0 +1,6 @@
+{
+	"values": [
+        {"required": false, "id": "minecraft:pumpkin"},
+        {"required": false, "id": "minecraft:melon"}
+	]
+}

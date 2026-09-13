@@ -1,0 +1,1 @@
+$bossbar set dsb:$(out) visible false

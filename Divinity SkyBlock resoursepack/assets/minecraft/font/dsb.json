@@ -1,0 +1,870 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:font/davy_ru.png",
+			"ascent": 18,
+			"height": 64,
+			"chars": ["\uE982"]
+		},
+		//Стартовая книга. Заголовок
+		{
+			"type": "bitmap",
+			"file": "dsb:font/title.png",
+			"ascent": 25,
+			"height": 58,
+			"chars": ["\uE981"]
+		},
+		//Иконки глав
+		{
+			"type": "bitmap",
+			"file": "dsb:font/start_book/content/chapter_1.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": ["\uE001"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/start_book/content/chapter_2.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": ["\uE002"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/start_book/content/chapter_3.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": ["\uE003"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/start_book/content/chapter_4.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": ["\uE004"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/start_book/content/chapter_5.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": ["\uE005"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/start_book/content/chapter_6.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": ["\uE006"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/start_book/content/chapter_7.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": ["\uE007"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/start_book/content/chapter_8.png",
+			"ascent": 8,
+			"height": 8,
+			"chars": ["\uE008"]
+		},
+
+
+
+
+		////Книга рецептов////
+		{
+			"type": "bitmap",
+			"file": "dsb:item/recipes/build_research.png",
+			"ascent": 10,
+			"height": 10,
+			"chars": ["\uE100"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/recipes/item_research.png",
+			"ascent": 10,
+			"height": 10,
+			"chars": ["\uE101"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/recipes/ritual_research.png",
+			"ascent": 10,
+			"height": 10,
+			"chars": ["\uE102"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/gear.png",
+			"ascent": 9,
+			"height": 9,
+			"chars": ["\uE099"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/recipes/build_info.png",
+			"ascent": 10,
+			"height": 10,
+			"chars": ["\uE098"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/composter/1_point.png",
+			"ascent": 75,
+			"height": 150,
+			"chars": ["\uE103"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/composter/2_point.png",
+			"ascent": 75,
+			"height": 150,
+			"chars": ["\uE104"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/composter/3_point.png",
+			"ascent": 75,
+			"height": 150,
+			"chars": ["\uE105"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/composter/6_point.png",
+			"ascent": 40,
+			"height": 80,
+			"chars": ["\uE106"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:block/dirt.png",
+			"ascent": 4,
+			"height": 8,
+			"chars": ["\uE107"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:block/gravel.png",
+			"ascent": 4,
+			"height": 8,
+			"chars": ["\uE108"]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:block/soul_sand.png",
+			"ascent": 4,
+			"height": 8,
+			"chars": ["\uE109"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/sieve/dirt.png",
+			"ascent": 50,
+			"height": 100,
+			"chars": ["\uE110"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/sieve/gravel.png",
+			"ascent": 50,
+			"height": 100,
+			"chars": ["\uE111"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/sieve/soul_sand.png",
+			"ascent": 50,
+			"height": 100,
+			"chars": ["\uE112"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/tea_leaves.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE113"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/black_tea_leaves.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE114"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/cup.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE115"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/green_tea.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE116"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/birch_tea.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE117"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/berries_tea.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE118"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/oxeye_daisy_tea.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE119"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/sakura_tea.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE120"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/black_tea.png",
+			"ascent": 9,
+			"height": 14,
+			"chars": ["\uE121"]
+		},
+
+
+
+		//Текстуры еды
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/fish_and_chips.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE487"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/ice_cream.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE488"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/fruit_salad.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE489"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/salad_of_greans.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE490"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/meat_soup.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE491"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/chicken_soup.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE492"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/wheat_porridge.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE493"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/apple_pie.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE494"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/sweet_berry_cookie.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE495"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/apple_juice.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE496"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:item/food/apple_juice.png",
+			"ascent": 10,
+			"height": 12,
+			"chars": ["\uE497"]
+		},
+		{//спрайт куриной ножки
+			"type": "bitmap",
+			"file": "dsb:font/start_book/food_half.png",
+			"ascent": 2,
+			"height": 12,
+			"chars": ["\uE498"]
+		},
+		{//Насыщение
+			"type": "bitmap",
+			"file": "dsb:font/start_book/saturation.png",
+			"ascent": 2,
+			"height": 12,
+			"chars": ["\uE499"]
+		},
+
+
+		////Крафты////
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/apple_juice.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE501"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/berry_juice.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE502"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/berry_cookie.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE503"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/apple_pie.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE504"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/wheat_porridge.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE505"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/chicken_soup.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE506"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/meat_soup.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE507"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/salad_of_greans.png",
+			"ascent": 15,
+			"height": 180,
+			"chars": ["\uE508"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/fruit_salad.png",
+			"ascent": 15,
+			"height": 180,
+			"chars": ["\uE509"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/ice_cream.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE510"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/fish_and_chips.png",
+			"ascent": 15,
+			"height": 180,
+			"chars": ["\uE511"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/scaffolding.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE512"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/tall_grass.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE513"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/string.png",
+			"ascent": 30,
+			"height": 120,
+			"chars": ["\uE514"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/building_hammer.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE515"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/wooden_hammer.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE516"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/stone_hammer.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE517"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/cup.png",
+			"ascent": 7,
+			"height": 100,
+			"chars": ["\uE518"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/green_tea.png",
+			"ascent": 5,
+			"height": 60,
+			"chars": ["\uE519"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/birch_tea.png",
+			"ascent": 5,
+			"height": 60,
+			"chars": ["\uE520"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/berries_tea.png",
+			"ascent": 5,
+			"height": 60,
+			"chars": ["\uE521"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/oxeye_daisy_tea.png",
+			"ascent": 5,
+			"height": 60,
+			"chars": ["\uE522"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/sakura_tea.png",
+			"ascent": 5,
+			"height": 60,
+			"chars": ["\uE523"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/black_tea.png",
+			"ascent": 5,
+			"height": 60,
+			"chars": ["\uE524"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/tea_map.png",
+			"ascent": 7,
+			"height": 100,
+			"chars": ["\uE525"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/rotten_remains.png",
+			"ascent": 15,
+			"height": 180,
+			"chars": ["\uE526"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/fuel.png",
+			"ascent": 15,
+			"height": 100,
+			"chars": ["\uE527"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/link_crystal.png",
+			"ascent": 15,
+			"height": 100,
+			"chars": ["\uE528"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/fire_soul.png",
+			"ascent": 15,
+			"height": 100,
+			"chars": ["\uE529"]
+		},
+
+
+
+
+
+
+		//с uE530 по uE564 занято для крафтов в книге рецептов
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/brown_mushroom.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE530"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/red_mushroom.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE531"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/grass_block.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE532"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/iron_hammer.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE533"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/kelp.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE534"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/cobweb.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE535"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/fuel.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE536"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/building_plan.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE537"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/scroll_of_mending.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE538"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/golden_hammer.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE539"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/wanderer_ring.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE540"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/advanced_ring.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE541"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/glowstone_dust.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE542"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/ancient_ring_of_the_sun.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE543"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/diamond_hammer.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE544"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/link_crystal.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE545"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/amulet_of_armor.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE546"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/amulet_of_life.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE547"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/efficiency.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE548"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/fortune.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE549"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/sharpness.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE550"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/protection.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE551"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/power.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE552"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/silk_touch.png",
+			"ascent": 19,
+			"height": 66,
+			"chars": ["\uE553"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/looting.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE554"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/unbreaking.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE555"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/smite.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE556"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/projectile_protection.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE557"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/scythe_of_souls.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE558"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/lighting_charge.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE559"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/lumberjack_axe.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE560"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/traveler_ring.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE561"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/enchanting_table.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE562"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/netherite_hammer.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE563"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/crafts/scholar_ring.png",
+			"ascent": 10,
+			"height": 66,
+			"chars": ["\uE564"]
+		},
+
+
+
+
+		//Ритуалы
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/sapling.png",
+			"ascent": 10,
+			"height": 90,
+			"chars": ["\uE700"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/diamond.png",
+			"ascent": 10,
+			"height": 90,
+			"chars": ["\uE701"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/ender_chest.png",
+			"ascent": 10,
+			"height": 90,
+			"chars": ["\uE702"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/totem.png",
+			"ascent": 10,
+			"height": 90,
+			"chars": ["\uE703"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/ender_eye.png",
+			"ascent": 10,
+			"height": 90,
+			"chars": ["\uE704"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/base_end_frame.png",
+			"ascent": 10,
+			"height": 80,
+			"chars": ["\uE705"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/netherite_ingot.png",
+			"ascent": 10,
+			"height": 80,
+			"chars": ["\uE706"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/end_frame.png",
+			"ascent": 10,
+			"height": 80,
+			"chars": ["\uE707"]
+		},
+		{
+			"type": "bitmap",
+			"file": "dsb:font/rituals/elytra.png",
+			"ascent": 10,
+			"height": 90,
+			"chars": ["\uE708"]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": {
+      "translate": "dsb.advancement.dif.gold_armor.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.dif.gold_armor.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:golden_helmet"
+            },
+            "chest": {
+              "items": "minecraft:golden_chestplate"
+            },
+            "legs": {
+              "items": "minecraft:golden_leggings"
+            },
+            "feet": {
+              "items": "minecraft:golden_boots"
+            }
+          }
+        }
+      }
+    }
+  },
+  "parent": "dsb:skyblock/diff/first_recipe"
+}

@@ -1,0 +1,1 @@
+$kill @e[type=#food:display, tag=$(out)]

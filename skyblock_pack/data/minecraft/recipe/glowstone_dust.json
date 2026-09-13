@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:gunpowder",
+        "minecraft:redstone",
+        "minecraft:orange_dye"
+    ],
+    "result": {
+        "id": "minecraft:glowstone_dust",
+		"count": 2
+    }
+}

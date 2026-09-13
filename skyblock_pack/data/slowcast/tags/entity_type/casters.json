@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:skeleton",
+    "minecraft:bogged",
+    "minecraft:stray",
+    "minecraft:creeper",
+    "minecraft:witch",
+    "minecraft:blaze",
+    "minecraft:marker"
+  ]
+}

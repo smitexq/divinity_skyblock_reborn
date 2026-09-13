@@ -1,0 +1,1 @@
+$summon minecraft:item ~ ~ ~ {Tags:["BonesAnimation"],Item:{id:"minecraft:bone",count:1, components:{"minecraft:max_stack_size":1}},PickupDelay:-1,Motion:[$(SignX)0.$(MotionX)d,0.$(MotionY)d,$(SignZ)0.$(MotionZ)d]}

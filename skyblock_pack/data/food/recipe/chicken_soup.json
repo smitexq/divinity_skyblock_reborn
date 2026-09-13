@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:bone",
+    "minecraft:carrot",
+    "minecraft:cooked_chicken",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "animation": "eat"
+      },
+      "minecraft:food": {
+        "nutrition": 9,
+        "saturation": 7
+      },
+      "minecraft:item_model": "dsb:food/chicken_soup",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.chicken_soup'}]",
+      "minecraft:lore": [
+        "{\"translate\":\"dsb.items.food.number_servings\",\"color\":\"aqua\",\"italic\": false, \"with\":[\"3/3\"]}"
+      ],
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 3,
+      "minecraft:use_remainder": {
+        "id": "minecraft:structure_block",
+        "count": 1,
+        "components": {
+          "minecraft:consumable": {
+            "animation": "eat"
+          },
+          "minecraft:food": {
+            "nutrition": 9,
+            "saturation": 7
+          },
+          "minecraft:item_model": "dsb:food/chicken_soup",
+          "minecraft:item_name": "[{'translate':'dsb.items.food.chicken_soup'}]",
+          "minecraft:lore": [
+            "{\"translate\":\"dsb.items.food.number_servings\",\"color\":\"aqua\",\"italic\": false, \"with\":[\"2/3\"]}"
+          ],
+          "minecraft:rarity": "common",
+          "minecraft:max_stack_size": 3,
+          "minecraft:use_remainder": {
+            "id": "minecraft:structure_block",
+            "count": 1,
+            "components": {
+              "minecraft:consumable": {
+                "animation": "eat"
+              },
+              "minecraft:food": {
+                "nutrition": 9,
+                "saturation": 7
+              },
+              "minecraft:item_model": "dsb:food/chicken_soup",
+              "minecraft:item_name": "[{'translate':'dsb.items.food.chicken_soup'}]",
+              "minecraft:lore": [
+                "{\"translate\":\"dsb.items.food.number_servings\",\"color\":\"aqua\",\"italic\": false, \"with\":[\"1/3\"]}"
+              ],
+              "minecraft:rarity": "common",
+              "minecraft:max_stack_size": 3,
+              "minecraft:use_remainder": {
+                "id": "minecraft:bowl",
+                "count": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

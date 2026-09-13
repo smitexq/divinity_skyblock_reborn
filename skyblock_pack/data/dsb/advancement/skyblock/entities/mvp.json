@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:painting"
+    },
+    "title": {
+      "translate": "dsb.advancement.ent.mvp.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.ent.mvp.lore"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/entities/ragequit"
+}

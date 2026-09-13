@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/used/scroll_of_mending_1",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/used/scroll_of_mending_2",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/used/scroll_of_mending_3",
+          "weight": 5
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:spawners/ominous/trial_chamber/scrolls_of_mending"
+}

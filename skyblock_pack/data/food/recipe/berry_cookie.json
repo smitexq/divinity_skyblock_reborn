@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "wbw"
+  ],
+  "key": {
+    "w": "minecraft:wheat",
+    "b": "minecraft:sweet_berries"
+  },
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 8,
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 0.8,
+        "animation": "eat"
+      },
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 0.2
+      },
+      "minecraft:item_model": "dsb:food/sweet_berry_cookie",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.berry_cookie'}]",
+      "minecraft:rarity": "common"
+    }
+  }
+}

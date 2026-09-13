@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf",
+      "components": {
+        "minecraft:item_model": "dsb:recipes/ritual_research"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.cst.full_recipes.name",
+      "color": "gold"
+    },
+    "description": {
+      "translate": "dsb.advancement.cst.full_recipes.lore",
+      "color": "yellow"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "dsb.adv.research_recipe": 55
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/constructions/learn_20_recipe"
+}

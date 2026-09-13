@@ -1,0 +1,26 @@
+{
+  "textures": {
+    "texture": "dsb:overlay"
+  },
+  "gui_light":"front",
+  "elements": [    
+    {
+      "__comment": "PlaneX1",
+      "from": [ 0, -12, -12 ],
+      "to": [ 0, 32, 32 ],
+      "faces": {
+        "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation":  [ 0, -90, 0 ],
+      "translation":  [ 8, -8, 52 ],
+      "scale":  [ 0.1, 4, 4 ]
+    },
+    "ground" :{
+      "scale": [0,0,0]
+    }
+  }
+}

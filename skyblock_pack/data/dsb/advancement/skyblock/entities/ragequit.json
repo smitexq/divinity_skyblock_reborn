@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "dsb.advancement.ent.ragequit.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.ent.ragequit.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/entities/sea_king"
+}

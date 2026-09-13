@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": {
+      "translate": "dsb.notes.root.title",
+      "color": "yellow"
+    },
+    "description": {
+      "translate": "dsb.notes.root.desc",
+      "color": "gold"
+    },
+    "background": "dsb:textures/gui/advancements/backgrounds/copper_block.png",
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

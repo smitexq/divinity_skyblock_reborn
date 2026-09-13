@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd"
+    },
+    "title": {
+      "translate": "dsb.advancement.ent.chill_guy.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.ent.chill_guy.lore"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/entities/mvp"
+}

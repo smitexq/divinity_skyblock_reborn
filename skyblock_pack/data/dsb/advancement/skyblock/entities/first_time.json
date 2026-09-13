@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "dsb.advancement.ent.first_time.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.ent.first_time.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"entity_boss\", \"mystic\"]}"
+        }
+      }
+    }
+  },
+  "parent": "dsb:skyblock/entities/kill_mysterious"
+}

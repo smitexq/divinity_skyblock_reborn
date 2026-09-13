@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel",
+      "components": {
+        "minecraft:item_model": "dsb:food/berries_tea"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.cst.tea_create.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.cst.tea_create.lore",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/constructions/tea_cauldron"
+}

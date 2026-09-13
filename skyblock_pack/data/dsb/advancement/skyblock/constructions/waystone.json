@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:soul_lantern",
+      "components": {
+        "minecraft:item_model": "dsb:link_crystal"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.cst.waystone.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.cst.waystone.lore",
+      "color": "green"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/constructions/blaze.spawner"
+}

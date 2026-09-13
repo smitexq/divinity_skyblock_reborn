@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 2,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_trapdoors",
+        "state": {
+          "open": "false"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": 3,
+        "predicate": {
+          "block": {
+            "blocks": "#minecraft:leaves"
+          }
+        }
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "dsb:rain"
+      }
+    ]
+  }
+]

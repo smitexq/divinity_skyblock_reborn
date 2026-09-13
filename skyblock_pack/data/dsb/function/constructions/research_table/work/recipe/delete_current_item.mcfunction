@@ -1,0 +1,1 @@
+$data modify storage dsb:cts ResearchTable.$(uuid).recipe[$(lastIndex)][1] set value {}

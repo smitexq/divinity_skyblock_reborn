@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "hawkring": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"WearingHawkRing\"]}"
+        },
+        "entity": {
+          "type": "#entities:hostile_mobs"
+        }
+      }
+    },
+    "vampire": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"WearingRingOfVampire\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hawkring",
+      "vampire"
+    ]
+  ],
+  "rewards": {
+    "function": "rings:activate_ring/phe_branch"
+  }
+}

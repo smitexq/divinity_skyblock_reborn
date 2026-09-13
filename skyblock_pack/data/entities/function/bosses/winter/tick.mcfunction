@@ -1,0 +1,1 @@
+execute as @e[type=marker, tag=WinterQueenRainMarker] at @s run particle dust_color_transition{from_color:[0.098f,0.0f,0.8f], to_color:[0.098f,0.94f,0.95f], scale:0.9f} ~ ~ ~ 0 0 0 0 1 force

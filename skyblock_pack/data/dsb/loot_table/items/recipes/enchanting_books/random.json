@@ -1,0 +1,311 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.sharpness"},"II"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookSharpness",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.efficiency"},"II"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookEfficiency",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.fortune"},"I"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookFortune",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.protection"},"I"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookProtection",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.power"},"II"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookPower",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.silk_touch"},""]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookSilkTouch",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.looting"},"I"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookLooting",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.unbreaking"},"I"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookUnbreaking",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.smite"},"II"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookSmite",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.ench_books", "with":[{"translate":"enchantment.minecraft.projectile_protection"},"II"]}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_BookProjectileProtection",
+                  "tag": "recipe",
+                  "root": 3,
+                  "tier_ai": 2
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:item_model": "dsb:recipes/craft_recipe"
+          }
+        },
+        {
+          "function": "minecraft:set_lore",
+          "lore": [
+            {"text":""},
+            [{"translate": "dsb.recipes.rarity_level", "color": "green", "italic": false}, {"text": ": §5★★★☆"}],
+            {"text":""},
+            {"translate": "dsb.recipes.research_level", "color": "green", "italic": false, "with":[{"translate": "dsb.recipes.ai.RecipeOfCraft_EnchantedBook"}]},
+            {"translate": "dsb.recipes.can_be_research", "color": "green", "italic": false},
+            {"text":""},
+            [{"translate": "dsb.recipes.create_on_workbench", "color": "green", "italic": false}]
+          ],
+          "mode": "replace_all"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "dsb:items/recipes/enchanting_books/random"
+}

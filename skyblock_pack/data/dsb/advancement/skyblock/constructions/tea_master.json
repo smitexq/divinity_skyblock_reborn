@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower"
+    },
+    "title": {
+      "translate": "dsb.advancement.cst.tea_master.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.cst.tea_master.lore"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{Tags:[\"GreenTea1\"]}"
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "nbt": "{Tags:[\"WearingAmuletOfLuck\"]}"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"GreenTea2\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"GreenTea3\"]}"
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "TimeConsumeBirchTea": {
+                "min": 1
+              },
+              "TimeConsumeBlackTea": {
+                "min": 1
+              },
+              "TimeConsumeGreenTea": {
+                "min": 1
+              },
+              "TimeConsumeSakuraTea": {
+                "min": 1
+              },
+              "TimeConsumeBerriesTea": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/constructions/zen"
+}

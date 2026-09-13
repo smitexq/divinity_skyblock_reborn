@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/waystone",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether_boss"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/diamond_hammer"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/amulet_of_armor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/amulet_of_life"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/scholar_ring",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether_boss"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/lighting_charge"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/netherite_hammer"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/rituals/totem",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "dsb:recipes/nether/legendary"
+}

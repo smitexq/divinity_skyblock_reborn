@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "1": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/set_game_stage"
+  }
+}

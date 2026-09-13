@@ -1,0 +1,392 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    //Overworld entity
+    //Green Tea 0
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/uncommon",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/rare",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/epic",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/legendary",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9933
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#entities:bosses/overworld_entities"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "nbt": "{Tags:[\"UseGreenTea\"]}"
+            }
+          }
+        }
+      ]
+    },
+
+    //Green Tea 1
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/uncommon",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/rare",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/epic",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/legendary",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9888
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#entities:bosses/overworld_entities"
+          }
+        },
+        {
+        "condition": "minecraft:entity_properties",
+        "entity": "attacker",
+          "predicate": {
+            "nbt": "{Tags:[\"GreenTea1\"]}"
+          }
+        }
+      ]
+    },
+
+    //Green Tea 2
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/uncommon",
+          "weight": 110
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/rare",
+          "weight": 26
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/epic",
+          "weight": 13
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/legendary",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9843
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#entities:bosses/overworld_entities"
+          }
+        },
+        {
+        "condition": "minecraft:entity_properties",
+        "entity": "attacker",
+          "predicate": {
+            "nbt": "{Tags:[\"GreenTea2\"]}"
+          }
+        }
+      ]
+    },
+
+    //Green Tea 3
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/uncommon",
+          "weight": 140
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/rare",
+          "weight": 34
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/epic",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/legendary",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9798
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#entities:bosses/overworld_entities"
+          }
+        },
+        {
+        "condition": "minecraft:entity_properties",
+        "entity": "attacker",
+          "predicate": {
+            "nbt": "{Tags:[\"GreenTea3\"]}"
+          }
+        }
+      ]
+    },
+
+
+
+
+    //Nether entity
+    //Green Tea 0
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/uncommon",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/rare",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/epic",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/legendary",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9933
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#entities:bosses/nether_entities"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "nbt": "{Tags:[\"UseGreenTea\"]}"
+            }
+          }
+        }
+      ]
+    },
+
+    //Green Tea 1
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/uncommon",
+          "weight": 80
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/rare",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/epic",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/legendary",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9888
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#entities:bosses/nether_entities"
+          }
+        },
+        {
+        "condition": "minecraft:entity_properties",
+        "entity": "attacker",
+          "predicate": {
+            "nbt": "{Tags:[\"GreenTea1\"]}"
+          }
+        }
+      ]
+    },
+
+    //Green Tea 2
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/uncommon",
+          "weight": 110
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/rare",
+          "weight": 26
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/epic",
+          "weight": 13
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/legendary",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9843
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#entities:bosses/nether_entities"
+          }
+        },
+        {
+        "condition": "minecraft:entity_properties",
+        "entity": "attacker",
+          "predicate": {
+            "nbt": "{Tags:[\"GreenTea2\"]}"
+          }
+        }
+      ]
+    },
+
+    //Green Tea 3
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/uncommon",
+          "weight": 140
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/rare",
+          "weight": 34
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/epic",
+          "weight": 17
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/nether_recipes/legendary",
+          "weight": 11
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 9798
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "#entities:bosses/nether_entities"
+          }
+        },
+        {
+        "condition": "minecraft:entity_properties",
+        "entity": "attacker",
+          "predicate": {
+            "nbt": "{Tags:[\"GreenTea3\"]}"
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "dsb:recipes/mob_rarity/common"
+}

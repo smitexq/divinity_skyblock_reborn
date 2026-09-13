@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.recipes_book",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:item_model": "dsb:tools/recipe_book",
+                "minecraft:custom_data": {
+                  "id": "recipes_book"
+                },
+                "minecraft:written_book_content": {
+                  "pages": [
+                    "[{'text':'\uE981\\n\\n', 'font':'dsb','color':'white'}, {'text':'\\n\uE100 ','color':'white'},{'clickEvent':{'action':'change_page','value':'2'},'translate':'dsb.start_book.chapter_text.6', 'font':'default','color':'black'}, {'text':'\\n\uE101 ','color':'white'},{'clickEvent':{'action':'change_page','value':'5'},'translate':'dsb.recipe_book.chapter_text.2', 'font':'default','color':'black'}, {'text':'\\n\uE102 ','color':'white'},{'clickEvent':{'action':'change_page','value':'50'},'translate':'dsb.recipe_book.chapter_text.3', 'font':'default','color':'black'}, {'text':'\\n\\n\\n\\uE099 ','color':'white'},{'clickEvent':{'action':'run_command','value':'/trigger Settings set 1'},'translate':'dsb.recipe_book.settings', 'font':'default','color':'black'}, {'text':'\\n\\uE098 ','color':'white'},{'clickEvent':{'action':'run_command','value':'/trigger Settings set 5'},'translate':'dsb.recipe_book.last_vizual', 'font':'default','color':'black', 'hoverEvent':{'action':'show_text', 'value':{'translate':'dsb.recipe_book.last_vizual.hover'}}}]",
+
+                    //Конструкции
+                    "[{'translate':'dsb.recipe_book.cts.fire.name','bold':true, 'color':'blue','hoverEvent':{'action':'show_text','contents':{'text':'AI: 1; 1'}}}, '\n\n* ', {'translate':'dsb.recipe_book.cts.work','bold':false, 'color':'dark_aqua','hoverEvent':{'action':'show_text','contents':{'translate':'dsb.recipe_book.cts.fire.work'}}}]",
+
+                    "[{'translate':'dsb.recipe_book.cts.composter.name','bold':true, 'color':'blue','hoverEvent':{'action':'show_text','contents':{'text':'AI: 2; 1'}}}, '\n\n* ', {'hoverEvent':{'action':'show_text','contents':{'text':''}},'translate':'dsb.recipe_book.cts.build','bold':false, 'color':'dark_aqua', 'clickEvent':{'action':'run_command','value':'/trigger VizualConstruction set 100'}}, '\n§9§l* ', {'translate':'dsb.recipe_book.cts.work','bold':false, 'color':'dark_aqua','hoverEvent':{'action':'show_text','contents':{'translate':'dsb.recipe_book.cts.composter.work', 'with':[{'translate':'dsb.recipes.ai.RecipeOf_Composter'}]}}}, '\n\n', {'hoverEvent':{'action':'show_text','contents':{'text':''}},'translate':'dsb.recipe_book.cts.composter.items','bold':false, 'color':'dark_aqua'}, '\n', {'text':'x1 ','bold':true, 'color':'blue','hoverEvent':{'action':'show_text','contents':{'text':'\uE103','font':'dsb'}}}, {'text':'x2 ','bold':true, 'color':'blue','hoverEvent':{'action':'show_text','contents':{'text':'\uE104','font':'dsb'}}}, {'text':'x3 ','bold':true, 'color':'blue','hoverEvent':{'action':'show_text','contents':{'text':'\uE105','font':'dsb'}}}, {'text':'x4 ','bold':true, 'color':'blue','hoverEvent':{'action':'show_item','contents':{id:'minecraft:wheat'}}}, {'text':'x6','bold':true, 'color':'blue','hoverEvent':{'action':'show_text','contents':{'text':'\uE106','font':'dsb'}}},'\n\n', {'translate':'dsb.recipe_book.cts.note','bold':true, 'color':'dark_red','hoverEvent':{'action':'show_text','contents':{'translate':'dsb.recipe_book.cts.composter.note'}}}]",
+
+                    "[{'translate':'dsb.recipe_book.cts.sieve.name','bold':true, 'color':'blue','hoverEvent':{'action':'show_text','contents':{'text':'AI: 2; 1'}}}, '\n\n* ', {'hoverEvent':{'action':'show_text','contents':{'text':''}},'translate':'dsb.recipe_book.cts.build','bold':false, 'color':'dark_aqua', 'clickEvent':{'action':'run_command','value':'/trigger VizualConstruction set 101'}}, '\n§9§l* ', {'translate':'dsb.recipe_book.cts.work','bold':false, 'color':'dark_aqua','hoverEvent':{'action':'show_text','contents':{'translate':'dsb.recipe_book.cts.sieve.work', 'with':[{'translate':'dsb.recipes.ai.RecipeOf_Sieve'}]}}}, '\n\n', {'hoverEvent':{'action':'show_text','contents':{'text':''}},'translate':'dsb.recipe_book.cts.sieve.items','bold':false, 'color':'dark_aqua'}, '\n', {'text':'\uE107', 'font':'dsb','color':'white','hoverEvent':{'action':'show_text','contents':{'text':'\uE110','font':'dsb'}}}, '  ', {'text':'\uE108', 'font':'dsb','color':'white','hoverEvent':{'action':'show_text','contents':{'text':'\uE111','font':'dsb'}}}, '  ', {'text':'\uE109', 'font':'dsb','color':'white','hoverEvent':{'action':'show_text','contents':{'text':'\uE112','font':'dsb'}}},'\n\n', {'translate':'dsb.recipe_book.cts.note','bold':true, 'color':'dark_red','hoverEvent':{'action':'show_text','contents':{'translate':'dsb.recipe_book.cts.sieve.note'}}}]",
+
+                    "[{'translate':'dsb.recipe_book.cts.research_table.name','bold':true, 'color':'blue','hoverEvent':{'action':'show_text','contents':{'text':'AI: 2; 2; 1'}}}, '\n\n* ', {'hoverEvent':{'action':'show_text','contents':{'text':''}},'translate':'dsb.recipe_book.cts.build','bold':false, 'color':'dark_aqua', 'clickEvent':{'action':'run_command','value':'/trigger VizualConstruction set 102'}}, '\n§9§l* ', {'translate':'dsb.recipe_book.cts.work','bold':false, 'color':'dark_aqua','hoverEvent':{'action':'show_text','contents':{'translate':'dsb.recipe_book.cts.research_table.work', 'with':[{'translate':'dsb.recipes.ai.RecipeOf_ResearchTable'}]}}},'\n\n', {'translate':'dsb.recipe_book.cts.note','bold':true, 'color':'dark_red','hoverEvent':{'action':'show_text','contents':{'translate':'dsb.recipe_book.cts.research_table.note'}}}]"
+                    
+                  ],
+                  "title": {
+                    "raw": "Recipes Book"
+                  },
+                  "author": "",
+                  "generation": 3
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,1 @@
+$execute anchored eyes run tp @e[type=interaction, tag=$(out)] ^ ^-0.15 ^0.3

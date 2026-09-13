@@ -1,0 +1,37 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:block/black_stained_glass"
+	},
+	"overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "dsb:gui/composter"},
+        {"predicate": {"custom_model_data": 2}, "model": "dsb:gui/research_table"},
+
+        {"predicate": {"custom_model_data": 48}, "model": "dsb:gui/water_collector/font"},
+        {"predicate": {"custom_model_data": 49}, "model": "dsb:gui/water_collector/level_0"},
+        {"predicate": {"custom_model_data": 50}, "model": "dsb:gui/water_collector/level_1"},
+        {"predicate": {"custom_model_data": 51}, "model": "dsb:gui/water_collector/level_2"},
+        {"predicate": {"custom_model_data": 52}, "model": "dsb:gui/water_collector/level_3"},
+        {"predicate": {"custom_model_data": 53}, "model": "dsb:gui/water_collector/level_4"},
+        {"predicate": {"custom_model_data": 54}, "model": "dsb:gui/water_collector/level_5"},
+        {"predicate": {"custom_model_data": 55}, "model": "dsb:gui/water_collector/level_6"},
+        {"predicate": {"custom_model_data": 56}, "model": "dsb:gui/water_collector/level_7"},
+        {"predicate": {"custom_model_data": 57}, "model": "dsb:gui/water_collector/level_8"},
+        {"predicate": {"custom_model_data": 58}, "model": "dsb:gui/water_collector/level_9"},
+        {"predicate": {"custom_model_data": 59}, "model": "dsb:gui/water_collector/level_10"},
+        {"predicate": {"custom_model_data": 60}, "model": "dsb:gui/water_collector/level_11"},
+        {"predicate": {"custom_model_data": 61}, "model": "dsb:gui/water_collector/level_12"},
+        {"predicate": {"custom_model_data": 62}, "model": "dsb:gui/water_collector/level_13"},
+        {"predicate": {"custom_model_data": 63}, "model": "dsb:gui/water_collector/level_14"},
+        {"predicate": {"custom_model_data": 64}, "model": "dsb:gui/water_collector/level_15"},
+        {"predicate": {"custom_model_data": 65}, "model": "dsb:gui/water_collector/level_16"},
+        {"predicate": {"custom_model_data": 66}, "model": "dsb:gui/water_collector/level_17"},
+        {"predicate": {"custom_model_data": 67}, "model": "dsb:gui/water_collector/level_18"},
+        {"predicate": {"custom_model_data": 68}, "model": "dsb:gui/water_collector/level_19"},
+        {"predicate": {"custom_model_data": 69}, "model": "dsb:gui/water_collector/level_20"},
+
+        {"predicate": {"custom_model_data": 100}, "model": "dsb:gui/rings/closed_clots"},
+        {"predicate": {"custom_model_data": 101}, "model": "dsb:gui/rings/open_slots_small"},
+        {"predicate": {"custom_model_data": 102}, "model": "dsb:gui/rings/open_slots_large"}
+    ]
+}

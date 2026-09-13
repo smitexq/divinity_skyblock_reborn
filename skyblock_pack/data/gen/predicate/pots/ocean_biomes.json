@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biomes": [
+      "minecraft:ocean",
+      "minecraft:warm_ocean",
+      "minecraft:cold_ocean",
+      "minecraft:river"
+    ]
+  }
+}

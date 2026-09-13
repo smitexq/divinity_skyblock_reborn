@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "_+",
+        "#/"
+    ],
+    "key": {
+        "+": "minecraft:ghast_tear",
+        "#": "minecraft:amethyst_shard",
+        "_": "minecraft:glass",
+        "/": "minecraft:glowstone_dust"
+    },
+    "result": {
+        "id": "minecraft:structure_block",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"dsb.items.lightning_charge\",\"color\":\"white\",\"italic\":false}",
+            "minecraft:item_model": "dsb:tools/lightning_crystal",
+            "minecraft:custom_data": {
+              "id": "lightning_charge"
+            },
+            "minecraft:consumable": {
+              "consume_seconds": 10000000000,
+              "has_consume_particles": false
+            }
+          }
+    }
+}

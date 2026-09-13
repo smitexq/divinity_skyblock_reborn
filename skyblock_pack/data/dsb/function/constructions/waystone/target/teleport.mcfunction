@@ -1,0 +1,1 @@
+$function dc:get_call {tick:80, command:"execute in minecraft:$(dimension) positioned $(x) $(y) $(z) positioned ~ ~-1 ~ run function dsb:constructions/waystone/target/find_place_to_teleport", requirePos:false, requireEntity:true}

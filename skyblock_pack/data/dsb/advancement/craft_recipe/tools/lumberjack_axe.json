@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dsb:tools/lumberjack_axe"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:crafts/tools/lumberjack_axe"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:horn_coral_block"
+    },
+    "title": {
+      "translate": "dsb.advancement.int.monkey.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.int.monkey.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "AI": {
+                "min": 5
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/root"
+}

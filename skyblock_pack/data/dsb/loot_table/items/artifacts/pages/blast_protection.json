@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.page_of_ench",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "dsb.items.page_of_ench.lore",
+                  "color": "yellow",
+                  "italic": false,
+                  "with": [
+                    {
+                      "translate": "enchantment.minecraft.blast_protection"
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:ench_page",
+                "minecraft:max_stack_size": 3,
+                "minecraft:custom_data": {
+                  "id": "blast_protection",
+                  "tag": "enchant_pages"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

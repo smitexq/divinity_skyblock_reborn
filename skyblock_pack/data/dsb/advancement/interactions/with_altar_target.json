@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:chain_command_block",
+                "minecraft:flint_and_steel"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"initAltar\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:constructions/altar/target/action"
+  }
+}

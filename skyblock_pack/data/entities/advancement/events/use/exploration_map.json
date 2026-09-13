@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:filled_map",
+          "predicate": {
+            "minecraft:custom_data": {
+              "id": "exploration_map"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "entities:events/traders/usage/exploration_map"
+  }
+}

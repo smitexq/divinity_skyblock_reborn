@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_trial_key",
+      "components": {
+        "minecraft:item_model": "dsb:tools/soul_of_abyss_key"
+      }
+    },
+    "title": {
+      "translate": "dsb.notes.void_key.title"
+    },
+    "description": {
+      "translate": "dsb.notes.void_key.desc",
+      "color": "gold"
+    },
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "dsb:notes/cartography_2",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"AltarToSpawn_SoulOfAbyss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:advancement/note_msg"
+  }
+}

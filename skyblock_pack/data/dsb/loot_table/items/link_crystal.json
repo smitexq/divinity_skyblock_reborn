@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.link_crystal",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:link_crystal",
+                "minecraft:custom_data": {
+                  "id":"link_crystal"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

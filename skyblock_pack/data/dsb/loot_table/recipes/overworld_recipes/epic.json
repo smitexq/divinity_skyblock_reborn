@@ -1,0 +1,186 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/small_library"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/huge_library",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/blaze_spawner",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/kelp"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/glowstone_dust"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/cobweb"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/golden_hammer"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/enchanting_books/random"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/traveler_ring",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether_boss"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/ancient_sun_ring"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/lumberjack_axe"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/scythe_of_souls",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/rituals/netherite_ingot",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/rituals/ender_eye",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/rituals/diamond",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/rituals/base_end_frame",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "dsb:recipes/overworld/epic"
+}

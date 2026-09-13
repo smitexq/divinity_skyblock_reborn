@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.sea_cup",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2.3,
+                  "animation": "drink",
+                  "sound": "minecraft:entity.generic.drink",
+                  "has_consume_particles": false
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:poisonous_potato",
+                  "components": {
+                    "!minecraft:food": {},
+                    "minecraft:custom_data": {
+                      "id": "empty_slot"
+                    },
+                    "minecraft:item_model": "dsb:empty",
+                    "minecraft:custom_name": "\"\""
+                  }
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 25,
+                  "cooldown_group": "dsb:sea_cup"
+                },
+                "minecraft:max_stack_size": 1,
+                "minecraft:item_model": "dsb:tools/sea_cup",
+                "minecraft:custom_data": {
+                  "id": "sea_cup"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

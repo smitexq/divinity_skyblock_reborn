@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "translate": "dsb.notes.end_portal.title"
+    },
+    "description": {
+      "translate": "dsb.notes.end_portal.desc",
+      "color": "gold"
+    },
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "dsb:notes/find_eleum_lois",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"RecipeOf_Altar\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:advancement/note_msg"
+  }
+}

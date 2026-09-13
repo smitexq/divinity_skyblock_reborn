@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " * ",
+        "+ +",
+        "#+#"
+    ],
+    "key": {
+        "+": "minecraft:iron_nugget",
+        "*": "minecraft:redstone",
+        "#": "minecraft:raw_gold"
+    },
+    "result": {
+        "id": "minecraft:structure_block",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"dsb.items.rings.ancient_ring_of_the_sun\",\"color\":\"white\",\"italic\":false}",
+            "minecraft:lore": ["{\"text\":\"\"}","{\"translate\": \"dsb.items.rings.ancient_ring_of_the_sun.lore\", \"color\": \"aqua\", \"italic\": false}"],
+            "max_stack_size": 1,
+            "minecraft:item_model": "dsb:rings/red_sun",
+            "minecraft:custom_data": {
+              "Ring": 1,
+              "AncientRingOfTheSun": 1
+            }
+          }
+    }
+}

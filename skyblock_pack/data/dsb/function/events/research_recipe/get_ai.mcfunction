@@ -1,0 +1,1 @@
+$data modify storage dsb:temp ai set from storage dsb:recipes RecipesAI.$(id)

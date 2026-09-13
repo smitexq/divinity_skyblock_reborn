@@ -1,0 +1,11 @@
+{
+	"values": [
+        {"required": false, "id":"minecraft:structure_block"},
+    	{"required": false, "id": "minecraft:wheat"},
+
+    	{"required": false, "id":"#dsb:compost/1_points"},
+    	{"required": false, "id":"#dsb:compost/2_points"},
+    	{"required": false, "id":"#dsb:compost/3_points"},
+        {"required": false, "id":"#dsb:compost/6_points"}
+	]
+}

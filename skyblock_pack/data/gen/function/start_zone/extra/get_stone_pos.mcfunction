@@ -1,0 +1,1 @@
+$data modify storage dsb_gen:islands Coords set from storage dsb_gen:islands AdditionalStones[$(Pos)]

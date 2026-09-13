@@ -1,0 +1,94 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:diorite_wall",
+          "state": {
+            "waterlogged": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:soul_lantern",
+          "state": {
+            "hanging": "false",
+            "waterlogged": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:quartz_pillar"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#dsb:h.library",
+          "state": {
+            "facing": "east",
+            "waterlogged": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "#dsb:h.library",
+          "state": {
+            "facing": "west",
+            "waterlogged": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#dsb:h.library",
+          "state": {
+            "facing": "south",
+            "waterlogged": "false"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": "#dsb:h.library",
+          "state": {
+            "facing": "north",
+            "waterlogged": "false"
+          }
+        }
+      }
+    }
+  ]
+}

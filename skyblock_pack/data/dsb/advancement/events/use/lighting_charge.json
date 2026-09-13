@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:structure_block",
+          "components": {
+            "minecraft:custom_data": {
+              "id": "lightning_charge"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/lighting_charge/start"
+  }
+}

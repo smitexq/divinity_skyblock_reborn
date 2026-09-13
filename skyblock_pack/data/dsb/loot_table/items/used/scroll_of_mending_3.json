@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.scroll_of_mending",
+                "color": "red",
+                "italic": false,
+                "with": ["III"]
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"translate": "dsb.items.scroll_of_mending.lore", "color": "dark_red", "italic": false, "with":["35"]}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:tools/scroll_of_mending_3",
+                "minecraft:custom_data": {
+                  "id": "scroll_of_mending_3"
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 10000000000,
+                  "has_consume_particles": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

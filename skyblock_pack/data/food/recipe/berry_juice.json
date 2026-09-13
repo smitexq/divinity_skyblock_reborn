@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:sweet_berries",
+    "minecraft:sugar",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "animation": "drink",
+        "sound": "entity.generic.drink",
+        "has_consume_particles": false
+      },
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 2.4,
+        "can_always_eat": true
+      },
+      "minecraft:max_stack_size": 3,
+      "minecraft:item_model": "dsb:food/apple_juice",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.berry_juice'}]",
+      "minecraft:rarity": "common",
+      "minecraft:use_remainder": {
+        "id": "minecraft:glass_bottle"
+      }
+    }
+  }
+}

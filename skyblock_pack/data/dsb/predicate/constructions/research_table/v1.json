@@ -1,0 +1,190 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_trapdoors",
+        "state": {
+          "open": "true",
+          "waterlogged": "false",
+          "facing": "south"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_trapdoors",
+        "state": {
+          "waterlogged": "false",
+          "facing": "north",
+          "open": "true"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_trapdoors",
+        "state": {
+          "facing": "west",
+          "open": "true",
+          "waterlogged": "false"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:barrel",
+        "state": {
+          "facing": "up"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_trapdoors",
+        "state": {
+          "waterlogged": "false",
+          "open": "true",
+          "facing": "north"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_trapdoors",
+        "state": {
+          "facing": "east",
+          "open": "true",
+          "waterlogged": "false"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_trapdoors",
+        "state": {
+          "facing": "south",
+          "waterlogged": "false",
+          "open": "true"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_stairs",
+        "state": {
+          "waterlogged": "false",
+          "facing": "east",
+          "shape": "straight",
+		  "half" : "top"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_fences",
+        "state": {
+          "waterlogged": "false"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:lantern"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_slabs",
+        "state": {
+          "type": "top",
+          "waterlogged": "false"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:air"
+      }
+    }
+  }
+]

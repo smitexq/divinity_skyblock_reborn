@@ -1,0 +1,12 @@
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~0.8 ~0.2 ~0.0 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~0.69 ~0.2 ~0.4 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~0.4 ~0.2 ~0.69 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~0.0 ~0.2 ~0.8 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~-0.4 ~0.2 ~0.69 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~-0.69 ~0.2 ~0.4 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~-0.8 ~0.2 ~0.0 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~-0.69 ~0.2 ~-0.4 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~-0.4 ~0.2 ~-0.69 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~-0.0 ~0.2 ~-0.8 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~0.4 ~0.2 ~-0.69 0 0 0 0 1 force
+particle dust{color:[0.18f, 0.51f, 0.66f], scale:0.7f} ~0.69 ~0.2 ~-0.4 0 0 0 0 1 force

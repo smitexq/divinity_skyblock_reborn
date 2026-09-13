@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "id": "sea_cup"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/consume/sea_cup/init"
+  }
+}

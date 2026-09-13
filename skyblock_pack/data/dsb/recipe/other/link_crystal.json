@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " */",
+        "_+_",
+        "#* "
+    ],
+    "key": {
+        "+": "minecraft:amethyst_shard",
+        "#": "minecraft:lapis_lazuli",
+        "_": "minecraft:glowstone_dust",
+        "*": "minecraft:gold_nugget",
+        "/": "minecraft:redstone"
+    },
+    "result": {
+        "id": "minecraft:structure_block",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"dsb.items.link_crystal\",\"color\":\"white\",\"italic\":false}",
+            "minecraft:item_model": "dsb:link_crystal",
+            "minecraft:custom_data": {
+              "id": "link_crystal"
+            }
+          }
+    }
+}

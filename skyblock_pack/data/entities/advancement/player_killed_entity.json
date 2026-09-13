@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"WearingRingOfVampire\"]}"
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{Tags:[\"WearingRedSunRing\"]}"
+                }
+              }
+            ]
+          }
+        ],
+        "entity": {
+          "type": "#entities:hostile_mobs"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rings:activate_ring/pke_branch"
+  }
+}

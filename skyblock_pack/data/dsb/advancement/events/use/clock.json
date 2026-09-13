@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:clock",
+          "components": {
+            "minecraft:custom_data": {
+              "custom": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/clock_show_rest/message"
+  }
+}

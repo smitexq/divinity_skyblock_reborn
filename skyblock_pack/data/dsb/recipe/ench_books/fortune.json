@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " * ",
+        "#+#",
+        " / "
+    ],
+    "key": {
+        "+": "minecraft:book",
+        "#": "minecraft:glowstone_dust",
+        "/": "minecraft:honeycomb",
+        "*": "minecraft:emerald"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:stored_enchantments": {"fortune":1}
+          }
+    }
+}

@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.rings.ring_of_disaster",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_stack_size": 1,
+                "minecraft:item_model": "dsb:rings/ring_of_disaster",
+                "minecraft:custom_data": {
+                  "Ring": 1,
+                  "RingOfDisaster": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                [{"translate": "dsb.items.rings.ring_of_disaster.lore1", "color": "aqua", "italic": false}],
+                [{"translate": "dsb.items.rings.ring_of_disaster.lore2", "color": "aqua", "italic": false}]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

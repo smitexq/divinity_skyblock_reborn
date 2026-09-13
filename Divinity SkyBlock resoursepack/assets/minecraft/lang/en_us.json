@@ -1,0 +1,612 @@
+{
+
+// Language: English
+// Author: Divinity SkyBlock's community
+
+
+"entity.bosses.zombie.uncommon": "Uncommon zombie",
+
+"dsb.books.go_to_begining": "<Go to contents>",
+
+"dsb.start_book.pages.2": "There will be a lot of text messages on the map, including books. Some parts of the text (words, sentences) are highlighted in a special way. You can usually interact with them. For example, hover over the cursor and see a hint,",
+"dsb.start_book.pages.3": "or click on the text and some action will take place. You can also click on chapters in the contents of this book, so you can quickly navigate through the pages. %s",
+"dsb.start_book.pages.4": "",
+"dsb.start_book.pages.5": "",
+"dsb.start_book.pages.6": "",
+"dsb.start_book.pages.7": "",
+"dsb.start_book.pages.8": "",
+"dsb.start_book.pages.9": "",
+"dsb.start_book.pages.10": "",
+"dsb.start_book.pages.11": "",
+"dsb.start_book.pages.12": "",
+"dsb.start_book.pages.13": "",
+"dsb.start_book.pages.14": "",
+"dsb.start_book.pages.15": "",
+"dsb.start_book.pages.16": "",
+"dsb.start_book.pages.17": "",
+"dsb.start_book.pages.18": "",
+"dsb.start_book.pages.19": "",
+"dsb.start_book.pages.20": "",
+"dsb.start_book.pages.21": "",
+"dsb.start_book.pages.22": "",
+"dsb.start_book.pages.23": "",
+"dsb.start_book.pages.24": "",
+"dsb.start_book.pages.25": "",
+"dsb.start_book.pages.26": "",
+"dsb.start_book.pages.27": "",
+"dsb.start_book.pages.28": "",
+"dsb.start_book.pages.29": "",
+"dsb.start_book.pages.30": "",
+"dsb.start_book.pages.31": "",
+"dsb.start_book.pages.32": "",
+"dsb.start_book.pages.33": "",
+"dsb.start_book.pages.34": "",
+"dsb.start_book.pages.35": "",
+"dsb.start_book.pages.36": "",
+"dsb.start_book.pages.37": "",
+"dsb.start_book.pages.38": "",
+"dsb.start_book.pages.39": "",
+"dsb.start_book.pages.40": "",
+"dsb.start_book.pages.41": "",
+"dsb.start_book.pages.42": "",
+"dsb.start_book.pages.43": "",
+"dsb.start_book.pages.44": "",
+"dsb.start_book.pages.45": "",
+"dsb.start_book.pages.46": "",
+"dsb.start_book.pages.47": "",
+"dsb.start_book.pages.48": "",
+"dsb.start_book.pages.49": "",
+
+
+
+
+"Пещерные люди": "Cavemans",
+"Разведите костер при помощи двух палок": "Make a fire with two sticks",
+
+"Проклятие...": "Curse...",
+"Постройте алтарь": "Build an altar",
+
+"Рассадник зла": "A spawner of evil",
+"Постройте спавнер ифритов": "Build a blaze spawner",
+
+"Абсолютная температура": "Absolute temperature",
+"Постройте котел": "Build a cauldron",
+
+"Утилизатор": "Utilizer",
+"Постройте компостер": "Build a composter",
+
+"Новая возможность": "A new opportunity",
+"Создайте рамку портала в Энд": "Create a portal frame to the End",
+
+"Поток знаний!": "A flow of knowledge!",
+"Постройте большую библиотеку": "Build a huge library",
+
+"Новая информация": "New information",
+"Изучите первый рецепт": "Learn your first recipe",
+
+"Начальный запас": "Basic reserve",
+"Изучите 5 рецептов": "Learn 5 recipe",
+
+"Багаж знаний": "Baggage of knowledge",
+"Изучите 15 рецептов": "Learn 15 recipe",
+
+"Смысл жизни...": "Sence of life...",
+"Изучите все рецепты": "Learn all recipe",
+
+"Волшебный «автомат»!": "A magical «machine»!",
+"Постройте обменник": "Build an exchanger",
+
+"Изучение всего...": "Learning in all...",
+"Постройте стол изучений": "Build an table of research",
+
+"До мельчайших частиц!": "Down to the smallest particles!",
+"Постройте сито": "Build a sieve",
+
+"Частичка знаний": "A piece of knowledge",
+"Постройте небольшую библиотеку": "Build a small library",
+
+"Водный баланс": "Water balance",
+"Постройте водосборник": "Build a water collector",
+
+"Глупая ошибка...": "Foolish mistake...",
+"Создайте золотой молот": "Make a golden hammer",
+
+"Болезненный удар": "Painful hit",
+"Создайте железный молот": "Make an iron hammer",
+
+"Тяжелый, но не эффективный...": "Heavy, but not effective",
+"Убейте моба при помощи молота": "Kill any mob by hammer",
+
+"Обновка!": "Upgrade!",
+"Создайте каменный молот": "Make a stone hammer",
+
+"Начальный инструмент": "Primary tool",
+"Создайте деревянный молот": "Make a wooden hammer",
+
+"Серьезное заявление!": "Serious declare!",
+"Создайте алмазный молот": "Make a diamond hammer",
+
+"Пустотный охотник": "The void hunter",
+"Убейте первого враждебного моба": "Kill a first evil mob",
+
+"Easy": "Easy",
+"Убейте 30 враждебных мобов": "Kill 30 evil entities",
+
+"Хороший старт": "Cool start",
+"Убейте 100 враждебных мобов": "Kill 100 evil entities",
+
+"Все только начинается!": "Everything is just beginning!",
+"Убейте 1000 враждебных мобов": "Kill 1000 evil entities",
+
+"Любитель фарма": "Farm amateur",
+"Убейте 10000 враждебных мобов": "Kill 10000 evil entities",
+
+"Последняя надежда...": "Last hope...",
+"Убейте загадочного моба": "Kill a mysterious mob",
+
+"Серьезная преграда!": "Seious hurdle!",
+"Убейте редкого моба": "Kill a rare mob",
+
+"Легкая добыча": "Easy prey",
+"Убейте необычного моба": "Kill a uncommon mob",
+
+"Безумие!": "Madness!",
+"Убейте Иссушителя": "Kill the Wither",
+
+"Пища для размышлений": "Food for thought",
+"Съешьте фрагмент знаний": "Eat a piece of knowledge",
+
+"Необычная бумажка": "Uncommon paper",
+"Получите свой первый рецепт": "Get your first recipe",
+
+"Теренс Тао": "Terence Tao",
+"Получите 230 уровень интеллекта": "Upgrade 230 level intelligence",
+
+"Любознательный": "Curious",
+"Получите 50 уровень интеллекта": "Upgrade 50 level intelligence",
+
+"Обезьяна...": "Silly monkey...",
+"Получите 5 уровень интеллекта": "Recieve 5 level intelligence",
+
+"Ученый!": "Scientist!",
+"Получите 100 уровень интеллекта": "Upgrade 100 level intelligence",
+
+"Дежавю...": "Deja vu",
+"Дойдите до границы мира в Незере (650)": "Reach the world barrier in Overworld dimension (650 blocks)",
+
+"Граница мира???": "End of the world?",
+"Дойдите до границы мира в Обычном мире (650)": "Reach the world barrier in Nether dimension (650 blocks)",
+
+"Мои ресурсы!": "My resources!",
+"Упадите в бездну": "Fall out the world",
+
+"Бесполезно!": "Muda! Muda!",
+"Дойдите до границы мира в Энде (650)": "Reach the world barrier in End dimension (650 blocks)",
+
+
+
+
+"§aДракон не может разрушать булыжник и булыжниковые плиты.": "§aEnder Dragon can't destroy cobblestone and cobblestone slabs.",
+
+"§aЕсли зомби или скелет попадет в Незер, то он начнет трансформироваться (зомби в кадавра, скелет в визер-скелета). С кадавра выпадает песок.": "§aIf zombie or skeleton appear in Nether, they will start transforming (zombie -> husk, skeleton -> wither-sheleton). Husk can drop some sand when die.",
+
+"Вы еще не изучили этот ритуал!": "You haven't learn this ritual yet!",
+
+"Недостаточно интеллекта! Требуется:": "Not enough intelligence! You need:",
+
+"и больше. Ваш интеллект: ": "or more. Your intelligence: ",
+
+"Похоже не удалось создать конструкцию, попробуйте еще раз...": "Looks like the building construction failed, please try again...",
+
+"§6Вы повысили свой уровень интеллекта!": "§6Well done! Your intelligence has a lvl up!",
+
+"Недостаточно уровня! Требуется:": "Not enough XP! You need:",
+
+"и больше. Ваш уровень: ": "or more. Your level: ",
+
+"Вы еще не изучили эту конструкцию!": "You haven't learn this construction yet!",
+
+"Вы еще не изучили этот рецепт!": "You haven't learn this recipe yet!",
+
+
+
+
+"Основа рамки портала в Энд": "Basis of Ender portal frame",
+
+"План постройки": "Building plan",
+
+"Каменнный молот": "Stone hammer",
+
+"Строительный молот": "Building hammer",
+
+"Алмазный молот": "Diamond hammer",
+
+"Деревянный молот": "Wooden hammer",
+
+"Золотой молот": "Golden hammer",
+
+"Железный молот": "Iron hammer",
+
+"§6Ваши знания переполняют вас...": "§6Knowledges is overflowing you...",
+
+"§eИнтеллект был повышен!": "§eIntelligence has been increased!",
+
+"§5Бесконечность — не предел!": "§5To infinity... and beyond!",
+
+"§bЗнания — сила...": "§bKnowledge - is power...",
+
+
+
+
+"§aНеобычный кадавр": "§aUncommon husk",
+"§6Редкий кадавр": "§6Rare husk",
+"§4Загадочный кадавр": "§4Mysterious husk",
+
+"§aНеобычный визер-скелет": "§aUncommon wither-skeleton",
+"§6Редкий визер-скелет": "§6Rare wither-skeleton",
+"§4Загадочный визер-скелет": "§4Mysterious wither-skeleton",
+
+"§aНеобычный всполох": "§aUncommon blaze",
+"§6Редкий всполох": "§6Rare blaze",
+"§4Загадочный всполох": "§4Mysterious blaze",
+
+"§aНеобычная ведьма": "§aUncommon witch",
+"§6Редкая ведьма": "§6Rare witch",
+"§4Загадочная ведьма": "§4Mysterious witch",
+
+"§aНеобычный магма-куб": "§aUncommon magma-cube",
+"§6Редкий магма-куб": "§6Rare magma-cube",
+"§4Загадочный магма-куб": "§4Mysterious magma-cube",
+
+"§aНеобычный эндермен": "§aUncommon enderman",
+"§6Редкий эндермен": "§6Rare enderman",
+"§4Загадочный эндермен": "§4Mysterious enderman",
+
+"§aНеобычный крипер": "§aUncommon creeper",
+"§6Редкий крипер": "§6Rare creeper",
+"§4Загадочный крипер": "§4Mysterious creeper",
+
+"§aНеобычный пиглин": "§aUncommon piglin",
+"§6Редкий пиглин": "§6Rare piglin",
+"§4Загадочный пиглин": "§4Mysterious piglin",
+
+"§aНеобычный слизень": "§aUncommon slime",
+"§6Редкий слизень": "§6Rare slime",
+"§4Загадочный слизень": "§4Mysterious slime",
+
+"§aНеобычный зомбифицированный пиглин": "§aUncommon zombified piglin",
+"§6Редкий зомбифицированный пиглин": "§6Rare zombified piglin",
+"§4Загадочный зомбифицированный пиглин": "§4Mysterious zombified piglin",
+
+"§aНеобычный утопленник": "§aUncommon drowned",
+"§6Редкий утопленник": "§6Rare drowned",
+"§4Загадочный утопленник": "§4Mysterious drowned",
+
+"§aНеобычный гаст": "§aUncommon ghast",
+"§6Редкий гаст": "§6Rare ghast",
+"§4Загадочный гаст": "§4Mysterious ghast",
+
+"§aНеобычный фантом": "§aUncommon phantom",
+"§6Редкий фантом": "§6Rare phantom",
+"§4Загадочный фантом": "§4Mysterious phantom",
+
+"§aНеобычный скелет": "§aUncommon skeleton",
+"§6Редкий скелет": "§6Rare skeleton",
+"§4Загадочный скелет": "§4Mysterious skeleton",
+
+"§aНеобычный паук": "§aUncommon spider",
+"§6Редкий паук": "§6Rare spider",
+"§4Загадочный паук": "§4Mysterious spider",
+
+"§aНеобычный зомби": "§aUncommon zombie",
+"§6Редкий зомби": "§6Rare zombie",
+"§4Загадочный зомби": "§4Mysterious zombie",
+
+
+
+
+"Добро пожаловать на карту!": "Welcome to the map!",
+
+"Создатель: Smite": "Creator: Smite",
+
+"Для комфортной игры рекомендуется использовать текстурпак!": "For a comfortable playing recommended using resource pack!",
+
+"Обо всех найденых багах сообщайте ": "Report all bugs found ",
+
+"в Дискорде (нажми сюда)": "in Discord (click here)",
+
+", они будут исправлены в следующей версии карты. Вы можете написать и о своих предложениях для новой версии!": ", they will be fixed in the next version of the map. You can also suggest your ideas for the new version!",
+
+"Чтобы перейти в режим выживания, прочитай дополнительную информацию.": "To switch to survival mode, read «Additional information»",
+
+"Приятной игры!": "Have a nice game!",
+
+"§5Дополнительная информация": "§5Additional information",
+
+"§dНажмите «Q» (предмет может упасть в пустоту!)": "§dPress «Q» (the thing may fall into the void!)",
+
+"§2Следующая страница ->": "§2Next page ->",
+
+"§6Следующая страница ->": "§6Next page ->",
+
+"§2Нажми на текст": "§2Click on the text",
+
+"§6Нажми на текст": "§6Click on the text",
+
+"§aПознакомьтесь с новой характеристикой игрока - интеллект! Благодаря ему вы сможете улучшать свои знания и «навыки» строительства, крафтов. Каждая законченная вами конструкция добавит вам немного интеллекта, однако много раз (больше трех) строить одну и ту же конструкцию бесполезно. §9В игре существуют достижения, они могут помочь при прохождении! §aБольшинство взаимодействий с предметами происходит через выбрасывание, поэтому будьте осторожны, ведь предмет может упасть в пустоту! Мирные мобы могут появляться, но только на блоках травы.": "§aMeet the new characteristic of the player – intelligence! Thanks to its you will be able to improve your knowledge and «skills» of construction, crafting. Each construction you build will give you some intelligence points, but it is useless to build the same constructions many times (more than three). §9There are achievements in the game, they can help with the passage! §aMost interactions with things happen by throwing, so be careful, because the thing can fall into the void! Peaceful mobs are able to spawn, but only on grass blocks.",
+
+"§eРецепты выпадают с враждебных мобов. Их можно изучить на специальном Столе для исследований. Всего в игре есть 26 рецептов (4 падают только с адских враждебных мобов). Синий рецепт - постройка, зеленый - крафт, желтый - ритуал. На выпадение рецептов влияет добыча на мече.": "§eRecipes drop out of hostile mobs. They can be studied on the «Research Table». There are 26 recipes on the map (4 drop only from hellish hostile mobs). Blue recipe – construction, green – crafting, yellow – ritual. The loot on the sword affects the drop of recipes.",
+
+"§aКонструкции - это одна из особенностей этой карты. Всего в игре существует 10 конструкций, 3 из которых базовые и не требуют изучения.": "§aConstructions are one of the features of this map. There are 10 structures in the game 3 of which are basic and do not require study.",
+
+"§eКол-во интеллекта можно смотреть через «Tab». Чтобы получить начальный интеллект, можно разжечь костер, выкинув 2 палки на поверхность. Однако костер может появится не сразу: палки могут пропасть, или ничего не произойдет.": "§eTo view the number of intelligence points, press «Tab». To get the starting intelligence, you can light a fire by throwing two sticks to the surface. However, the bonfire may not appear immediately: the sticks may disappear and nothing will happen.",
+
+"§aЕсли вы будете ломать траву палкой, то иногда вам будет выпадать трава. Из нее можно скрафтить высокую траву": "§aIf you break the grass with a stick, then sometimes the grass will fall. You can create tall grass from it",
+
+" §2(наведи сюда)": " §2(move the cursor here)",
+
+"§a, а из высокой - нитки.": "§a, and from it - string",
+
+"§eС небольшой вероятностью, появившийся моб может стать мини-боссом. Он сильнее, быстрее, выносливее. Однако с него повышенный шанс выпадения рецепта.": "§eWith a small probability, a spawned mob can become a mini-boss. It is stronger, faster, more resilient. However, he has an increased chance of dropping a recipe.",
+
+"§aЧтобы продвигаться в развитии, нужно изучать новые рецепты. Конечной цели на карте нет, однако есть возможность дойти до Дракона Края.": "§aTo advance in development, you need to learn new recipes. There is no final goal on the map, but there is an opportunity to reach the Ender Dragon.",
+
+"После убийства дракона появился портал, который ведет на острова края. В него лучше не заходить, так как вы окажитесь за границей мира и потеряете все свои вещи!": "After killing the dragon, a portal appeared that leads to the outer islands. It is better not to enter it, because you will find yourself outside the world and lose all your items!",
+
+
+
+
+"Требуется еще:": "Required is more:",
+
+"Стол для исследований": "Research table",
+
+"Водосборник": "Water collector",
+
+"Как создать Компостер:": "How to create a Composter",
+
+"Как создать Сито:": "How to create a Sieve",
+
+"Как создать Стол для исследований:": "How to create a Research table",
+
+"Как скрафтить Строительный молот:": "How to craft a Building hammer",
+
+"Как скрафтить Деревянный молот:": "How to craft a Wooden hammer",
+
+"Как скрафтить Каменный молот:": "How to craft a Stone hammer",
+
+"§9Чтобы получить дополнительную": "§9To get more",
+
+"§9информацию, нажмите «Q»": "§9information press «Q»",
+
+
+
+
+"§3Рецепт создания Водосборника": "§3Recipe: Water collector",
+
+"§3Рецепт создания Котла": "§3Recipe: Cauldron",
+
+"§3Рецепт создания Небольшой библиотеки": "§3Recipe: Small library",
+
+"§3Рецепт создания Алтаря": "§3Recipe: Altar",
+
+"§3Рецепт создания Обменника": "§3Recipe: Exchanger",
+
+"§3Рецепт создания Большой библиотеки": "§3Recipe: Huge library",
+
+"§3Рецепт создания Спавнера ифритов": "§3Recipe: Blaze spawner",
+
+"§2Рецепт крафта Плана постройки": "§2Recipe: Building plan",
+
+"§2Рецепт крафта Дёрна": "§2Recipe: Grass block",
+
+"§2Рецепт крафта Коричневого гриба": "§2Recipe: Brown mushroom",
+
+"§2Рецепт крафта Красного гриба": "§2Recipe: Red mushroom",
+
+"§2Рецепт крафта Паутины": "§2Recipe: Cobweb",
+
+"§2Рецепт крафта Светокаменной пыли": "§2Recipe: Glowstone dust",
+
+"§2Рецепт крафта Ламинарии": "§2Recipe: Kelp",
+
+"§2Рецепт крафта Железного молота": "§2Recipe: Iron hammer",
+
+"§2Рецепт крафта Золотого молота": "§2Recipe: Golden hammer",
+
+"§2Рецепт крафта Алмазного молота": "§2Recipe: Diamond hammer",
+
+"§6Рецепт создания Эндер сундука": "§6Recipe: Ender chest",
+
+"§6Рецепт создания Ока Эндера": "§6Recipe: Ender eye",
+
+"§6Рецепт создания Алмаза": "§6Recipe: Diamond",
+
+"§6Рецепт создания Чародейского стола": "§6Recipe: Enchanting table",
+
+"§6Рецепт создания Основы рамки портала в Энд": "§6Recipe: Basis of Ender portal frame",
+
+"§6Рецепт создания Тотема бессмертия": "§6Recipe: Totem of undying",
+
+"§6Рецепт создания Рамки портала в Энд": "§6Recipe: Ender portal frame",
+
+"§6Рецепт создания Незеритового слитка": "§6Recipe: Netherite ingot",
+
+"§6Рецепт создания Элитры": "§6Recipe: Elytra",
+
+"Уровень редкости:": "Rarity level:",
+
+"Уровень интеллекта для изучения:": "Intelligence level for research:",
+
+"Можно исследовать": "Can be research",
+
+"Создается на верстаке": "Create on Workbench",
+
+"Создается на Алтаре": "Create on Altar",
+
+
+
+
+"Чтобы изучить, требуется уровень интеллекта:": "To study requires a level of intelligence:",
+
+"Нажмите «Q», чтобы изучить": "Press «Q» to research",
+
+"Вы уже изучили этот рецепт!": "You have already studied this recipe!",
+
+"Вы изучили рецепт создания Алтаря": "You have studied creating recipe of Altar",
+
+"Как создать Алтарь:": "How to create an Altar:",
+
+"Как создать Саженец дерева:": "How to create Tree's sapling:",
+
+"Как создать Водосборник:": "How to create a Water collector:",
+
+"Как создать Небольшую библиотеку:": "How to create a Small library:",
+
+"Как создать Спавнер ифритов:": "How to create a Blaze spawner:",
+
+"Как создать Большую библиотеку:": "How to create a Huge library:",
+
+"Как создать Обменник:": "How to create an Exchanger:",
+
+"Как создать Котел:": "How to create a Cauldron:",
+
+"Вы изучили рецепт создания Обменника": "You have studied creating recipe of Exchanger",
+
+"Вы изучили рецепт создания Котла": "You have studied creating recipe of Cauldron",
+
+"Вы изучили рецепт создания Спавнера ифритов": "You have studied creating recipe of Blaze spawner",
+
+"Вы изучили рецепт создания Водосборника": "You have studied creating recipe of Water collector",
+
+"Вы изучили рецепт создания Большой библиотеки": "You have studied creating recipe of Huge library",
+
+"Вы изучили рецепт создания Небольшой библиотеки": "You have studied creating recipe of Small library",
+
+"Как скрафтить Паутину:": "How to craft a Cobweb",
+
+"Вы изучили рецепт крафта Паутины": "You have studied crafting recipe of Cobweb",
+
+"Вы изучили рецепт крафта Коричневого гриба": "You have studied crafting recipe of Brown mushroom",
+
+"Как скрафтить Коричневый гриб:": "How to craft a Brown mushroom",
+
+"Как скрафтить Светокаменную пыль:": "How to craft a Glowstone dust",
+
+"Вы изучили рецепт крафта Светокаменной пыли": "You have studied crafting recipe of Glowstone dust",
+
+"Как скрафтить План постройки:": "How to craft a Building plan",
+
+"Вы изучили рецепт крафта Плана постройки": "You have studied crafting recipe of Building plan",
+
+"Как скрафтить Дёрн:": "How to craft a Grass block",
+
+"Вы изучили рецепт крафта Дёрна": "You have studied crafting recipe of Grass block",
+
+"Как скрафтить Алмазный молот:": "How to craft a Diamond hammer",
+
+"Вы изучили рецепт крафта Алмазного молота": "You have studied crafting recipe of Diamond hammer",
+
+"Как скрафтить Золотой молот:": "How to craft a Golden hammer",
+
+"Вы изучили рецепт крафта Золотого молота": "You have studied crafting recipe of Golden hammer",
+
+"Как скрафтить Железный молот:": "How to craft an Iron hammer",
+
+"Вы изучили рецепт крафта Железного молота": "You have studied crafting recipe of Iron hammer",
+
+"Как скрафтить Красный гриб:": "How to craft a Red mushroom",
+
+"Вы изучили рецепт крафта Красного гриба": "You have studied crafting recipe of Red mushroom",
+
+"Как скрафтить Ламинарию:": "How to craft a Kelp",
+
+"Вы изучили рецепт крафта Ламинарии": "You have studied crafting recipe of Kelp",
+
+"Как создать Алмаз:": "How to create a Diamond",
+
+"Вы изучили ритуал создания Алмаза": "You have studied ritual recipe of Diamond",
+
+"Как создать Чародейский стол:": "How to create an Enchanting table",
+
+"Вы изучили ритуал создания Чародейского стола": "You have studied ritual recipe of Enchanting table",
+
+"Как создать Эндер сундук:": "How to create an Ender chest",
+
+"Вы изучили ритуал создания Эндер сундука": "You have studied ritual recipe of Ender chest",
+
+"Как создать Незеритовый слиток:": "How to create a Netherite ingot",
+
+"Вы изучили ритуал создания Незеритового слитка": "You have studied ritual recipe of Netherite ingot",
+
+"Как создать Основу рамки портала в Энд:": "How to create a Basis of Ender portal frame",
+
+"Вы изучили ритуал создания Основы рамки портала в Энд": "You have studied ritual recipe: Basis of Ender portal frame",
+
+"Как создать Элитру:": "How to create an Elytra",
+
+"Вы изучили ритуал создания Элитры": "You have studied ritual recipe of Elytra",
+
+"Как создать Око Эндера:": "How to create an Ender eye",
+
+"Вы изучили ритуал создания Ока Эндера": "You have studied ritual recipe of Ender eye",
+
+"Как создать Рамку портала в Энд:": "How to create an Ender portal frame",
+
+"Вы изучили ритуал создания Рамки портала в Энд": "You have studied ritual recipe of Ender portal frame",
+
+"Как создать Тотем бессмертия:": "How to create a Totem of undying",
+
+"Вы изучили ритуал создания Тотема бессмертия": "You have studied ritual recipe: Totem of undying",
+
+
+
+
+" §aДля постройки требуется 10-ый уровень интеллекта. Сначала постройте все, как на картинке! §9Создается только в Обычном мире§a. Чтобы создать Водосборник, бросьте «План постройки» или «Строительный молот» на люк. Далее положите пустое ведро в свободный слот, и водосборник начнет собирать воду. Этот процесс займет около 5-и минут. §9Обязательное §aусловие для работы водосборника - закрытый люк и листва над ним (как на картинке). Если вы вытащите ведро во время сбора воды, то процесс обнулится. §9Ни в коем случае не кладите предметы вместо стекла или пузырьков, иначе они пропадут!": " §aYou need 10 lvl of intelligence to build construction. First, build everything as in the picture! §9Construction can be created only in the Overworld. §aTo activate water collector, you need throw «Building hammer» or «Building plan» on top of the trapdoor. Then, put empty bucket in free slot and water collector would start collect water. This process lasts 5 minutes. §9Required §acondition to producing water - closed trapdoor and leaves on this trapdoor (like on photo). If you take off empty bucket - process will reset. §9Please, don't take out or place on bottles or glass anything, or they will disappear!",
+
+" §aДля постройки требуется 1-ый уровень интеллекта. Сначала постройте все, как на картинке! §9Создается только в Обычном мире§a. Чтобы создать Компостер, бросьте «План постройки» или «Строительный молот» в компостер. Чтобы создать землю, нужно 16 очков растительности. Любой саженец дерева дает 3 очка; яблоки, семена пшеницы, трава - 2 очка; любая листва - 1 очко. Любые из этих предметов нужно §9выкинуть в компостер, §aи он начнет работу. Можно бросить любое количетсво предметов и тогда, вы получите возможный остаток растительности. К примеру, вы можете бросить 34 листвы, в этом случае компостер сделает 2 земли и оставит 2 листвы. §9Обязательное §aусловие для работы компостера - закрытый люк, открытые калитки и листва над люком (как на картинке).": " §aYou need 1 lvl of intelligence to build construction. First, build everything as in the picture! §9Construction can be created only in the Overworld. §aTo activate Composter, you need throw «Building hammer» or «Building plan» into composter. To create dirt, you need to reach 16 plant points. Any sapling will give you 3 plant points; apples, grass, wheat seeds - 2 plant points; any leaves - 1 plant point. Any of these items need to be thrown §9into composter, §aand it will start working. You could throw any amount of this items and then, you could receive remains of plants. For example, if you throw 34 leaves, at the end of the process you will receive 2 dirt blocks and 2 leaves. §9Required §acondition to producing dirt - closed trapdoor and leaves on this leaves (like on photo).",
+
+" §aДля постройки требуется 3-ий уровень интеллекта. Сначала постройте все, как на картинке! Чтобы создать Сито, бросьте «План постройки» или «Строительный молот» на подмостки": " §aYou need 3 lvl of intelligence to build construction. First, build everything as in the picture! To activate Sieve, you need throw «Building hammer» or «Building plan» onto scaffolding",
+
+"§a. Сито может перерабатывать 2 блока: землю и гравий. Чтобы начать просеивание, нужно поставить блок на сито (на подмостки). При обработке земли вы можете получить булыжник (1-3), песок или различные культуры, тростник, но есть шанс, что вы ничего не получите. Если булыжник ломать при помощи молота, то будет выпадать гравий. При обработке гравия вы можете получить различные ресурсы разной редкости. При обработке блоков, люки должны быть закрыты (как на картинке).": "§a. Sieve can recycle 2 type of blocks: dirt or gravel. For sieving, you need to place block on scaffolding. After recycling dirt you could receive cobblestone (1-3), sand or various culture, sugar cane, but you have a chance to receive nothing. If cobblestone was broken by hammer (not building), you'll recieve gravel. After sieving gravel you could recieve almost all resources of any rarity. Sieving will start if all trapdoors is closen (like on photo).",
+
+" §aДля постройки требуется 5-ый уровень интеллекта. Сначала постройте все, как на картинке! §9Создается только в Обычном мире§a. Чтобы создать Стол для исследований, бросьте «План постройки» или «Строительный молот» на центральный полублок. Все взаимодействия со столом происходят в бочке. Для этого нужно положить изучаемый рецепт §9в первый пустой слот§a, и требуемые ингридиенты для его изучения §9в последующие три пустых слота§a. Если предметов будет больше, чем необходимо, то после изучения вам выдадут остаток. §9Ни в коем случае не кладите предметы вместо стекла и других предметов (визуальное меню Стола для исследований), иначе они пропадут!": " §aYou need 5 lvl of intelligence to build construction. First, build everything as in the picture! §9Construction can be created only in the Overworld. §aTo activate Research table, you need throw «Building hammer» or «Building plan» onto oak slab. All interactions with the table takes place in the barrel. For this you need place in unexplored recipe §9in left free slot§a, and reqiured ingredients §9in first 3 free slots§a. If ingredients will be more than necessary, you'll recieve a remainder. §9Please, don't take out or place on glass anything (Table's interface), or they will disappear!",
+
+" §aДля постройки требуется 15-ый уровень интеллекта. Сначала постройте все, как на картинке! Чтобы создать Котел, бросьте «План постройки» или «Строительный молот» в котел. С помощью Котла можно создать лаву, для этого нужно бросить 1 пустое ведро и 30 булыжника §9в котел §aи развести §9под ним огонь§a. Процесс создания - около 30-и секунд. Центральный булыжник можно заменить на незерак!": " §aYou need 15 lvl of intelligence to build construction. First, build everything as in the picture! To activate Cauldron, you need throw «Building hammer» or «Building plan» into cauldron. With Cauldron, you can create lava by melting cobblestone; for this take 1 empty bucket and 30 cobblestone and throw §9it into cauldron§a, §9make fire under§a cauldron and wait 30 seconds. Central cobblestone could be replced by netherrack!",
+
+" §aДля постройки требуется 20-ый уровень интеллекта. Сначала постройте все, как на картинке! Чтобы создать Небольшую библиотеку, бросьте «План постройки» или «Строительный молот» на центральную дубовую доску (в забор). Эта библиотека позволяет повышать ваш уровень интеллекта §9(если он не больше 50!)§a. 1 уровень повышается 90 секунд. Если вы отойдете от библиотеки - процесс обнулится.": " §aYou need 20 lvl of intelligence to build construction. First, build everything as in the picture! To activate Small library, you need throw «Building plan» onto central oak plank (oak fence). This library gives you an opporunity to improve your intelligence level§9(if it's less 51!)§a. 1 level improving 90 seconds. If you will go out of library - process will reset.",
+
+" §aДля постройки требуется 50-ый уровень интеллекта. Сначала постройте все, как на картинке! Чтобы создать Большую библиотеку, бросьте «План постройки» на центральную книжную полку (в фонарь душ). §9Большую и Небольшую библиотеки нельзя строить рядом! §aЭта библиотека позволяет повышать ваш уровень интеллекта. Каждые следующие 70 уровней интеллект будет повышаться на 5 секунд дольше (до 70 уровня - 45 секунд, после 210 - 60 секунд). Если вы отойдете от библиотеки - процесс обнулится.": " §aYou need 50 lvl of intelligence to build construction. First, build everything as in the picture! To activate Great library, you need throw «Building hammer» or «Building plan» onto central bookshelf (soul lantern). §9Great and Small libraries couldn't be placed nearby by each other! §aThis library gives you an opporunity to improve your intelligence level. All next 70 levels intelligence will improve 5 seconds longer (before 70 level - 45 seconds, after 210 level - 60 seconds). If you will go out of library - process will reset.",
+
+" §aДля постройки требуется 40-ой уровень интеллекта. Сначала постройте все, как на картинке! §9Создается только в Незере§a. Чтобы создать Обменник, бросьте «План постройки» на железный люк. Обменник позволяет менять некоторые предметы из Обычного мира на предметы из Незера. При этом §9стоимость обмена - ваш уровень опыта§a, в зависимости от обменяемого предмета будет различная стоимость. Обменивать можно следующие предметы: булыжник на незерак, песок душ на песок, дёрн на багровый или искажённый нилий (случайным образом).": " §aYou need 40 lvl of intelligence to build construction. First, build everything as in the picture! §9Construction can be created only in the Nether. §aTo activate Exchanger, you need throw «Building plan» onto iron trapdoor. It allows to change some items from Overworld to items from Nether. Wherein, §9price of exchange - your experience level§a, and depending of changing item cost will be different. Next items could be exchange: cobblestone -> netherrack, soul sand -> sand, grass block -> warped or crimson nilium (randomly).",
+
+" §aДля постройки требуется 90-ый уровень интеллекта. Сначала постройте все, как на картинке! §9Создается только в Незере. На золотом блоке находится Вьющаяся лоза §a(её можно получить с небольшим шансом, если выращивать траву костной мукой на блоках искажённого нилия). Чтобы создать Спавнер ифритов, бросьте «План постройки» на золотой блок. §9Спавнер работает от сгустков магмы§a, 1 сгусток позволяет работать спавнеру 10 секунд. Спавнер призывает Ифритов каждые 15 секунд §9(если он не поврежден)§a в количестве от одного до трех §9(случаным образом) в случайном месте§a. Если около спавнера мало места - §9мобы могут не призваться§a. Когда спавнер призывает мобов есть шанс того, что он повредится §9(обычный обсидиан заменится на плачущий)§a. Чем больше плачущего обсидиана, тем меньше шанс появления мобов. §9Если его количество будет равнятся 8, то спавнер перестанет работать§a. Починить его можно, если заменять блоки плачущего обсидиана на обычный обсидиан.": " §aYou need 90 level of intelligence to create this construction. First, build everything as in the picture! §9Construction can be created only in the Nether. On golden block you need to place on Twisting vine §a(could be obtained with a small chance, by using bone meal on warped nilium). To activate Blaze Spawner, throw «Building plan» onto golden block. §9Spawner works from magma cream§a, 1 magma cream allows the spawner to work 10 seconds. Spawner summons Blaze every 15 seconds §9(if it is'nt damaged)§a from one to three §9(randomly) in random place§a. If there is'nt enough space near spawner - §9blazes may'nt spawn§a. When spawner summons mobs there is a chance, that it will get some damage §9(obsidian will be replaced by crying obsidian)§a. The more crying obsidian, the less chance the mobs appears. §9If count of crying obsidian will match 8, then spawner willn't work§a. It could be repaired by replacing crying obsidian by common obsidian.",
+
+" §aДля постройки требуется 150-ый уровень интеллекта. Сначала постройте все, как на картинке! Пол состоит из незерского кирпича. Чтобы создать Алтарь, бросьте «План постройки» на центральный булыжник (в Незерский забор). Алтарь позволяет создавать различные предметы (в том числе Рамка портала в Энд) при помощи ритуалов. Чтобы начать ритуал нужно разместить предметы на пьедисталы §9(ПКМ с предметом в руке - положить предмет, ПКМ с пустой рукой - забрать предмет)§a. Если все условия были выполнены §9(эти условия прописаны в дополнительной информации о ритуале, который вы изучили)§a, то ритуал начнется. При этом §9каждый ритуал отнимает у игрока интеллект§a (в зависимости от ритуала). Все игроки могут использовать ритуал (его не нужно изучать) по созданию случайного саженца дерева.": " §aYou need 150 level of intelligence to create this construction. First, build everything as in the picture! Floor makes by nether bricks. To activate Altar, throw «Building plan» onto central cobblestone (right into Nether fence). On altar you can create various items (includes End portal frame) through rituals. For start the ritual items need to be placed on pedestals §9(RMB with item in hand - put on, RMB with nothing - pick up)§a. If all conditions have been met §9(these registred in additional information in the ritual you have learned)§a, then ritual will start. §9Every ritual decrase player intelligence§a (depending on ritual). All players can use first ritual (no necessary to research it) for creating random tree sapling.",
+
+" §eДля ритуала нужен 170-ый уровень интеллекта, изымается 4 уровня интеллекта. Дополнительное условие: §6ритуал выполняется только ночью.": " §eFor ritual you need 170 level intelligence, withdraws 4 levels intelligence. Additional conditions: §6ritual could be started only during night.",
+
+" §eДля ритуала нужен 160-ый уровень интеллекта, изымается 1 уровень интеллекта.": " §eFor ritual you need 160 level intelligence, withdraws 1 levels intelligence.",
+
+" §eДля ритуала нужен 160-ый уровень интеллекта, изымается 2 уровня интеллекта.": " §eFor ritual you need 160 level intelligence, withdraws 2 levels intelligence.",
+
+" §eДля ритуала нужен 170-ый уровень интеллекта, изымается 8 уровней интеллекта. Дополнительные условия: §6ритуал выполняется только ночью, требуется Ведьма на территории алтаря.": " §eFor ritual you need 170 level intelligence, withdraws 8 levels intelligence. Additional conditions: §6ritual could be started only during night, Witch need to be at Altar territory.",
+
+" §eДля ритуала нужен 180-ый уровень интеллекта, изымается 1 уровень интеллекта.": " §eFor ritual you need 180 level intelligence, withdraws 1 levels intelligence.",
+
+" §eДля ритуала нужен 175-ый уровень интеллекта, изымается 3 уровня интеллекта. Дополнительное условие: §6требуется Зомби на территории алтаря.": " §eFor ritual you need 175 level intelligence, withdraws 3 levels intelligence. Additional conditions: §6Zombie need to be at Altar territory.",
+
+" §eДля ритуала нужен 200-ый уровень интеллекта, изымается 2 уровня интеллекта. В центре находится Основа рамки портала в Энд, над ней - фиолетовая стеклянная панель. Дополнительные условия: §6требуется Паук на территории алтаря.": " §eFor ritual you need 200 level intelligence, withdraws 2 levels intelligence. Put at the center Basis of Ender portal frame, above - purple glass pane. Additional conditions: §6Spider need to be at Altar territory.",
+
+" §eДля ритуала нужен 250-ый уровень интеллекта, изымается 10 уровней интеллекта. Дополнительные условия: §6ритуал выполняется только ночью, требуется Ведьма и Курица на территории алтаря.": " §eFor ritual you need 250 level intelligence, withdraws 10 levels intelligence. Additional conditions: §6ritual could be started only during night, Witch and Chicken need to be at Altar territory.",
+
+" §eДля ритуала нужен 150-ый уровень интеллекта, изымается 3 уровня интеллекта и создается случайный саженец дерева. Дополнительные условия: §6ритуал выполняется только днем, требуется Курица на территории алтаря.": " §eFor ritual you need 150 level intelligence, withdraws 3 levels intelligence and creating random tree sapling. Additional conditions: §6ritual could be started only during daylight and Chicken need to be at Altar territory.",
+
+" §2(наведи сюда, чтобы узнать крафт)": " §2(hover here to know craft)",
+
+
+
+
+"\u0424\u0440\u0430\u0433\u043c\u0435\u043d\u0442 \u0437\u043d\u0430\u043d\u0438\u0439": "Piece of knowledge",
+
+"\u041c\u043e\u0436\u043d\u043e \u0441\u044a\u0435\u0441\u0442\u044c...": "You can eat this..."
+}

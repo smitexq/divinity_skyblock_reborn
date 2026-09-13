@@ -1,0 +1,37 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/desert_archives/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 6,
+  "total_mobs": 8,
+  "simultaneous_mobs": 6,
+  "simultaneous_mobs_added_per_player": 2,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:husk",
+          "CustomName": "{\"translate\":\"dsb.entity.desert_priest\",\"color\":\"yellow\"}",
+          "attributes": [
+            {"id": "minecraft:max_health", "base":40},
+            {"id": "minecraft:attack_damage", "base":5}
+          ],
+          "Team": "DesertArchivesEntities",
+          "Tags": [
+            "entity",
+            "archives_priest"
+          ]
+        },
+        "equipment": {
+          "loot_table": "gen:equipment/desert_archives/melee_weapon",
+          "slot_drop_chances": 0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 15
+}

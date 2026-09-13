@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh"
+    },
+    "title": {
+      "translate": "dsb.advancement.dif.kill_a_mob_by_hammer.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.dif.kill_a_mob_by_hammer.lore"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "#minecraft:pickaxes",
+              "predicates": {
+                "minecraft:custom_data": {
+                  "tag": "hammers"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "parent": "dsb:skyblock/diff/wooden_hammer"
+}

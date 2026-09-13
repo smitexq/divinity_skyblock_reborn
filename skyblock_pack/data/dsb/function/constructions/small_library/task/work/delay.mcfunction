@@ -1,0 +1,1 @@
+$function dc:get_call {tick:$(time), command:"function dsb:constructions/small_library/task/work/main", requirePos:false, requireEntity:true}

@@ -1,0 +1,2 @@
+particle minecraft:smoke ~ ~-0.2 ~ 0.5 0.05 0.5 0 50 force
+function dc:get_call {tick:10, command:"function entities:bosses/soul_of_abyss/conditions/2phase/particle", requirePos:false, requireEntity:true}

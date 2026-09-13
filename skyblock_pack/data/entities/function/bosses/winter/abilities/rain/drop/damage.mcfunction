@@ -1,0 +1,1 @@
+execute as @a[distance=..20] if predicate entities:bosses/rain_cylindr positioned ~-2.5 ~-0.2 ~-2.5 if entity @s[dx=4, dz=4, dy=0.5] run function entities:bosses/winter/abilities/rain/drop/per_player_damage

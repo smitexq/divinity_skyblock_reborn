@@ -1,0 +1,2 @@
+$execute store result score #temp gen run data get storage dsb_gen:values Circle.CornerCoords$(index)
+$execute store result storage dsb_gen:values Circle.CornerCoords$(index) int 1 run scoreboard players $(oper) #temp gen 16

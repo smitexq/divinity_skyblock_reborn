@@ -1,0 +1,1 @@
+$function gen:templates/islands/overworld/$(TemplateIslandsId)

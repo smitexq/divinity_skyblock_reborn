@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:baked_potato",
+    "minecraft:cooked_porkchop",
+    "minecraft:carrot",
+    "minecraft:cooked_beef",
+    "minecraft:bowl",
+    "minecraft:water_bucket",
+    [
+      "minecraft:acacia_leaves",
+      "minecraft:azalea_leaves",
+      "minecraft:birch_leaves",
+      "minecraft:cherry_leaves",
+      "minecraft:dark_oak_leaves",
+      "minecraft:flowering_azalea_leaves",
+      "minecraft:jungle_leaves",
+      "minecraft:mangrove_leaves",
+      "minecraft:oak_leaves",
+      "minecraft:spruce_leaves"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "animation": "eat"
+      },
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 30
+      },
+      "minecraft:item_model": "dsb:food/meat_soup",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.meat_soup'}]",
+      "minecraft:lore": [
+        "{\"translate\":\"dsb.items.food.number_servings\",\"color\":\"aqua\",\"italic\": false, \"with\":[\"3/3\"]}"
+      ],
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_remainder": {
+        "id": "minecraft:structure_block",
+        "count": 1,
+        "components": {
+          "minecraft:consumable": {
+            "animation": "eat"
+          },
+          "minecraft:food": {
+            "nutrition": 9,
+            "saturation": 7
+          },
+          "minecraft:item_model": "dsb:food/meat_soup",
+          "minecraft:item_name": "[{'translate':'dsb.items.food.meat_soup'}]",
+          "minecraft:lore": [
+            "{\"translate\":\"dsb.items.food.number_servings\",\"color\":\"aqua\",\"italic\": false, \"with\":[\"2/3\"]}"
+          ],
+          "minecraft:rarity": "common",
+          "minecraft:max_stack_size": 1,
+          "minecraft:use_remainder": {
+            "id": "minecraft:structure_block",
+            "count": 1,
+            "components": {
+              "minecraft:consumable": {
+                "animation": "eat"
+              },
+              "minecraft:food": {
+                "nutrition": 9,
+                "saturation": 7
+              },
+              "minecraft:item_model": "dsb:food/meat_soup",
+              "minecraft:item_name": "[{'translate':'dsb.items.food.meat_soup'}]",
+              "minecraft:lore": [
+                "{\"translate\":\"dsb.items.food.number_servings\",\"color\":\"aqua\",\"italic\": false, \"with\":[\"1/3\"]}"
+              ],
+              "minecraft:rarity": "common",
+              "minecraft:max_stack_size": 1,
+              "minecraft:use_remainder": {
+                "id": "minecraft:bowl",
+                "count": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

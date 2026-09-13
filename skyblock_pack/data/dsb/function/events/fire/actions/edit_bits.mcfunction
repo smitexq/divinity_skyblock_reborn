@@ -1,0 +1,1 @@
+$data modify storage dsb:cts Fire.$(uuid).text.bit$(idEditBit) set value "§c■"

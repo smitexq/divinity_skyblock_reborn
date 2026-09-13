@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##_",
+        " /#",
+        "/  "
+    ],
+    "key": {
+        "#": "minecraft:iron_ingot",
+        "_": "minecraft:iron_nugget",
+        "/": "minecraft:stick"
+    },
+    "result": {
+        "id": "minecraft:iron_axe",
+        "components": {
+            "minecraft:lore": ["{\"translate\": \"dsb.items.tool.scythe_of_souls.lore1\", \"color\": \"light_purple\", \"italic\": false}", "{\"translate\": \"dsb.items.tool.scythe_of_souls.lore2\", \"color\": \"light_purple\", \"italic\": false}", "{\"translate\": \"dsb.items.tool.scythe_of_souls.lore3\", \"color\": \"light_purple\", \"italic\": false, \"with\":[\"§kвозродить Дракона\"]}"],
+            "minecraft:custom_name": "{\"translate\":\"dsb.items.tool.scythe_of_souls\",\"color\":\"dark_purple\",\"italic\":false}",
+            "minecraft:item_model": "dsb:tools/scythe_of_souls",
+            "minecraft:max_damage": 300,
+            "minecraft:tool": {
+              "rules": []
+            },
+            "minecraft:custom_data": {
+              "id": "scythe_of_souls"
+            },
+            "minecraft:hide_additional_tooltip": {}
+          }
+    }
+}

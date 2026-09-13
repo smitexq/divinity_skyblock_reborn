@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "[{'translate':'dsb.items.food.birch_tea'}]",
+                "minecraft:item_model": "dsb:food/birch_tea",
+                "minecraft:max_stack_size": 16,
+                "minecraft:rarity": "common",
+                "minecraft:custom_data": "{tag:\"CupOfTea\", id:\"birch_tea\"}",
+                "minecraft:food": {
+                  "nutrition": 1,
+                  "saturation": 0.3,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.5,
+                  "animation": "drink",
+                  "sound": "entity.generic.drink",
+                  "has_consume_particles": false
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:structure_block",
+                  "components": {
+                    "minecraft:item_model": "dsb:food/cup",
+                    "minecraft:item_name": "[{'translate':'dsb.items.food.cup'}]",
+                    "minecraft:rarity": "common",
+                    "minecraft:custom_data": "{id:\"cup\"}",
+                    "minecraft:max_stack_size": 16
+                  }
+                },
+                "minecraft:use_cooldown": {
+                  "seconds": 12,
+                  "cooldown_group": "tea"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

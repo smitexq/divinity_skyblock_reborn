@@ -1,0 +1,145 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/health_heart"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/artifacts/tome_of_wisdom"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/artifacts/tome_of_rune"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/rings/sacrificial_ring"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/rings/southern_ritual_ring"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/rings/northern_ritual_ring"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/epic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/used/scroll_of_mending_3"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:flow_armor_trim_smithing_template"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rib_armor_trim_smithing_template"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bolt_armor_trim_smithing_template"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:snout_armor_trim_smithing_template"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_slabs",
+        "state": {
+          "type": "top"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:barrel",
+        "state": {
+          "facing": "up"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "blocks": "#minecraft:wooden_trapdoors",
+        "state": {
+          "half": "bottom"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "123": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/rest_time/sleep"
+  }
+}

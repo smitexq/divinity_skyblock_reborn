@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.tome_of_rune",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:tools/tome_of_rune",
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_data": {
+                  "id":"tome_of_rune",
+                  "tag": "tomes"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                {"translate": "dsb.items.tome_of_rune.lore1", "color": "light_purple", "italic": false},
+                {"translate": "dsb.items.tome_of_rune.lore2", "color": "light_purple", "italic": false},
+                {"translate": "dsb.items.tome_of_rune.lore3", "color": "light_purple", "italic": false}
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

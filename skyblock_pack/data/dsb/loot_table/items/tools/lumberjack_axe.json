@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.tool.lumberjack_axe",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"translate": "dsb.items.tool.lumberjack_axe.lore1", "color": "yellow", "italic": false},
+                {"translate": "dsb.items.tool.lumberjack_axe.lore2", "color": "yellow", "italic": false}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:tools/lumberjack_axe",
+                "minecraft:custom_data": {
+                  "id": "lumberjack_axe"
+                },
+                "minecraft:max_damage": 500
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

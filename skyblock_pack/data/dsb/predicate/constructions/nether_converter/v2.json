@@ -1,0 +1,91 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:obsidian"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:obsidian"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:obsidian"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:obsidian"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crying_obsidian"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crying_obsidian"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crying_obsidian"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crying_obsidian"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "dimension": "minecraft:the_nether",
+      "block": {
+        "blocks": "minecraft:iron_trapdoor",
+        "state": {
+          "half": "bottom",
+          "open": "false"
+        }
+      }
+    }
+  }
+]

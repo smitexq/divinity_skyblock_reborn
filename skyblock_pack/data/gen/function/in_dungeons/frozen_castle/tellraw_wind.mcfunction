@@ -1,0 +1,1 @@
+tellraw @a {"translate":"dsb.events.pricture.activate_after", "color":"aqua"}

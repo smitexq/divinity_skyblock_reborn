@@ -1,0 +1,2 @@
+# $tellraw @a [{"storage":"dsb_gen:values","nbt":"CurrentIsland.z","color":"gold"}, {"text":" "},{"storage":"dsb_gen:values","nbt":"CurrentIsland.y"}, {"text":" "},{"storage":"dsb_gen:values","nbt":"CurrentIsland.z"}, {"text":" $(path)$(num)"}]
+$return run place jigsaw gen:islands/$(path)$(num) gen:island/init 1

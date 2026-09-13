@@ -1,0 +1,804 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_stairs",
+        "state": {
+          "facing": "west",
+          "half": "bottom",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_stairs",
+        "state": {
+          "facing": "west",
+          "half": "bottom",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_stairs",
+        "state": {
+          "facing": "east",
+          "half": "bottom",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:crimson_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetY": 1,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stem"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetY": 1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stairs",
+        "state": {
+          "facing": "north",
+          "half": "top",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": 1,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": 1,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stairs",
+        "state": {
+          "facing": "east",
+          "half": "top",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_slab",
+        "state": {
+          "type": "bottom"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_trapdoor",
+        "state": {
+          "half": "top"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 1,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 1,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stairs",
+        "state": {
+          "facing": "west",
+          "half": "top",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 1,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stem"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 1,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:cobblestone_wall"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 1,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:chiseled_bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 1,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetY": 2,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stem"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetY": 2,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_fence"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": 2,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": 2,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:soul_lantern",
+        "state": {
+          "waterlogged": "false"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 2,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 2,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 2,
+    "offsetZ": 2,
+    "predicate": {
+      "block": {
+        "blocks": "#dsb:h.library"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 2,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stem"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 2,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_fence"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 2,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:cobblestone_wall"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetY": 3,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stem"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetY": 3,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_slab",
+        "state": {
+          "type": "bottom"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": 3,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": 3,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_slab",
+        "state": {
+          "type": "top"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 3,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_fence_gate"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 3,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_trapdoor",
+        "state": {
+          "half": "top"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 3,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:bookshelf"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 3,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_trapdoor",
+        "state": {
+          "half": "top"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 3,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stem"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 3,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stairs",
+        "state": {
+          "facing": "west",
+          "half": "top",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 3,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 2,
+    "offsetY": 4,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_slab",
+        "state": {
+          "type": "bottom"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetY": 4,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_planks"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 4,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_slab",
+        "state": {
+          "type": "top"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 4,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_trapdoor",
+        "state": {
+          "half": "bottom"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetY": 4,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_slab",
+        "state": {
+          "type": "bottom"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 4,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stairs",
+        "state": {
+          "facing": "west",
+          "half": "top",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 4,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_slab",
+        "state": {
+          "type": "bottom"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetY": 4,
+    "offsetZ": 1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_trapdoor",
+        "state": {
+          "half": "bottom"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 4,
+    "offsetZ": -2,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_stairs",
+        "state": {
+          "facing": "east",
+          "half": "bottom",
+          "shape": "straight"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetY": 4,
+    "offsetZ": -1,
+    "predicate": {
+      "block": {
+        "blocks": "minecraft:warped_trapdoor",
+        "state": {
+          "half": "bottom"
+        }
+      }
+    }
+  }
+]

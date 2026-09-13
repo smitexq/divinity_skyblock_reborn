@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"initCauldron\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:constructions/cauldron/target/action"
+  }
+}

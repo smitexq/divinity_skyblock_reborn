@@ -1,0 +1,34 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/frozen_castle/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 4,
+  "total_mobs": 3,
+  "total_mobs_added_per_player": 1,
+  "simultaneous_mobs": 1,
+  "simultaneous_mobs_added_per_player": 1,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:iron_golem",
+          "CustomName": "{\"translate\":\"dsb.entity.golem\",\"color\":\"aqua\"}",
+          "attributes": [
+            {"id": "minecraft:armor", "base":3},
+            {"id": "minecraft:attack_damage", "base":17}
+          ],
+          "Team": "FrozenCastleEntities",
+          "Tags": [
+            "entity",
+            "frozen_golem"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 40
+}

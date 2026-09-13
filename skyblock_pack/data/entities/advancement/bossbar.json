@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "#entities:entities_bosses",
+          "nbt": "{Tags:[\"entity_boss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/bossbar/vizual/start"
+  }
+}

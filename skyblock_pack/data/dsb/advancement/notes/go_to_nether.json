@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "translate": "dsb.notes.go_to_nether.title"
+    },
+    "description": {
+      "translate": "dsb.notes.go_to_nether.desc",
+      "color": "gold"
+    },
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "dsb:notes/mob_farm",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"//выдается после постройки котла
+    }
+  },
+  "rewards": {
+    "function": "dsb:advancement/note_msg"
+  }
+}

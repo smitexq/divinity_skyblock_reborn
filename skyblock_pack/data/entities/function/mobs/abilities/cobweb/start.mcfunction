@@ -1,0 +1,1 @@
+execute as @p at @s if block ~ ~ ~ #entities:charged_ray run setblock ~ ~ ~ cobweb

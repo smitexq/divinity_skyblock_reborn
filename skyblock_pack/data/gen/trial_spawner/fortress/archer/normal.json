@@ -1,0 +1,40 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/fortress/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 9,
+  "total_mobs": 4,
+  "total_mobs_added_per_player": 1,
+  "simultaneous_mobs": 3,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:wither_skeleton",
+          "CustomName": "{\"translate\":\"dsb.entity.archer\",\"color\":\"gray\"}",
+          "Team": "FortressEntities",
+          "Health": 30,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 30
+            }
+          ],
+          "Tags": [
+            "entity"
+          ]
+        },
+        "equipment": {
+          "loot_table": "gen:equipment/fortress/range",
+          "slot_drop_chances": 0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 25
+}

@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/health_heart"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/artifacts/tome_of_wisdom"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/artifacts/tome_of_rune"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:recipes/overworld_recipes/legendary"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/rings/vampire"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/rings/ring_of_disaster"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/rings/traveler_ring"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/rings/hawk_ring"
+                  },
+                  {
+                    "type": "minecraft:loot_table",
+                    "value": "dsb:items/rings/amulet_of_luck"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_upgrade_smithing_template"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": {
+            "pools": [
+              {
+                "rolls": 1,
+                "entries": [
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:tide_armor_trim_smithing_template"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:eye_armor_trim_smithing_template"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spire_armor_trim_smithing_template"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:ward_armor_trim_smithing_template"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:vex_armor_trim_smithing_template"
+                  },
+                  {
+                    "type": "minecraft:item",
+                    "name": "minecraft:silence_armor_trim_smithing_template"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

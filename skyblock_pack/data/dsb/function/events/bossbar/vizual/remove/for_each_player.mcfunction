@@ -1,0 +1,1 @@
+$execute as @a[tag=$(sourceBoss)] run function dsb:events/bossbar/vizual/remove/start

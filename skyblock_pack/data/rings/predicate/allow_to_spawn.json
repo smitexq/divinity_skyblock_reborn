@@ -1,0 +1,192 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:under_block_to_allow_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetY": -1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:under_block_to_allow_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetY": -1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:under_block_to_allow_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "offsetY": -1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:under_block_to_allow_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "offsetY": -1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:under_block_to_allow_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "offsetY": 1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "offsetY": 1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "offsetZ": 1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "offsetZ": -1,
+      "predicate": {
+        "light": {
+          "light": 0
+        },
+        "block": {
+          "tag": "rings:allow_to_spawn"
+        }
+      }
+    }
+  ]
+}

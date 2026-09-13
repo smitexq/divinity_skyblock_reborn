@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "nbt": "{Items:[{count: 1, Slot: 3b, id: \"minecraft:short_grass\"}, {count: 1, Slot: 4b, id: \"minecraft:bone_meal\"}, {count: 1, Slot: 5b, id: \"minecraft:short_grass\"}, {count: 1, Slot: 12b, id: \"minecraft:bone_meal\"}, {count: 1, Slot: 14b, id: \"minecraft:bone_meal\"}, {count: 1, Slot: 21b, id: \"minecraft:short_grass\"}, {count: 1, Slot: 22b, id: \"minecraft:bone_meal\"}, {count: 1, Slot: 23b, id: \"minecraft:short_grass\"}]}"
+    }
+  }
+}

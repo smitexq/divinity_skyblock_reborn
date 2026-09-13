@@ -1,0 +1,1 @@
+$function dc:get_call {tick:100, command:"data remove storage dsb:cts Sieve.Blocks[{time:$(time), x:$(x), y:$(y), z:$(z), id:'$(id)'}]", requirePos:false, requireEntity:false}

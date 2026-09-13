@@ -1,0 +1,1 @@
+$execute positioned $(Coords) positioned ~ ~3 ~ run function gen:start_zone/extra/gen_stone with storage dsb_gen:islands

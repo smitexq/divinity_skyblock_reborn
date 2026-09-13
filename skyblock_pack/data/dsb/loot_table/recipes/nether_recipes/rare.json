@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/tea_cauldron"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/cauldron"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/flying_boat",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*wanderer_ring"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/exchanger"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/lantern"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/building_plan"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/grass_block"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/iron_hammer"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/advanced_ring"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/scroll_of_mending",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*wanderer_ring"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/rituals/ender_chest",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*nether"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "dsb:recipes/nether/rare"
+}

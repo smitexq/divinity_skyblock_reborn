@@ -1,0 +1,2 @@
+execute at @e[type=marker, tag=SoulOfAbyssHexParticle] run function entities:bosses/soul_of_abyss/abilities/hexagon/particles/start_purple
+execute at @e[type=marker, tag=SoulOfAbyssHexParticle, tag=stage2] run function entities:bosses/soul_of_abyss/abilities/hexagon/particles/start_black

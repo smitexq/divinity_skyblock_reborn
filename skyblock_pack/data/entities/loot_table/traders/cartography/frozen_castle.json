@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.exploration_map.frozen_castle",
+                "color": "#3fc8ca",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text": ""},
+                {"translate": "dsb.items.death_scroll.coords.text", "color": "#13898b","italic": false},
+                {"translate": "dsb.items.death_scroll.coords", "color": "#13898b","italic": false, "with":[{"text":"123", "obfuscated": true}, {"text":"12", "obfuscated": true}, {"text":"123", "obfuscated": true}]}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "exploration_map",
+                  "tag": "frozen_castle"
+                },
+                "minecraft:map_color": 3636977,
+                "minecraft:consumable": {
+                  "consume_seconds": 10000000000,
+                  "has_consume_particles": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

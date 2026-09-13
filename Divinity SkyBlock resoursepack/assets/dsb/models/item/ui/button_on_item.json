@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "dsb:gui/research_table/button_on_item"
+    }
+}

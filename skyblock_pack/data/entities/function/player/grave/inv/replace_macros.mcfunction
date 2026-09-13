@@ -1,0 +1,2 @@
+$data modify storage dsb:grave db.$(TargetNamespace) append from storage dsb:grave db.$(SourceNamespace)[{Slot:$(OldSlot)b}]
+$data modify storage dsb:grave db.$(TargetNamespace)[{Slot:$(OldSlot)b}].Slot set value $(Index)b

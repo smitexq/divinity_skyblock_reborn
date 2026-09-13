@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "charcoal": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dsb:other/fuel",
+        "ingredients": [
+          {
+            "items": "minecraft:charcoal"
+          }
+        ]
+      }
+    },
+    "coal": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dsb:other/fuel",
+        "ingredients": [
+          {
+            "items": "minecraft:coal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "charcoal",
+      "coal"
+    ]
+  ],
+  "rewards": {
+    "function": "dsb:crafts/other/fuel"
+  }
+}

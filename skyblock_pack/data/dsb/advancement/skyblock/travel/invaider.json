@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:globe_banner_pattern"
+    },
+    "title": {
+      "translate": "dsb.advancement.adv.invader.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.adv.invader.lore"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    },
+    "2": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    },
+    "3": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    },
+    "4": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "gen:winter_queen"
+      }
+    }
+  },
+  "parent": "dsb:skyblock/travel/winter_queen",
+  "requirements": [
+    [
+      "1"
+    ],
+    [
+      "2"
+    ],
+    [
+      "3"
+    ],
+    [
+      "4"
+    ]
+  ]
+}

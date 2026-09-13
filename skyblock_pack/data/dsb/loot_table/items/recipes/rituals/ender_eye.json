@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.constructions.title",
+                "color": "gold",
+                "italic": false,
+                "with": [
+                  {"translate":"item.minecraft.ender_eye"}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:recipes/ritual_recipe",
+                "minecraft:custom_data": {
+                  "id": "RecipeOf_ender_eye",
+                  "tag": "recipe",
+                  "tier_ai": 2
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                [{"translate": "dsb.recipes.rarity_level", "color": "yellow", "italic": false}, {"text": ": §5★★★☆"}],
+                {"text":""},
+                {"translate": "dsb.recipes.research_level", "color": "yellow", "italic": false, "with":[{"translate": "dsb.recipes.ai.RecipeOf_ender_eye"}]},
+                {"translate": "dsb.recipes.can_be_research", "color": "yellow", "italic": false},
+                {"text":""},
+                [{"translate": "dsb.recipes.create_on_altar", "color": "yellow", "italic": false}]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

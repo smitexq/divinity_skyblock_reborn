@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "+++",
+        "#*/",
+        "+++"
+    ],
+    "key": {
+        "+": "minecraft:paper",
+        "#": "minecraft:feather",
+        "*": "minecraft:quartz",
+        "/": "minecraft:lapis_lazuli"
+    },
+    "result": {
+        "id": "minecraft:structure_block",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"dsb.items.scroll_of_mending\",\"color\":\"white\",\"italic\":false, \"with\":[\"I\"]}",
+            "minecraft:lore": ["{\"translate\": \"dsb.items.scroll_of_mending.lore\", \"color\": \"aqua\", \"italic\": false, \"with\":[\"10\"]}"],
+            "minecraft:item_model": "dsb:tools/scroll_of_mending_1",
+            "minecraft:custom_data": {
+              "id": "scroll_of_mending_1"
+            },
+            "minecraft:consumable": {
+              "consume_seconds": 10000000000,
+              "has_consume_particles": false
+            }
+          }
+    }
+}

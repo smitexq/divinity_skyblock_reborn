@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.tool.iron_hammer",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 230,
+                "minecraft:item_model": "dsb:tools/iron_hammer",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "minecraft:cobblestone",
+                      "speed": 6.1,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "damage_per_block": 1
+                },
+                "minecraft:custom_data": {
+                  "id": "iron_hammer",
+                  "tag": "hammers"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

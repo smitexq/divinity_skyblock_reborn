@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.exploration_map.old_island",
+                "color": "green",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text": ""},
+                {"translate": "dsb.items.death_scroll.coords.text", "color": "dark_green","italic": false},
+                {"translate": "dsb.items.death_scroll.coords", "color": "dark_green","italic": false, "with":[{"storage":"dsb_gen:gen", "nbt": "Dungeons.OldIsland.x"}, {"storage":"dsb_gen:gen", "nbt": "Dungeons.OldIsland.y"}, {"storage":"dsb_gen:gen", "nbt": "Dungeons.OldIsland.z"}]}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 7846163
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

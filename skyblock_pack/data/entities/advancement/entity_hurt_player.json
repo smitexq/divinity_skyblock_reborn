@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"WearingAncientRingOfTheSun\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rings:activate_ring/ancientring"
+  }
+}

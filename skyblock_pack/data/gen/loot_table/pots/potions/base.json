@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_void",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": {
+                "PotSpawnPotion": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gen:pots/potions/item",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "gen:pots/potions/base"
+}

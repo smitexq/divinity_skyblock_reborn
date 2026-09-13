@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:bowl",
+    "minecraft:baked_potato",
+    [
+      "minecraft:cooked_salmon",
+      "minecraft:cooked_cod"
+    ],
+    [
+      "minecraft:acacia_leaves",
+      "minecraft:azalea_leaves",
+      "minecraft:birch_leaves",
+      "minecraft:cherry_leaves",
+      "minecraft:dark_oak_leaves",
+      "minecraft:flowering_azalea_leaves",
+      "minecraft:jungle_leaves",
+      "minecraft:mangrove_leaves",
+      "minecraft:oak_leaves",
+      "minecraft:spruce_leaves"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 2,
+    "components": {
+      "minecraft:consumable": {
+        "animation": "eat"
+      },
+      "minecraft:food": {
+        "nutrition": 11,
+        "saturation": 6
+      },
+      "minecraft:max_stack_size": 6,
+      "minecraft:item_model": "dsb:food/fish_and_chips",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.fish_and_chips'}]",
+      "minecraft:rarity": "common",
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
+      }
+    }
+  }
+}

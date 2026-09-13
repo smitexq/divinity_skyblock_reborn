@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:kelp"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:crafts/minecraft/kelp"
+  }
+}

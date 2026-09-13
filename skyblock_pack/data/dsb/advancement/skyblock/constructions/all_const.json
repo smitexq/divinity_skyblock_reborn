@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bookshelf",
+      "components": {
+        "minecraft:item_model": "dsb:tools/building_plan"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.cst.architect.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.cst.architect.lore"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "dsb.adv.constructions_count": 14
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/constructions/altar"
+}

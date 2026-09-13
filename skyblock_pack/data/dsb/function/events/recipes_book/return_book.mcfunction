@@ -1,0 +1,2 @@
+$execute if score *var1 variables matches 0.. run return run item replace entity @s container.$(Slot) from block 17112022 0 0 container.0
+item replace entity @s weapon.offhand from block 17112022 0 0 container.0

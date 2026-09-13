@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " * ",
+        "_+#",
+        " / "
+    ],
+    "key": {
+        "+": "minecraft:book",
+        "#": "minecraft:sugar",
+        "_": "minecraft:honey_bottle",
+        "/": "minecraft:diamond",
+        "*": "minecraft:redstone"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:stored_enchantments": {"efficiency":2}
+          }
+    }
+}

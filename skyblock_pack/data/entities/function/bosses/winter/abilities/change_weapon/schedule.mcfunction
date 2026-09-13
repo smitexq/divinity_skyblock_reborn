@@ -1,0 +1,1 @@
+$function dc:get_call {tick:$(timeToSelect), command:"function entities:bosses/winter/abilities/change_weapon/select", requirePos:false, requireEntity:true}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:structure_block",
+          "predicates": {
+            "minecraft:custom_data": "{id:\"birch_tea\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food:tea/birch/main"
+  }
+}

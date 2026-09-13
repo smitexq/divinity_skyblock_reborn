@@ -1,0 +1,2 @@
+# $title @s actionbar {"text":"$(text1) $(count) $(text2)","color":"gold"}
+$title @s actionbar {"translate":"dsb.events.tea_cauldron.cooking_tea","color":"gold","with":[{"translate":"$(text1)"},"$(count)",{"translate":"$(text2)"}]}

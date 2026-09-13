@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"UseGreenTea\"]}"
+        },
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:dirt",
+                  "minecraft:gravel",
+                  "minecraft:soul_sand"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:constructions/sieve/work/block/add_coords"
+  }
+}

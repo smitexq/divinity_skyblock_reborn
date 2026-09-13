@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "dsb.notes.desert_temple.title"
+    },
+    "description": {
+      "translate": "dsb.notes.desert_temple.desc",
+      "color": "gold"
+    },
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "dsb:notes/void_key",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:structure_block",
+            "predicates": {
+              "minecraft:custom_data": {
+                "TravelerRing": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:advancement/note_msg"
+  }
+}

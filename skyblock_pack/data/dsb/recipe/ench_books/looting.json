@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " * ",
+        "_+#",
+        " / "
+    ],
+    "key": {
+        "+": "minecraft:book",
+        "_": "minecraft:nether_wart",
+        "#": "minecraft:ghast_tear",
+        "*": "minecraft:diamond",
+        "/": "minecraft:phantom_membrane"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:stored_enchantments": {"looting":1}
+          }
+    }
+}

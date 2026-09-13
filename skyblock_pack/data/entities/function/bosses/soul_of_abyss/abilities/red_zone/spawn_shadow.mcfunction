@@ -1,0 +1,7 @@
+$summon minecraft:armor_stand $(pos1) {Invisible:1b, NoGravity:1b, Invulnerable:1b, Tags:["1","SoulOfAbyssShadow"], Rotation:[$(rot1)], ArmorItems:[{},{},{id:"netherite_chestplate", count:1, components:{"minecraft:trim":{material:"minecraft:redstone",pattern:"minecraft:silence"}}},{id:"player_head",count:1b, components:{"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhYTRmMDM0NDE4N2U3NGZjZDQwZmRhMjE1YTRmOGRjZDQ2MjVmOTE3Y2FlMzFiMjEzYWUxNzc0MjE5ZjNkZSJ9fX0="}]}}}], ArmorDropChances:[0f,0f,0f,0f], DisabledSlots:4144959}
+
+$execute positioned $(pos1) run particle large_smoke ~ ~0.5 ~ 0.5 0.5 0.5 0 20 force
+
+$summon minecraft:armor_stand $(pos2) {Invisible:1b, NoGravity:1b, Invulnerable:1b, Tags:["2","SoulOfAbyssShadow"], Rotation:[$(rot2)], ArmorItems:[{},{},{id:"netherite_chestplate", count:1, components:{"minecraft:trim":{material:"minecraft:redstone",pattern:"minecraft:silence"}}},{id:"player_head",count:1b, components:{"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhhYTRmMDM0NDE4N2U3NGZjZDQwZmRhMjE1YTRmOGRjZDQ2MjVmOTE3Y2FlMzFiMjEzYWUxNzc0MjE5ZjNkZSJ9fX0="}]}}}], ArmorDropChances:[0f,0f,0f,0f], DisabledSlots:4144959}
+
+$execute positioned $(pos2) run particle large_smoke ~ ~0.5 ~ 0.5 0.5 0.5 0 20 force

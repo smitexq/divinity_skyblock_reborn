@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " * ",
+        "_+#",
+        " / "
+    ],
+    "key": {
+        "+": "minecraft:book",
+        "#": "minecraft:arrow",
+        "_": "minecraft:iron_chestplate",
+        "/": "minecraft:quartz",
+        "*": "minecraft:copper_ingot"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:stored_enchantments": {"projectile_protection":2}
+          }
+    }
+}

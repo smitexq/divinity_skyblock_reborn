@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:sugar",
+    "minecraft:snowball",
+    "minecraft:milk_bucket"
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "animation": "eat",
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:weakness",
+                "amplifier": 0,
+                "duration": 400
+              }
+            ],
+            "probability": 0.2
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:slowness",
+                "amplifier": 0,
+                "duration": 500
+              }
+            ],
+            "probability": 0.3
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation": 1.5
+      },
+      "minecraft:max_stack_size": 3,
+      "minecraft:item_model": "dsb:food/ice_cream",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.ice_cream'}]",
+      "minecraft:rarity": "common",
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
+      }
+    }
+  }
+}

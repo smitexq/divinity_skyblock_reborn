@@ -1,0 +1,1 @@
+$return run execute if data storage dsb:rings $(out).SaveInventory[{components:{"minecraft:custom_data":{id:"fuel"}}}]

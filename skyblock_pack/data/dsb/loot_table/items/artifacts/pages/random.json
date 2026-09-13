@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/bane_of_arthropods"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/blast_protection"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/breach"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/density"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/efficiency"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/feather_falling"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/fire_aspect"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/fire_protection"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/flame"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/fortune"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/infinity"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/knockback"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/looting"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/luck_of_the_sea"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/lure"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/multishot"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/piercing"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/power"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/projectile_protection"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/protection"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/punch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/quick_charge"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/sharpness"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/silk_touch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/smite"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/sweeping_edge"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/swift_sneak"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/thorns"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/unbreaking"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/artifacts/pages/wind_burst"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": [
+              "minecraft:slime",
+              "minecraft:magma_cube"
+            ],
+            "nbt": "{Tags:[\"rare\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "entities:entity_hurt_player/slime/rare"
+  }
+}

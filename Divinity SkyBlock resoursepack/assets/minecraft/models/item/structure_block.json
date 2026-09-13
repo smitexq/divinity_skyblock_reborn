@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/structure_block",
+    "textures": {
+        "layer0": "minecraft:block/structure_block"
+	},
+	"overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "dsb:block/base_end_frame"}
+    ]
+}

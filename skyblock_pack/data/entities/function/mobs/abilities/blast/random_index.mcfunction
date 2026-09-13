@@ -1,0 +1,1 @@
+$execute store result storage dsb:temp BreakBlocks.index int 1 run random value 0..$(lastIndex)

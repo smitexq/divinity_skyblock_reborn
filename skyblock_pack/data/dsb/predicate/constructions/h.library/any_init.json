@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/h.library/v1"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/h.library/v2"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/h.library/v3"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/h.library/v4"
+    }
+  ]
+}

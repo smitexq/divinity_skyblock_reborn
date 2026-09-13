@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:blue_ice"
+    },
+    "title": {
+      "translate": "dsb.notes.find_eleum_lois.title"
+    },
+    "description": {
+      "translate": "dsb.notes.find_eleum_lois.desc",
+      "color": "gold"
+    },
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "dsb:notes/desert_temple",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:structure_block",
+            "predicates": {
+              "minecraft:custom_data": {
+                "ScholarRing": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:advancement/note_msg"
+  }
+}

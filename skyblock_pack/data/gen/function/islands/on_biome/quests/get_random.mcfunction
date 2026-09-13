@@ -1,0 +1,1 @@
+$execute store result score #rnd gen run random value 1..$(count) dsb:gen_id_for_dungeon

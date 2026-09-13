@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/constructions/water_collector"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/brown_mushroom"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/red_mushroom"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/fuel",
+          "conditions": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "minecraft:fixed",
+                  "name": "*wanderer_ring"
+                },
+                "score": "GameStage"
+              },
+              "range": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/recipes/crafts/wanderer_ring"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "dsb:recipes/overworld/uncommon"
+}

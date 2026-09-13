@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_block",
+      "components": {
+        "minecraft:item_model": "dsb:food/sea_king_summoner"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.dif.sea_king_summon.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.dif.sea_king_summon.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "structure_block",
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "SeaKingSummoner"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/diff/cozy"
+}

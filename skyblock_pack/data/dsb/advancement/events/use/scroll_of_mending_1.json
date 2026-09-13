@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:structure_block",
+          "components": {
+            "minecraft:custom_data": {
+              "id": "scroll_of_mending_1"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/scroll_of_mending/1"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/frozen_castle/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 6,
+  "total_mobs": 4,
+  "simultaneous_mobs": 3,
+  "simultaneous_mobs_added_per_player": 1,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:stray",
+          "CustomName": "{\"translate\":\"dsb.entity.knight\",\"color\":\"white\"}",
+          "attributes": [
+            {"id": "minecraft:max_health", "base":38},
+            {"id": "minecraft:armor", "base":1},
+            {"id": "minecraft:attack_damage", "base":8}
+          ],
+          "Health": 40,
+          "Team": "FrozenCastleEntities",
+          "Tags": [
+            "entity"
+          ]
+        },
+        "equipment": {
+          "loot_table": "gen:equipment/frozen_castle/melee",
+          "slot_drop_chances": 0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 30
+}

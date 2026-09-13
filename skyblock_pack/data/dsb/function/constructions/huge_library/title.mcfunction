@@ -1,0 +1,39 @@
+execute unless score @s work_h.library matches 1.. run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[§c||||||||||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 1 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|§c|||||||||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 2 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||§c||||||||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 3 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||§c|||||||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 4 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||||§c||||||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 5 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||||§c|||||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 6 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||||||§c||||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 7 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||||||§c|||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 8 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||||||||§c||||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 9 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||||||||§c|||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 10 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||||||||||§c||||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 11 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||||||||||§c|||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]] 
+
+execute if score @s work_h.library matches 12 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||||||||||||§c||||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 13 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||||||||||||§c|||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 14 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||||||||||||||§c||||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 15 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||||||||||||||§c|||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 16 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||||||||||||||||§c||||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 17 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||||||||||||||||§c|||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 18 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[||||||||||||||||||§c||§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]
+
+execute if score @s work_h.library matches 19 run return run title @s actionbar [{"score":{"objective":"AI","name":"@s"},"color":"yellow","bold":true},{"text":" §e➠ §4[|||||||||||||||||||§c|§4] §6➠ "},{"score":{"objective":"variables","name":"*var1"},"color":"gold","bold":true}, [{"text":" | ","color":"gray","bold":false}, {"score":{"objective":"variables","name":"#chance"}}, {"text":"%"}]]

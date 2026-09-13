@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "dsb:item/tools/white_piece_of_picture"
+    }
+}

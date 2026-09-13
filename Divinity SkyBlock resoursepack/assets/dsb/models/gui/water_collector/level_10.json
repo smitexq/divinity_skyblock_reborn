@@ -1,0 +1,6 @@
+{
+  "parent": "dsb:gui/water_collector/level_overlay",
+  "textures": {
+    "texture": "dsb:gui/water_collector/level_10"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.health_heart",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_stack_size": 1,
+                "minecraft:item_model": "dsb:tools/health_heart",
+                "minecraft:custom_data": {
+                  "id": "health_heart"
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 10000000000,
+                  "has_consume_particles": false
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"translate": "dsb.items.health_heart.lore", "color": "gold", "italic": false}
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

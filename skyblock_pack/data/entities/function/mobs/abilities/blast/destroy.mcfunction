@@ -1,0 +1,1 @@
+$execute positioned ~$(x) ~$(y) ~$(z) unless block ~ ~ ~ #entities:unbreakable run setblock ~ ~ ~ air destroy

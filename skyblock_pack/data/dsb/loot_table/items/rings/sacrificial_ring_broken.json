@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.rings.sacrificial_ring_broken",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_stack_size": 1,
+                "minecraft:item_model": "dsb:rings/sacrificial_broken",
+                "minecraft:custom_data": {
+                  "Ring": 1,
+                  "SacrificialRing": 1,
+                  "used": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                [{"translate": "dsb.items.rings.sacrificial_ring_broken.lore", "color": "aqua", "italic": false}]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

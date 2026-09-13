@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:sugar_cane",
+    "minecraft:bamboo",
+    "minecraft:big_dripleaf_stem",
+    "minecraft:big_dripleaf",
+    "minecraft:small_dripleaf",
+    "minecraft:fire",
+    "#minecraft:flowers",
+    "#minecraft:leaves",
+    "#minecraft:campfires",
+    "#minecraft:corals",
+    "#minecraft:saplings",
+    "#minecraft:bee_growables"
+  ]
+}

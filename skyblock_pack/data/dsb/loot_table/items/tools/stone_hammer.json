@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.tool.stone_hammer",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 120,
+                "minecraft:item_model": "dsb:tools/stone_hammer",
+                "minecraft:tool": {
+                  "rules": [
+                    {
+                      "blocks": "minecraft:cobblestone",
+                      "speed": 3.5,
+                      "correct_for_drops": true
+                    }
+                  ],
+                  "damage_per_block": 1
+                },
+                "minecraft:custom_data": {
+                  "id": "stone_hammer",
+                  "tag": "hammers"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

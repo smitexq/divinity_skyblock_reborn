@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin_brute",
+          "nbt": "{Tags:[\"SoulOfAbyss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "entities:events/player_hurt_entity/bosses/soul_of_abyss"
+  }
+}

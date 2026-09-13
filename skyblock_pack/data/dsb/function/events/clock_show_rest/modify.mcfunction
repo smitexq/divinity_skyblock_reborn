@@ -1,0 +1,1 @@
+$item modify entity @s container.$(slot) {"function": "minecraft:set_components", "components": {"minecraft:consumable": {"consume_seconds": 1000000000, "has_consume_particles": false}, "minecraft:custom_data": {"custom": true}}}

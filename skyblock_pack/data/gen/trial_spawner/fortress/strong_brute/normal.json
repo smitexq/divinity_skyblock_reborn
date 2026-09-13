@@ -1,0 +1,33 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/fortress/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 5,
+  "total_mobs": 4,
+  "total_mobs_added_per_player": 1,
+  "simultaneous_mobs": 2,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:piglin_brute",
+          "CustomName": "{\"translate\":\"dsb.entity.brute_piglin\",\"color\":\"red\"}",
+          "Team": "FortressEntities",
+          "Tags": [
+            "entity"
+          ]
+        },
+        "equipment": {
+          "loot_table": "gen:equipment/fortress/strong_melee",
+          "slot_drop_chances": 0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 40
+}

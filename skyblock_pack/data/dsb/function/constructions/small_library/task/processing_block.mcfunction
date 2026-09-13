@@ -1,0 +1,1 @@
+$function dsb:constructions/small_library/task/facing/$(facing)

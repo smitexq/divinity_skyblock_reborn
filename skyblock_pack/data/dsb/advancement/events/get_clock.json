@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:clock"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/clock_show_rest/check_items"
+  }
+}

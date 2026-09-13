@@ -1,0 +1,61 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/waystone/init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/s.library/any_init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/sieve/init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/composter/init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/research_table/any_init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/tea_cauldron/any_init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/water_collector/init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/nether_converter/any_init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/cauldron/any_init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/blaze_spawner/init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/altar/init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/h.library/any_init"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/lantern/static"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "dsb:constructions/float_boat/any_init"
+    }
+  ]
+}

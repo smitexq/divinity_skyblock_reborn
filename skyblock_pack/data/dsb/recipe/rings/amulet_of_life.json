@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "++ ",
+        "+ +",
+        "*+ "
+    ],
+    "key": {
+        "+": "minecraft:gold_nugget",
+        "*": "minecraft:golden_apple"
+    },
+    "result": {
+        "id": "minecraft:structure_block",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"dsb.items.rings.amulet_of_life\",\"color\":\"white\",\"italic\":false}",
+            "minecraft:lore": ["{\"text\":\"\"}","{\"translate\": \"dsb.items.rings.amulet_of_life.lore\", \"color\": \"aqua\", \"italic\": false}"],
+            "max_stack_size": 1,
+            "minecraft:item_model": "dsb:rings/amulet_of_life",
+            "minecraft:custom_data": {
+              "Amulet": 1,
+              "AmuletOfLife": 1
+            }
+          }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:score",
+    "target": "this",
+    "score": "use.hexagon_arrows"
+  },
+  "range": {
+    "min": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "*search"
+      },
+      "score": "use.hexagon_arrows"
+    },
+    "max": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "*search"
+      },
+      "score": "use.hexagon_arrows"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+$function dsb:constructions/blaze_spawner/work/on_blocks/replace_obsidian with storage dsb:cts BlazeSpawner.$(uuid).ReplaceableBlocks[$(index)]

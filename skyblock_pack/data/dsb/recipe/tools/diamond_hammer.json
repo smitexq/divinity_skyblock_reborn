@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "+/+",
+    " / "
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    "/": "minecraft:stick",
+    "+": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "minecraft:diamond_pickaxe",
+    "components": {
+        "minecraft:custom_name": "{\"translate\":\"dsb.items.tool.diamond_hammer\",\"color\":\"white\",\"italic\":false}",
+        "minecraft:max_damage": 1500,
+        "minecraft:item_model": "dsb:tools/diamond_hammer",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "minecraft:cobblestone",
+              "speed": 7.5,
+              "correct_for_drops": true
+            }
+          ],
+          "damage_per_block": 1
+        },
+        "minecraft:custom_data": {
+          "id": "diamond_hammer",
+          "tag": "hammers"
+        }
+      }
+  }
+}

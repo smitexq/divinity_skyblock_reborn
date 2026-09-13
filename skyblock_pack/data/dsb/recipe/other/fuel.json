@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dsb",
+  "ingredients": [
+    "minecraft:gunpowder",
+    "minecraft:gunpowder",
+    "#minecraft:coals"
+  ],
+  "result": {
+    "components": {
+      "minecraft:item_model": "dsb:fuel",
+      "minecraft:custom_data": "{id:\"fuel\"}",
+      "minecraft:custom_name": "{\"translate\":\"dsb.items.fuel\",\"color\":\"white\",\"italic\":false}"
+    },
+    "count": 1,
+    "id": "minecraft:structure_block"
+  }
+}

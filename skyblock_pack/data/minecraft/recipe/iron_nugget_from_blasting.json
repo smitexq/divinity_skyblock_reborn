@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": [
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_shovel",
+    "minecraft:iron_axe",
+    "minecraft:iron_hoe",
+    "minecraft:iron_sword",
+    "minecraft:iron_helmet",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "minecraft:iron_horse_armor",
+    "minecraft:chainmail_helmet",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_leggings",
+    "minecraft:chainmail_boots",
+    "minecraft:chain",
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:iron_bars",
+    "minecraft:damaged_anvil",
+    "minecraft:shears",
+    "minecraft:shield",
+    "minecraft:detector_rail",
+    "minecraft:rail",
+    "minecraft:iron_door",
+    "minecraft:anvil",
+    "minecraft:iron_trapdoor",
+    "minecraft:minecart",
+    "minecraft:hopper_minecart",
+    "minecraft:compass",
+    "minecraft:bucket",
+    "minecraft:chipped_anvil"
+  ],
+  "result": {
+    "id": "minecraft:iron_nugget"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

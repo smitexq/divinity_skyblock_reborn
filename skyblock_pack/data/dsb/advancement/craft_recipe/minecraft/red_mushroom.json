@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_mushroom"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:crafts/minecraft/red_mushroom"
+  }
+}

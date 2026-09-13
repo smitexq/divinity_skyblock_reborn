@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:structure_block",
+          "predicates": {
+            "minecraft:custom_data": "{id:\"oxeye_daisy_tea\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "food:tea/oxeye_daisy/main"
+  }
+}

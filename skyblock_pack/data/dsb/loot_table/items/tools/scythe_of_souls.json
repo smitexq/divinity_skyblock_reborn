@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.tool.scythe_of_souls",
+                "color": "dark_purple",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                {"translate": "dsb.items.tool.scythe_of_souls.lore1", "color": "light_purple", "italic": false},
+                {"text":""},
+                {"translate": "dsb.items.tool.scythe_of_souls.lore2", "color": "light_purple"},
+                {"translate": "dsb.items.tool.scythe_of_souls.lore3", "color": "light_purple", "with":["§kвозродить Дракона"]}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:tools/scythe_of_souls",
+                "minecraft:max_damage": 300,
+                "minecraft:tool": {
+                  "rules": []
+                },
+                "minecraft:custom_data": {
+                  "id": "scythe_of_souls"
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

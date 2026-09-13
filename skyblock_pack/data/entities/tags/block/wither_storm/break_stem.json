@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sugar_cane",
+    "minecraft:bamboo",
+    "minecraft:big_dripleaf_stem",
+    "minecraft:big_dripleaf",
+    "minecraft:small_dripleaf"
+  ]
+}

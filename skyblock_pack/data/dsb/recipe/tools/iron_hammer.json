@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#/#",
+    " / "
+  ],
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:iron_pickaxe",
+    "components": {
+        "minecraft:custom_name": "{\"translate\":\"dsb.items.tool.iron_hammer\",\"color\":\"white\",\"italic\":false}",
+        "minecraft:max_damage": 230,
+        "minecraft:item_model": "dsb:tools/iron_hammer",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "minecraft:cobblestone",
+              "speed": 6.1,
+              "correct_for_drops": true
+            }
+          ],
+          "damage_per_block": 1
+        },
+        "minecraft:custom_data": {
+          "id": "iron_hammer",
+          "tag": "hammers"
+        }
+      }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/desert_archives/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 6,
+  "total_mobs": 5,
+  "simultaneous_mobs": 3,
+  "simultaneous_mobs_added_per_player": 1,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:wither_skeleton",
+          "CustomName": "{\"translate\":\"dsb.entity.curse_tomb_guardian\",\"color\":\"dark_purple\"}",
+          "attributes": [
+            {"id": "minecraft:max_health", "base":40},
+            {"id": "minecraft:armor", "base":6},
+            {"id": "minecraft:attack_damage", "base":7}
+          ],
+          "Team": "DesertArchivesEntities",
+          "Tags": [
+            "entity"
+          ]
+        },
+        "equipment": {
+          "loot_table": "gen:equipment/desert_archives/melee_weapon",
+          "slot_drop_chances": 0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 25
+}

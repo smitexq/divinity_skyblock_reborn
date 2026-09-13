@@ -1,0 +1,1 @@
+$data modify entity @s Items[{Slot:14b}].components."minecraft:custom_name" set value '{"text":"$(CountFloraPoints)","color":"green","italic": false}'

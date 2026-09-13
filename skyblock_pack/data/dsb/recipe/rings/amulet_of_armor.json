@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "++ ",
+        "+ +",
+        "*+ "
+    ],
+    "key": {
+        "+": "minecraft:iron_nugget",
+        "*": "minecraft:nautilus_shell"
+    },
+    "result": {
+        "id": "minecraft:structure_block",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"dsb.items.rings.amulet_of_armor\",\"color\":\"white\",\"italic\":false}",
+            "minecraft:lore": ["{\"text\":\"\"}","{\"translate\": \"dsb.items.rings.amulet_of_armor.lore\", \"color\": \"aqua\", \"italic\": false}"],
+            "max_stack_size": 1,
+            "minecraft:item_model": "dsb:rings/amulet_of_armor",
+            "minecraft:custom_data": {
+              "Amulet": 1,
+              "AmuletOfArmor": 1
+            }
+          }
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.rings.sacrificial_ring",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_stack_size": 1,
+                "minecraft:item_model": "dsb:rings/sacrificial",
+                "minecraft:custom_data": {
+                  "id": "SacrificialRing", //Только для предмета изучения используется
+                  "Ring": 1,
+                  "SacrificialRing": 1,
+                  "used": 0
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                [{"translate": "dsb.items.rings.sacrificial_ring.lore1", "color": "aqua", "italic": false}],
+                [{"translate": "dsb.items.rings.sacrificial_ring.lore2", "color": "aqua", "italic": false}]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

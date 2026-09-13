@@ -1,0 +1,46 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/frozen_castle/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 6,
+  "total_mobs": 4,
+  "simultaneous_mobs": 2,
+  "simultaneous_mobs_added_per_player": 1.5,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:wolf",
+          "CustomName": "{\"translate\":\"dsb.entity.ice_hound\",\"color\":\"blue\"}",
+          "attributes": [
+            {"id": "minecraft:scale","base": 1.7},
+            {"id": "minecraft:max_health","base": 30},
+            {"id": "minecraft:armor","base": 6},
+            {"id": "minecraft:attack_damage","base": 14}
+          ],
+          "Health": 30,
+          "Team": "FrozenCastleEntities",
+          "Tags": [
+            "entity",
+            "ice_hound"
+          ],
+          "body_armor_item": {
+            "id": "minecraft:wolf_armor",
+            "components": {
+              "minecraft:dyed_color": {
+                "rgb": 468672
+              }
+            }
+          },
+          "CollarColor": 9,
+          "variant": "minecraft:black"
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 30
+}

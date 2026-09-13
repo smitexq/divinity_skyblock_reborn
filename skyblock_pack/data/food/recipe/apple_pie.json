@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "aaa",
+    "sms",
+    "wew"
+  ],
+  "key": {
+    "a": "minecraft:apple",
+    "w": "minecraft:wheat",
+    "s": "minecraft:sugar",
+    "e": "minecraft:egg",
+    "m": "minecraft:milk_bucket"
+  },
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "animation": "eat"
+      },
+      "minecraft:food": {
+        "nutrition": 9,
+        "saturation": 4.8
+      },
+      "minecraft:item_model": "dsb:food/apple_pie",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.apple_pie'}]",
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 10
+    }
+  }
+}

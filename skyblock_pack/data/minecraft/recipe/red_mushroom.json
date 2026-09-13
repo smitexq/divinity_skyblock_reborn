@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "W",
+        "D"
+    ],
+    "key": {
+        "#": "minecraft:bone_meal",
+        "W": "minecraft:crimson_fungus",
+        "D": "minecraft:dirt"
+    },
+    "result": {
+        "id": "minecraft:red_mushroom"
+    }
+}

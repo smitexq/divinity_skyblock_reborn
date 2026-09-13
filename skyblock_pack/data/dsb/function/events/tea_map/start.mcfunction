@@ -1,0 +1,4 @@
+function dc:get_call {tick:20, command:"advancement revoke @s only dsb:events/use/tea_map", requirePos:false, requireEntity:true}
+
+playsound minecraft:entity.experience_orb.pickup ambient @s
+tellraw @s {"color":"yellow","translate":"dsb.events.use_tea_map","with":[{"translate":"dsb.items.food.green_tea"},{"color":"gold","score":{"objective":"ConsumeGreenTea","name":"@s"}},{"translate":"dsb.items.food.birch_tea"},{"color":"gold","score":{"objective":"ConsumeBirchTea","name":"@s"}},{"translate":"dsb.items.food.berries_tea"},{"color":"gold","score":{"objective":"ConsumeBerriesTea","name":"@s"}},{"translate":"dsb.items.food.oxeye_daisy_tea"},{"color":"gold","score":{"objective":"ConsumeOxeyeDaisyTea","name":"@s"}},{"translate":"dsb.items.food.sakura_tea"},{"color":"gold","score":{"objective":"ConsumeSakuraTea","name":"@s"}},{"translate":"dsb.items.food.black_tea"},{"color":"gold","score":{"objective":"ConsumeBlackTea","name":"@s"}}]}

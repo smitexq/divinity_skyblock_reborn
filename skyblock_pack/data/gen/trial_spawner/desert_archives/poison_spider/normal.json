@@ -1,0 +1,34 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/desert_archives/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 6,
+  "total_mobs": 4,
+  "simultaneous_mobs": 2,
+  "simultaneous_mobs_added_per_player": 1,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:cave_spider",
+          "CustomName": "{\"translate\":\"dsb.entity.poison_spider\",\"color\":\"green\"}",
+          "attributes": [
+            {"id": "minecraft:max_health", "base":12},
+            {"id": "minecraft:attack_damage", "base":2},
+            {"id": "minecraft:scale", "base":0.5}
+          ],
+          "Team": "DesertArchivesEntities",
+          "Tags": [
+            "entity",
+            "archives_poison_spider"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 15
+}

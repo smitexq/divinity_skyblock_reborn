@@ -1,0 +1,1 @@
+$summon minecraft:item ~ ~ ~ {Tags:["WaterBombAnimation"],Item:{id:"minecraft:conduit", count:1, components:{"minecraft:max_stack_size":1}},PickupDelay:-1,Motion:[$(SignX)$(MotionX)d, $(SignY)$(MotionY)d, $(SignZ)$(MotionZ)d]}

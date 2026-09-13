@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " * ",
+        "_+#",
+        " / "
+    ],
+    "key": {
+        "+": "minecraft:book",
+        "_": "#dsb:ice",
+        "#": "minecraft:diamond",
+        "*": "minecraft:feather",
+        "/": "minecraft:sunflower"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:stored_enchantments": {"silk_touch":1}
+          }
+    }
+}

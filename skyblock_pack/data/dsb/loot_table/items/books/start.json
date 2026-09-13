@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.title",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:item_model": "dsb:tools/start_book",
+                "minecraft:written_book_content": {
+                  "pages": [
+                    "[{'text':'\uE981\\n\\n', 'font':'dsb','color':'white'},{'text':'\\n\uE001 ','color':'white'},{'clickEvent':{'action':'change_page','value':'2'},'translate':'dsb.start_book.chapter_text.1', 'font':'default','color':'black'},{'text':'\\n\uE002 ','color':'white'},{'clickEvent':{'action':'change_page','value':'4'},'translate':'dsb.start_book.chapter_text.2', 'font':'default','color':'black'},{'text':'\\n\uE003 ','color':'white'},{'clickEvent':{'action':'change_page','value':'9'},'translate':'dsb.start_book.chapter_text.3', 'font':'default','color':'black'},{'text':'\\n\uE004 ','color':'white'},{'clickEvent':{'action':'change_page','value':'16'},'translate':'dsb.start_book.chapter_text.4', 'font':'default','color':'black'},{'text':'\\n\uE005 ','color':'white'},{'clickEvent':{'action':'change_page','value':'25'},'translate':'dsb.start_book.chapter_text.5', 'font':'default','color':'black'},{'text':'\\n\uE006 ','color':'white'},{'clickEvent':{'action':'change_page','value':'29'},'translate':'dsb.start_book.chapter_text.6', 'font':'default','color':'black'},{'text':'\\n\uE007 ','color':'white'},{'clickEvent':{'action':'change_page','value':'34'},'translate':'dsb.start_book.chapter_text.7', 'font':'default','color':'black'},{'text':'\\n\uE008 ','color':'white'},{'clickEvent':{'action':'change_page','value':'40'},'translate':'dsb.start_book.chapter_text.8', 'font':'default','color':'black'}]",
+
+                    "[{'translate':'dsb.start_book.chapter_text.1', 'color':'light_purple','bold':true},'\n',{'translate':'dsb.start_book.pages.2', 'color':'black','bold':false}]",
+                    "{'translate':'dsb.start_book.pages.3','with':[{'clickEvent':{'action':'change_page','value':'1'},'translate':'dsb.books.go_to_begining', 'color':'dark_green','bold':true}]}",
+                    
+                    "[{'translate':'dsb.start_book.chapter_text.2', 'color':'light_purple','bold':true},'\n',{'translate':'dsb.start_book.pages.4', 'color':'black','bold':false}]",
+                    "{'translate':'dsb.start_book.pages.5'}",
+                    "{'translate':'dsb.start_book.pages.6'}",
+                    "{'translate':'dsb.start_book.pages.7'}",
+                    "{'translate':'dsb.start_book.pages.8','with':[{'clickEvent':{'action':'change_page','value':'1'},'translate':'dsb.books.go_to_begining', 'color':'dark_green','bold':true}]}",
+                    "[{'translate':'dsb.start_book.chapter_text.3', 'color':'light_purple','bold':true},'\n',{'translate':'dsb.start_book.pages.9', 'color':'black','bold':false}]",
+                    "{'translate':'dsb.start_book.pages.10'}",
+                    "{'translate':'dsb.start_book.pages.11'}",
+                    "{'translate':'dsb.start_book.pages.12'}",
+                    "{'translate':'dsb.start_book.pages.13'}",
+                    "{'translate':'dsb.start_book.pages.14'}",
+                    "{'translate':'dsb.start_book.pages.15','with':[{'clickEvent':{'action':'change_page','value':'1'},'translate':'dsb.books.go_to_begining', 'color':'dark_green','bold':true}]}",
+                    "[{'translate':'dsb.start_book.chapter_text.4', 'color':'light_purple','bold':true},'\n',{'translate':'dsb.start_book.pages.16', 'color':'black','bold':false}]",
+                    "{'translate':'dsb.start_book.pages.17'}",
+                    "{'translate':'dsb.start_book.pages.18'}",
+                    "{'translate':'dsb.start_book.pages.19'}",
+                    "{'translate':'dsb.start_book.pages.20'}",
+                    "{'translate':'dsb.start_book.pages.21'}",
+                    "{'translate':'dsb.start_book.pages.22'}",
+                    "{'translate':'dsb.start_book.pages.23'}",
+                    "{'translate':'dsb.start_book.pages.24','with':[{'clickEvent':{'action':'change_page','value':'1'},'translate':'dsb.books.go_to_begining', 'color':'dark_green','bold':true}]}",
+                    "[{'translate':'dsb.start_book.chapter_text.5', 'color':'light_purple','bold':true},'\n',{'translate':'dsb.start_book.pages.25', 'color':'black','bold':false}]",
+                    "{'translate':'dsb.start_book.pages.26'}",
+                    "{'translate':'dsb.start_book.pages.27'}",
+                    "{'translate':'dsb.start_book.pages.28','color':'dark_green','clickEvent':{'action':'run_command','value':'/trigger GetRecipesBook'},'with':[{'clickEvent':{'action':'change_page','value':'1'},'translate':'dsb.books.go_to_begining', 'color':'dark_green','bold':true}]}",
+                    "[{'translate':'dsb.start_book.chapter_text.6', 'color':'light_purple','bold':true},'\n',{'translate':'dsb.start_book.pages.29', 'color':'black','bold':false}]",
+                    "{'translate':'dsb.start_book.pages.30','with':[{'clickEvent':{'action':'change_page','value':'25'},'translate':'dsb.start_book.chapter_text.5', 'color':'dark_green','bold':true}]}",
+                    "{'translate':'dsb.start_book.pages.31'}",
+                    "{'translate':'dsb.start_book.pages.32'}",
+                    "{'translate':'dsb.start_book.pages.33','with':[{'clickEvent':{'action':'change_page','value':'1'},'translate':'dsb.books.go_to_begining', 'color':'dark_green','bold':true}]}",
+                    "[{'translate':'dsb.start_book.chapter_text.7', 'color':'light_purple','bold':true},'\n',{'translate':'dsb.start_book.pages.34', 'color':'black','bold':false}]",
+                    "{'translate':'dsb.start_book.pages.35'}",
+                    
+
+                    "[{'text':'','extra':[{'text':'§f\uE497 ','font':'dsb'},{'translate':'dsb.items.food.apple_juice','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x6      x3'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE501','font':'dsb'}}}, {'text':'','extra':[{'text':'\n\n\n§f\uE496 ','font':'dsb'},{'translate':'dsb.items.food.berry_juice','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x3      x2.4'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE502','font':'dsb'}}},{'text':'','extra':[{'text':'\n\n\n§f\uE495 ','font':'dsb'},{'translate':'dsb.items.food.berry_cookie','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x2      x0.2'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE503','font':'dsb'}}}]",
+
+                    "[{'text':'','extra':[{'text':'§f\uE494 ','font':'dsb'},{'translate':'dsb.items.food.apple_pie','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x9      x4.8'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE504','font':'dsb'}}}, {'text':'','extra':[{'text':'\n\n\n§f\uE493 ','font':'dsb'},{'translate':'dsb.items.food.wheat_porridge','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x9      x13'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE505','font':'dsb'}}}, {'text':'','extra':[{'text':'\n\n\n§f\uE492 ','font':'dsb'},{'translate':'dsb.items.food.chicken_soup','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x9      x7'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE506','font':'dsb'}}}]",
+
+                    "[{'text':'','extra':[{'text':'§f\uE491 ','font':'dsb'},{'translate':'dsb.items.food.meat_soup','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x20      x30'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE507','font':'dsb'}}}, {'text':'','extra':[{'text':'\n\n\n§f\uE490 ','font':'dsb'},{'translate':'dsb.items.food.salad_of_greans','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x4      x2'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE508','font':'dsb'}}}, {'text':'','extra':[{'text':'\n\n\n§f\uE489 ','font':'dsb'},{'translate':'dsb.items.food.fruit_salad','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x6      x4'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE509','font':'dsb'}}}]",
+
+                    "[{'text':'','extra':[{'text':'§f\uE488 ','font':'dsb'},{'translate':'dsb.items.food.ice_cream','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x3      x1.5'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE510','font':'dsb'}}}, {'text':'','extra':[{'text':'\n\n\n§f\uE487 ','font':'dsb'},{'translate':'dsb.items.food.fish_and_chips','underlined':true},{'text':'§f\n\uE498    \uE499','font':'dsb'},{'text':'\n    x11      x6'}],'hoverEvent':{'action':'show_text','contents':{'text':'\uE511','font':'dsb'}}}, {'text':'\n\n'}, {'clickEvent':{'action':'change_page','value':'1'},'translate':'dsb.books.go_to_begining', 'color':'dark_green','bold':true}]",
+
+
+                    "[{'translate':'dsb.start_book.chapter_text.8', 'color':'light_purple','bold':true},'\n',{'translate':'dsb.start_book.pages.40', 'color':'black','bold':false}]",
+                    "{'translate':'dsb.start_book.pages.41'}",
+                    "{'translate':'dsb.start_book.pages.42','with':[{'translate':'dsb.start_book.pages.42_ins','color':'dark_green','hoverEvent':{'action':'show_text','contents':{'text':'\uE512','font':'dsb'}}}]}",
+                    "{'translate':'dsb.start_book.pages.43','with':[{'translate':'dsb.start_book.pages.43_ins','color':'dark_green','hoverEvent':{'action':'show_text','contents':{'text':'\uE513','font':'dsb'}}}, {'translate':'item.minecraft.string','color':'dark_green','hoverEvent':{'action':'show_text','contents':{'text':'\uE514','font':'dsb'}}}]}",
+                    "{'translate':'dsb.start_book.pages.44','with':[{'clickEvent':{'action':'change_page','value':'1'},'translate':'dsb.books.go_to_begining', 'color':'dark_green','bold':true}]}"
+                  ],
+                  "title": {
+                    "raw": "Guide"
+                  },
+                  "author": "",
+                  "generation": 3
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,36 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/desert_archives/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 6,
+  "total_mobs": 7,
+  "simultaneous_mobs": 4,
+  "simultaneous_mobs_added_per_player": 1,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:skeleton",
+          "CustomName": "{\"translate\":\"dsb.entity.tomb_guardian\",\"color\":\"gray\"}",
+          "attributes": [
+            {"id": "minecraft:max_health", "base":60},
+            {"id": "minecraft:attack_damage", "base":5}
+          ],
+          "Team": "DesertArchivesEntities",
+          "Tags": [
+            "entity"
+          ]
+        },
+        "equipment": {
+          "loot_table": "gen:equipment/desert_archives/random",
+          "slot_drop_chances": 0
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 20
+}

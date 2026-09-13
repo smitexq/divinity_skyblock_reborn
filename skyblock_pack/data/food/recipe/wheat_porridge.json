@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    " w ",
+    "wmw",
+    " b "
+  ],
+  "key": {
+    "w": "minecraft:wheat",
+    "b": "minecraft:bowl",
+    "m": "minecraft:milk_bucket"
+  },
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "animation": "eat"
+      },
+      "minecraft:food": {
+        "nutrition": 9,
+        "saturation": 13
+      },
+      "minecraft:item_model": "dsb:food/wheat_porridge_full",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.wheat_porridge'}]",
+      "minecraft:lore": [
+        "{\"translate\":\"dsb.items.food.number_servings\",\"color\":\"aqua\",\"italic\": false, \"with\":[\"2/2\"]}"
+      ],
+      "minecraft:rarity": "common",
+      "minecraft:max_stack_size": 3,
+      "minecraft:use_remainder": {
+        "id": "minecraft:structure_block",
+        "count": 1,
+        "components": {
+          "minecraft:consumable": {
+            "animation": "eat"
+          },
+          "minecraft:food": {
+            "nutrition": 7,
+            "saturation": 13
+          },
+          "minecraft:item_model": "dsb:food/wheat_porridge",
+          "minecraft:item_name": "[{'translate':'dsb.items.food.wheat_porridge'}]",
+          "minecraft:lore": [
+            "{\"translate\":\"dsb.items.food.number_servings\",\"color\":\"aqua\",\"italic\": false, \"with\":[\"1/2\"]}"
+          ],
+          "minecraft:rarity": "common",
+          "minecraft:max_stack_size": 3,
+          "minecraft:use_remainder": {
+            "id": "minecraft:bowl",
+            "count": 1
+          }
+        }
+      }
+    }
+  }
+}

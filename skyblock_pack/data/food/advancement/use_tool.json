@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "durability": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"UseSakuraTea\"]}"
+        },
+        "item": {
+          "items": "#food:durability"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "durability"
+    ]
+  ],
+  "rewards": {
+    "function": "food:tea/sakura/return_durability"
+  }
+}

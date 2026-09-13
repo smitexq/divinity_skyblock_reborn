@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "charcoal": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_pickaxe_smithing",
+        "ingredients": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "diamond_hammer"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:crafts/bugs/craft_netherite_hammer_in_smithing"
+  }
+}

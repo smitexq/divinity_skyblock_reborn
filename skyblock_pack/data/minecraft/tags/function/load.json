@@ -1,0 +1,12 @@
+{
+	"values": [
+		"dc:gu/load",
+		"dsb:load",
+		"gen:load",
+		"food:load",
+		"math:zprivate/init",
+		"entities:load",
+		"player_motion:internal/technical/load",
+		"slowcast:zprivate/init"
+	]
+}

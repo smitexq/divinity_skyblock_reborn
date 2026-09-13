@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd",
+      "components": {
+        "minecraft:item_model": "dsb:recipes/build_recipe"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.dif.start.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.dif.start.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "structure_block",
+            "predicates": {
+              "minecraft:custom_data": {
+                "tag": "recipe"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/root"
+}

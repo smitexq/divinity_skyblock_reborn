@@ -1,0 +1,1 @@
+advancement grant @a only dsb:skyblock/entities/wither

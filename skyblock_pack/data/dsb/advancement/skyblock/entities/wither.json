@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "dsb.advancement.ent.wither.name",
+      "color": "dark_red"
+    },
+    "description": {
+      "translate": "dsb.advancement.ent.wither.lore",
+      "color": "red"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    }
+  },
+  "parent": "dsb:skyblock/entities/soul_of_abyss",
+  "rewards": {
+    "function": "dsb:advancement/kill_a_wither"
+  }
+}

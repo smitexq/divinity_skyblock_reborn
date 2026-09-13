@@ -1,0 +1,7 @@
+advancement revoke @s only entities:entity_hurt_player/desert_archives/priest
+
+execute store result score *var1 variables run random value 0..9
+execute if score *var1 variables matches 0..3 run effect give @s minecraft:weakness 15 0
+
+execute store result score *var1 variables run random value 0..9
+execute if score *var1 variables matches 0..2 run effect give @s minecraft:blindness 15 0

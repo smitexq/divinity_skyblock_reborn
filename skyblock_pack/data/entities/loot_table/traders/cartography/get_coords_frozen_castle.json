@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.exploration_map.frozen_castle",
+                "color": "#3fc8ca",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text": ""},
+                {"translate": "dsb.items.death_scroll.coords.text", "color": "#13898b","italic": false},
+                {"translate": "dsb.items.death_scroll.coords", "color": "#13898b","italic": false, "with":[{"storage":"dsb_gen:gen", "nbt": "Dungeons.FrozenCastle.x"}, {"storage":"dsb_gen:gen", "nbt": "Dungeons.FrozenCastle.y"}, {"storage":"dsb_gen:gen", "nbt": "Dungeons.FrozenCastle.z"}]}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 3636977
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

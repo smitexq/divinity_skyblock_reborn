@@ -1,0 +1,1 @@
+execute as @e[type=#entities:hostile_mobs,tag=!ActiveHealing,distance=..9] at @s run function entities:mobs/abilities/regeneration/variable_health_option

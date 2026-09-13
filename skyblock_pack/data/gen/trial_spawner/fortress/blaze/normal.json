@@ -1,0 +1,29 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/fortress/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 10,
+  "total_mobs": 5,
+  "simultaneous_mobs": 3,
+  "simultaneous_mobs_added_per_player": 1,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:blaze",
+          "CustomName": "{\"translate\":\"dsb.entity.spirit\",\"color\":\"yellow\"}",
+          "Team": "FortressEntities",
+          "DeathLootTable": "",
+          "Tags": [
+            "entity"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 30
+}

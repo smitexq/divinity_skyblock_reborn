@@ -1,0 +1,2 @@
+setblock ~ ~ ~ air
+summon minecraft:skeleton ~ ~ ~ {Tags:["entity"], PersistenceRequired:1b, ArmorItems:[{},{},{},{id:"minecraft:leather_helmet", count:1b, components:{"minecraft:unbreakable":{}}}], attributes:[{id:"minecraft:attack_damage",base:0}], HandItems:[{},{id:"minecraft:dirt", count:4}], HandDropChances:[1f,1f], ArmorDropChances:[1f,1f,1f,1f]}

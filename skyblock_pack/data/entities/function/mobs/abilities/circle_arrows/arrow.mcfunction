@@ -1,0 +1,1 @@
+$summon arrow ~$(DivX).$(ModX) ~1 ~$(DivZ).$(ModZ) {Fire:300,Motion:[0.0d,-4.0d,0.0d],pickup:1b,damage:1}

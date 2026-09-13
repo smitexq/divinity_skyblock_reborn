@@ -1,0 +1,15 @@
+{
+  "biomes": "minecraft:the_end",
+  "start_jigsaw_name": "gen:island/init",
+  "liquid_settings": "ignore_waterlogging",
+  "spawn_overrides": {},
+  "type": "minecraft:jigsaw",
+  "start_pool": "gen:islands/dungeon/fortress/init/setup",
+  "size": 20,
+  "step": "surface_structures",
+  "start_height": {
+    "absolute": 50
+  },
+  "max_distance_from_center": 128,
+  "use_expansion_hack": false
+}

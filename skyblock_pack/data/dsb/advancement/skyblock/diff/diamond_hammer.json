@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd",
+      "components": {
+        "minecraft:item_model": "dsb:tools/diamond_hammer"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.dif.diamond_hammer.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.dif.diamond_hammer.lore"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond_pickaxe",
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "diamond_hammer"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/diff/golden_hammer"
+}

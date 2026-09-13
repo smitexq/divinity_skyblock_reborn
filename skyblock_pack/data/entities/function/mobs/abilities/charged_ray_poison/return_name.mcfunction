@@ -1,0 +1,1 @@
+execute if entity @s[type=zombie, tag=uncommon] run return run data modify entity @s CustomName set value '{"translate":"dsb.entity.boss.zombie.uncommon","color":"green"}'

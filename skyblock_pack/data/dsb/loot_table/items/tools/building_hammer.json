@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"dsb.items.tool.building_hammer\",\"color\":\"red\"}",
+                "minecraft:item_model": "dsb:tools/building_hammer",
+                "minecraft:custom_data": "{id:\"building_hammer\"}",
+                "minecraft:max_stack_size": 3,
+                "minecraft:entity_data": {
+                  "id": "marker",
+                  "Tags": [
+                    "structure_spawn_pos"
+                  ]
+                },
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

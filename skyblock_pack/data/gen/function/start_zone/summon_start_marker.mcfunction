@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) positioned ~ ~-5 ~ run summon marker ~ ~ ~ {Tags:["StartIslandCoords"]}

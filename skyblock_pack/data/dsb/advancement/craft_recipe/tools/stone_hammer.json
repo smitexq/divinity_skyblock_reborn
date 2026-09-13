@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dsb:tools/stone_hammer"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:crafts/tools/stone_hammer"
+  }
+}

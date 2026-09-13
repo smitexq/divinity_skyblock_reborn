@@ -1,0 +1,1 @@
+$data remove storage dsb:quests Tasks[{PlayerUUID: $(out)}]

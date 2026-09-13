@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#/#",
+    " / "
+  ],
+  "key": {
+    "#": "minecraft:cobblestone",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:stone_pickaxe",
+    "components": {
+        "minecraft:custom_name": "{\"translate\":\"dsb.items.tool.stone_hammer\",\"color\":\"white\",\"italic\":false}",
+        "minecraft:max_damage": 120,
+        "minecraft:item_model": "dsb:tools/stone_hammer",
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "minecraft:cobblestone",
+              "speed": 3.5,
+              "correct_for_drops": true
+            }
+          ],
+          "damage_per_block": 1
+        },
+        "minecraft:custom_data": {
+          "id": "stone_hammer",
+          "tag": "hammers"
+        }
+      }
+  }
+}

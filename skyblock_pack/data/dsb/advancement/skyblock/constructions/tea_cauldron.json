@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:barrel",
+      "components": {
+        "minecraft:item_model": "dsb:food/tea_leaves"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.cst.tea_cauldron.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.cst.tea_cauldron.lore",
+      "color": "green"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/constructions/water.collector"
+}

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.death_scroll.name",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:death_scroll"
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text": ""},
+                {"translate": "dsb.items.death_scroll.player","with": [{"selector": "@s"}] , "color": "gold","italic": false},
+                {"translate": "dsb.items.death_scroll.dimension","with": [{"storage": "dsb:temp", "nbt": "DeathScroll.dimension"}] , "color": "gold","italic": false},
+                {"translate": "dsb.items.death_scroll.coords.text", "color": "gold","italic": false},
+                {"translate": "dsb.items.death_scroll.coords","with": [{"storage": "dsb:temp", "nbt": "DeathScroll.x"}, {"storage": "dsb:temp", "nbt": "DeathScroll.y"}, {"storage": "dsb:temp", "nbt": "DeathScroll.z"}] , "color": "yellow","italic": false}
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

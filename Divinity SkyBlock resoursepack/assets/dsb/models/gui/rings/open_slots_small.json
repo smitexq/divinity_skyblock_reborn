@@ -1,0 +1,26 @@
+{
+  "textures": {
+    "texture": "dsb:gui/rings/open_slots_small"
+  },
+  "gui_light":"front",
+  "elements": [    
+    {
+      "__comment": "PlaneX1",
+      "from": [ 0, 0, 0 ],
+      "to": [ 0, 30, 30 ],
+      "faces": {
+        "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation":  [ 0, -90, 0 ],
+      "translation":  [ 32, -14, 0 ],
+      "scale":  [ 2, 2, 2 ]
+    },
+    "ground" :{
+      "scale": [0,0,0]
+    }
+  }
+}

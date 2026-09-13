@@ -1,0 +1,10 @@
+{
+	"values": [
+		"gen:tick",
+		"dsb:main",
+		"rings:tick",
+		"entities:tick",
+		"slowcast:zprivate/main",
+		"animation:tick"
+	]
+}

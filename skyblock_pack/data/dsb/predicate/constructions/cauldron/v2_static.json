@@ -1,0 +1,203 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "offsetY": -2,
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobbled_deepslate_slab",
+          "state": {
+            "type": "bottom"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobbled_deepslate"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "offsetY": -2,
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobblestone_wall"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "offsetY": -2,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobbled_deepslate"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "predicate": {
+        "block": {
+          "blocks": "#dsb:cauldron"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "offsetY": -2,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobbled_deepslate"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "offsetY": -2,
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobblestone_wall"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobbled_deepslate"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "offsetY": -2,
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobbled_deepslate_slab",
+          "state": {
+            "type": "bottom"
+          }
+        }
+      }
+    },
+
+
+
+
+
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "offsetY": -1,
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobbled_deepslate_slab",
+          "state": {
+            "type": "bottom"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobblestone_wall"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobblestone_wall"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "offsetY": -1,
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobbled_deepslate_slab",
+          "state": {
+            "type": "bottom"
+          }
+        }
+      }
+    },
+
+
+
+
+
+
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobblestone_stairs",
+          "state": {
+            "facing": "south",
+            "half": "bottom",
+            "shape": "straight"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:cauldron",
+            "minecraft:lava_cauldron",
+            "minecraft:water_cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:cobblestone_stairs",
+          "state": {
+            "facing": "north",
+            "half": "bottom",
+            "shape": "straight"
+          }
+        }
+      }
+    }
+  ]
+}

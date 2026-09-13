@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " / ",
+        "_+#",
+        " / "
+    ],
+    "key": {
+        "+": "minecraft:book",
+        "#": "minecraft:amethyst_shard",
+        "_": "minecraft:iron_sword",
+        "/": "minecraft:flint"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:stored_enchantments": {"sharpness":2}
+          }
+    }
+}

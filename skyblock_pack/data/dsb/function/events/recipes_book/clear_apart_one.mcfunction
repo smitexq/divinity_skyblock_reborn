@@ -1,0 +1,1 @@
+$clear @s minecraft:written_book[minecraft:custom_data~{id:"recipes_book"}] $(count)

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:structure_block",
+          "predicates": {
+            "minecraft:custom_data": {
+              "tag": "ResearchRecipe"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/research_recipe/main"
+  }
+}

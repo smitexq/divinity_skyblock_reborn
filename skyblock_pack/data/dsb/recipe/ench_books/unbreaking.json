@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " / ",
+        "_+#",
+        " / "
+    ],
+    "key": {
+        "+": "minecraft:book",
+        "_": "minecraft:iron_ingot",
+        "#": "minecraft:brick",
+        "/": "minecraft:clay_ball"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:stored_enchantments": {"unbreaking":1}
+          }
+    }
+}

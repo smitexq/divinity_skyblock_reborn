@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.exploration_map.fortress",
+                "color": "red",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text": ""},
+                {"translate": "dsb.items.death_scroll.coords.text", "color": "dark_red","italic": false},
+                {"translate": "dsb.items.death_scroll.coords", "color": "dark_red","italic": false, "with":[{"text":"123", "obfuscated": true}, {"text":"12", "obfuscated": true}, {"text":"123", "obfuscated": true}]}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "id": "exploration_map",
+                  "tag": "fortress"
+                },
+                "minecraft:map_color": 13369396,
+                "minecraft:consumable": {
+                  "consume_seconds": 10000000000,
+                  "has_consume_particles": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

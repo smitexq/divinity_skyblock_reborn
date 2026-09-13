@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "s": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:spider",
+            "nbt": "{Tags:[\"archives_spider\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "entities:entity_hurt_player/desert_archives/spider"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.exploration_map.sea_king",
+                "color": "aqua",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text": ""},
+                {"translate": "dsb.items.death_scroll.coords.text", "color": "blue","italic": false},
+                {"translate": "dsb.items.death_scroll.coords", "color": "blue","italic": false, "with":[{"storage":"dsb_gen:gen", "nbt": "Dungeons.SeaKing.x"}, {"storage":"dsb_gen:gen", "nbt": "Dungeons.SeaKing.y"}, {"storage":"dsb_gen:gen", "nbt": "Dungeons.SeaKing.z"}]}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 1758674
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

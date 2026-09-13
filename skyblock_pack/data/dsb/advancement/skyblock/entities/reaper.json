@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd",
+      "components": {
+        "minecraft:item_model": "dsb:soul"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.ent.reaper.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.ent.reaper.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chain_command_block",
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "soul"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/entities/kill_1000_mob"
+}

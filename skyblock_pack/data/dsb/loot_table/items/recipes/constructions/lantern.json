@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.constructions.title",
+                "color": "dark_aqua",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.recipes.constructions.lantern"}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:recipes/build_recipe",
+                "minecraft:custom_data": {
+                  "id": "RecipeOf_LanternOfPeace",
+                  "tag": "recipe",
+                  "tier_ai": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                [{"translate": "dsb.recipes.rarity_level", "color": "aqua", "italic": false}, {"text": ": §6★★☆☆"}],
+                {"text":""},
+                {"translate": "dsb.recipes.research_level", "color": "aqua", "italic": false, "with":[{"translate": "dsb.recipes.ai.RecipeOf_LanternOfPeace"}]},
+                {"translate": "dsb.recipes.can_be_research", "color": "aqua", "italic": false}
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

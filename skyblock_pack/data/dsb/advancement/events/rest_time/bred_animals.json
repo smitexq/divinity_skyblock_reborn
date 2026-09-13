@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "123": {
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/rest_time/bred_animals"
+  }
+}

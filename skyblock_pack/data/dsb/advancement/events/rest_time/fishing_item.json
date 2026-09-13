@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fishing_bobber"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/rest_time/fishing_item"
+  }
+}

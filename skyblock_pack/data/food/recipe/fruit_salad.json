@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    "minecraft:bowl",
+    "minecraft:sugar",
+    "minecraft:apple",
+    [
+      "minecraft:melon_slice",
+      "minecraft:sweet_berries"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "animation": "eat"
+      },
+      "minecraft:food": {
+        "nutrition": 6,
+        "saturation": 4
+      },
+      "minecraft:max_stack_size": 5,
+      "minecraft:item_model": "dsb:food/fruit_salad",
+      "minecraft:item_name": "[{'translate':'dsb.items.food.fruit_salad'}]",
+      "minecraft:rarity": "common",
+      "minecraft:use_remainder": {
+        "id": "minecraft:bowl"
+      }
+    }
+  }
+}

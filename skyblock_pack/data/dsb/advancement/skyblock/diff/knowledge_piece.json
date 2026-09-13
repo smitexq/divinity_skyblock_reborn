@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:arms_up_pottery_sherd",
+      "components": {
+        "minecraft:item_model": "dsb:knowledge_piece"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.dif.knowledge_piece.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.dif.knowledge_piece.lore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:structure_block",
+          "predicates": {
+            "minecraft:custom_data": {
+              "id": "knowledge_piece"
+            }
+          }
+        }
+      }
+    }
+  },
+  "parent": "dsb:skyblock/diff/meat"
+}

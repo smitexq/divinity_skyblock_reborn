@@ -1,0 +1,10 @@
+execute positioned ~ ~0.4 ~ run function entities:mobs/abilities/wither_storm/particles/1
+execute positioned ~ ~0.65 ~ run function entities:mobs/abilities/wither_storm/particles/2
+execute positioned ~ ~0.9 ~ run function entities:mobs/abilities/wither_storm/particles/3
+execute positioned ~ ~1.2 ~ run function entities:mobs/abilities/wither_storm/particles/4
+execute positioned ~ ~1.35 ~ run function entities:mobs/abilities/wither_storm/particles/5
+execute positioned ~ ~1.5 ~ run function entities:mobs/abilities/wither_storm/particles/6
+execute positioned ~ ~1.65 ~ run function entities:mobs/abilities/wither_storm/particles/7
+execute positioned ~ ~1.8 ~ run function entities:mobs/abilities/wither_storm/particles/8
+execute positioned ~ ~2 ~ run function entities:mobs/abilities/wither_storm/particles/9
+execute positioned ~ ~2.2 ~ run function entities:mobs/abilities/wither_storm/particles/10

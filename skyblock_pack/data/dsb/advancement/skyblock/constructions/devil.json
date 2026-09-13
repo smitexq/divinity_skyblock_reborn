@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crying_obsidian",
+      "components": {
+        "minecraft:item_model": "dsb:rings/sacrificial"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.cst.devil.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.cst.devil.lore",
+      "color": "green"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/constructions/nether.converter"
+}

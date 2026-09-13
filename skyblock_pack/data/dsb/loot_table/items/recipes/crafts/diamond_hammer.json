@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.recipes.crafts.title",
+                "color": "dark_green",
+                "italic": false,
+                "with": [
+                  {"translate":"dsb.items.tool.diamond_hammer"}
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "dsb:recipes/craft_recipe",
+                "minecraft:custom_data": {
+                  "id": "RecipeOfCraft_diamondHammer",
+                  "tag": "recipe",
+                  "tier_ai": 3
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                [{"translate": "dsb.recipes.rarity_level", "color": "green", "italic": false}, {"text": ": §4★★★★"}],
+                {"text":""},
+                {"translate": "dsb.recipes.research_level", "color": "green", "italic": false, "with":[{"translate": "dsb.recipes.ai.RecipeOfCraft_diamondHammer"}]},
+                {"translate": "dsb.recipes.can_be_research", "color": "green", "italic": false},
+                {"text":""},
+                [{"translate": "dsb.recipes.create_on_workbench", "color": "green", "italic": false}]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

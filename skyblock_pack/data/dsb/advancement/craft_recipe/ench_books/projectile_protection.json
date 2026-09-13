@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dsb:ench_books/projectile_protection"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:crafts/ench_books/projectile_protection"
+  }
+}

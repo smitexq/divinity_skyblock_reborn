@@ -1,0 +1,1 @@
+$function dc:get_call {tick:$(time), command:"function dsb:constructions/$(cst)/as_player {out:$(out)}", requirePos:false, requireEntity:true}

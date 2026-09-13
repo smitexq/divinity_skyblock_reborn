@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl",
+      "components": {
+        "minecraft:item_model": "dsb:rings/scholar_ring"
+      }
+    },
+    "title": {
+      "translate": "dsb.advancement.adv.max_adventure.name"
+    },
+    "description": {
+      "translate": "dsb.advancement.adv.max_adventure.lore"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:structure_block",
+            "predicates": {
+              "minecraft:custom_data": {
+                "ScholarRing": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "dsb:skyblock/travel/tp_stone"
+}

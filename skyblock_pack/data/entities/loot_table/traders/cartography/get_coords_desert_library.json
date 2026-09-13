@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.exploration_map.desert_library",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text": ""},
+                {"translate": "dsb.items.death_scroll.coords.text", "color": "gold","italic": false},
+                {"translate": "dsb.items.death_scroll.coords", "color": "gold","italic": false, "with":[{"storage":"dsb_gen:gen", "nbt": "Dungeons.DesertLibrary.x"}, {"storage":"dsb_gen:gen", "nbt": "Dungeons.DesertLibrary.y"}, {"storage":"dsb_gen:gen", "nbt": "Dungeons.DesertLibrary.z"}]}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 13999361
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

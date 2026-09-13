@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{count: 1, Slot: 3b, id: \"minecraft:sandstone\"}, {count: 1, Slot: 4b, id: \"minecraft:obsidian\"}, {count: 1, Slot: 5b, id: \"minecraft:sandstone\"}, {count: 1, Slot: 12b, id: \"minecraft:diamond\"}, {count: 1, Slot: 13b, id: \"minecraft:end_crystal\"}, {count: 1, Slot: 14b, id: \"minecraft:diamond\"}, {count: 1, Slot: 21b, id: \"minecraft:sandstone\"}, {count: 1, Slot: 22b, id: \"minecraft:obsidian\"}, {count: 1, Slot: 23b, id: \"minecraft:sandstone\"}]}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{count: 1, Slot: 3b, id: \"minecraft:sandstone\"}, {count: 1, Slot: 4b, id: \"minecraft:diamond\"}, {count: 1, Slot: 5b, id: \"minecraft:sandstone\"}, {count: 1, Slot: 12b, id: \"minecraft:obsidian\"}, {count: 1, Slot: 13b, id: \"minecraft:end_crystal\"}, {count: 1, Slot: 14b, id: \"minecraft:obsidian\"}, {count: 1, Slot: 21b, id: \"minecraft:sandstone\"}, {count: 1, Slot: 22b, id: \"minecraft:diamond\"}, {count: 1, Slot: 23b, id: \"minecraft:sandstone\"}]}"
+        }
+      }
+    }
+  ]
+}

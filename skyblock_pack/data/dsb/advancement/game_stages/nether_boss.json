@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin_brute",
+          "nbt": "{Tags:[\"SoulOfAbyss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:events/set_game_stage"
+  }
+}

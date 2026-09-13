@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " * ",
+        "_+#",
+        " / "
+    ],
+    "key": {
+        "+": "minecraft:book",
+        "_": "minecraft:iron_sword",
+        "#": "minecraft:egg",
+        "/": "minecraft:slime_ball",
+        "*": "minecraft:firework_star"
+    },
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {
+            "minecraft:stored_enchantments": {"smite":2}
+          }
+    }
+}

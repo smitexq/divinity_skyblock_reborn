@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "Unlocked": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "dsb:rings/amulet_of_armor"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsb:crafts/rings/amulet_of_armor"
+  }
+}

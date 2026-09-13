@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "gen:all_corals",
+          "expand": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+$item replace block ~ ~ ~ container.4 with minecraft:black_stained_glass_pane[minecraft:custom_data={null:1b}, minecraft:hide_tooltip={}, minecraft:custom_model_data=$(level)]

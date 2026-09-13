@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"createFire\"]}"
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"createFire\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1",
+      "2"
+    ]
+  ],
+  "rewards": {
+    "function": "dsb:events/fire/actions/check"
+  }
+}

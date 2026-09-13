@@ -1,0 +1,204 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:all_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "attacker",
+                          "predicate": {
+                            "nbt": "{Tags:[\"BlackTea1\"]}"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.25
+                        }
+                      ]
+                    },
+                    {
+                      "condition": "minecraft:all_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "attacker",
+                          "predicate": {
+                            "nbt": "{Tags:[\"BlackTea2\"]}"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "condition": "minecraft:all_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "attacker",
+                          "predicate": {
+                            "nbt": "{Tags:[\"BlackTea3\"]}"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:ghast_tear"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "add": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "condition": "minecraft:all_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "attacker",
+                          "predicate": {
+                            "nbt": "{Tags:[\"BlackTea1\"]}"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.25
+                        }
+                      ]
+                    },
+                    {
+                      "condition": "minecraft:all_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "attacker",
+                          "predicate": {
+                            "nbt": "{Tags:[\"BlackTea2\"]}"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.5
+                        }
+                      ]
+                    },
+                    {
+                      "condition": "minecraft:all_of",
+                      "terms": [
+                        {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "attacker",
+                          "predicate": {
+                            "nbt": "{Tags:[\"BlackTea3\"]}"
+                          }
+                        },
+                        {
+                          "condition": "minecraft:random_chance",
+                          "chance": 0.8
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:entities/branch"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:entities/netherite_upgrade"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/ghast"
+}

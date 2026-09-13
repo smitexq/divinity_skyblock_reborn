@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.rings.ancient_ring_of_the_sun",
+                "color": "white",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "max_stack_size": 1,
+                "minecraft:item_model": "dsb:rings/red_sun",
+                "minecraft:custom_data": {
+                  "Ring": 1,
+                  "AncientRingOfTheSun": 1
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {"text":""},
+                [{"translate": "dsb.items.rings.ancient_ring_of_the_sun.lore1", "color": "aqua", "italic": false}],
+                [{"translate": "dsb.items.rings.ancient_ring_of_the_sun.lore2", "color": "aqua", "italic": false}]
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+$data remove storage dsb:dc Tasks[{UUID:$(UUID),command:"$(command)"}]

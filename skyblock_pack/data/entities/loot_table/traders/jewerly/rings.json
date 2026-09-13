@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/advanced_gui"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/sacrificial_ring"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/vampire"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/wanderer_ring"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/southern_ritual_ring"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/northern_ritual_ring"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/ring_of_disaster"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/hawk_ring"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/amulet_of_intelligence"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "dsb:items/rings/amulet_of_luck"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "entities:traders/jewerly/rings"
+}

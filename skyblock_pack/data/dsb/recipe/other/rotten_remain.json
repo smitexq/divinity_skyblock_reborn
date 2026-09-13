@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bone",
+    "minecraft:bone",
+    "minecraft:rotten_flesh",
+    "minecraft:rotten_flesh",
+    [
+      "minecraft:gunpowder",
+      "minecraft:spider_eye"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+    "count": 3,
+    "components": {
+      "minecraft:custom_name": "{\"translate\":\"dsb.items.rotten_remains.name\",\"color\":\"white\",\"italic\":false}",
+      "minecraft:item_model": "dsb:rotten",
+      "minecraft:custom_data": {
+        "id":"rotten_remains"
+      }
+    }
+  }
+}

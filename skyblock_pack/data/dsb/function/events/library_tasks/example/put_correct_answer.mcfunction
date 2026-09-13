@@ -1,0 +1,2 @@
+$data modify storage dsb:library_tasks Task.orderAns insert $(index) from storage dsb:library_tasks Task.ans
+$data modify storage dsb:library_tasks Task.trigger insert $(index) from storage dsb:library_tasks Task.ansKey

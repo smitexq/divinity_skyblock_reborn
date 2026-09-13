@@ -1,0 +1,1 @@
+item replace entity @s inventory.0 with black_stained_glass_pane[minecraft:item_name='{"translate":"dsb.gui.rings.open_slots", "color":"gold"}', minecraft:custom_data={accessories_font:1b,open_rings_slots:1b,open:0b}, minecraft:custom_model_data=100]

@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "player.cursor": {
+          "predicates": {
+            "minecraft:bundle_contents": {
+              "items": {
+                "contains": [
+                  {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                        "null": true
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+]

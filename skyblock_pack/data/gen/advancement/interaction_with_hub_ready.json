@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "target": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"hub_ready_player\"]}"
+        }
+      }
+    },
+    "push": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"hub_ready_player\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "push",
+      "target"
+    ]
+  ],
+  "rewards": {
+    "function": "gen:on_load/hub_text/action"
+  }
+}

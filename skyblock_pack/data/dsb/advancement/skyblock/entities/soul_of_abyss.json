@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_shrieker"
+    },
+    "title": {
+      "translate": "dsb.advancement.ent.soul_of_abyss.name",
+      "color": "dark_purple"
+    },
+    "description": {
+      "translate": "dsb.advancement.ent.soul_of_abyss.lore",
+      "color": "light_purple"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dsb:skyblock/entities/sea_king"
+}

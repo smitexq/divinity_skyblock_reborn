@@ -1,0 +1,34 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "data": "gen:dungeon/frozen_castle/spawner",
+      "weight": 1
+    }
+  ],
+  "spawn_range": 6,
+  "total_mobs": 5,
+  "total_mobs_added_per_player": 1,
+  "simultaneous_mobs": 3,
+  "simultaneous_mobs_added_per_player": 1,
+  "spawn_potentials": [
+    {
+      "data": {
+        "entity": {
+          "id": "minecraft:breeze",
+          "CustomName": "{\"translate\":\"dsb.entity.frozen_spirit\",\"color\":\"white\"}",
+          "attributes": [
+            {"id": "minecraft:max_health", "base":10},
+            {"id": "minecraft:attack_damage", "base":5}
+          ],
+          "Health": 10,
+          "Team": "FrozenCastleEntities",
+          "Tags": [
+            "entity"
+          ]
+        }
+      },
+      "weight": 1
+    }
+  ],
+  "ticks_between_spawn": 25
+}

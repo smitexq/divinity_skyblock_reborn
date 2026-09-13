@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:light",
+    "minecraft:structure_void",
+    "minecraft:fire",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:dead_bush",
+    "minecraft:sculk_vein",
+    "minecraft:vine",
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:weeping_vines",
+    "minecraft:weeping_vines_plant",
+    "minecraft:twisting_vines",
+    "minecraft:twisting_vines_plant",
+    "minecraft:tripwire",
+    "minecraft:sugar_cane"
+  ]
+}

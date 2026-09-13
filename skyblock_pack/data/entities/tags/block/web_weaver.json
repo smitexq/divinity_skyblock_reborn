@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:light",
+    "minecraft:structure_void",
+    "minecraft:cobweb",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:dead_bush",
+    "minecraft:sculk_vein",
+    "minecraft:vine",
+    "minecraft:tripwire"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "dsb.items.link_crystal.active",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {"text": ""},
+                {"translate": "dsb.items.link_crystal.connect_to", "color": "gold","italic": false},
+                {"translate": "dsb.items.death_scroll.dimension","with": [{"storage": "dsb:temp", "nbt": "waystone.dimension"}] ,"color": "gold","italic": false},
+                {"translate": "dsb.items.death_scroll.coords.text", "color": "gold","italic": false},
+                {"translate": "dsb.items.death_scroll.coords","with": [{"storage": "dsb:temp", "nbt": "waystone.x"}, {"storage": "dsb:temp", "nbt": "waystone.y"}, {"storage": "dsb:temp", "nbt": "waystone.z"}] , "color": "yellow","italic": false}
+              ],
+              "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:item_model": "dsb:link_crystal",
+                "minecraft:custom_data": {
+                  "id":"link_crystal",
+                  "link": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

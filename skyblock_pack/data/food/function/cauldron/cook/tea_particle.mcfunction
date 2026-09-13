@@ -1,0 +1,6 @@
+$execute if entity @s[tag=GreenTea] run return run particle minecraft:entity_effect{color:[0.04f,0.8f,0.33f,1f]} ~ ~ ~ 0.2 0.2 0.2 0 $(count)
+$execute if entity @s[tag=OxeyeDaisyTea] run return run particle minecraft:entity_effect{color:[0.44f,0.92f,0.63f,0.7f]} ~ ~ ~ 0.2 0.2 0.2 0 $(count)
+$execute if entity @s[tag=BirchTea] run return run particle minecraft:entity_effect{color:[0.1f,0.32f,0.05f,1.0f]} ~ ~ ~ 0.2 0.2 0.2 0 $(count)
+$execute if entity @s[tag=BerriesTea] run return run particle minecraft:entity_effect{color:[1.0f,0.29f,0.29f,0.85f]} ~ ~ ~ 0.2 0.2 0.2 0 $(count)
+$execute if entity @s[tag=BlackTea] run return run particle minecraft:entity_effect{color:[0.56f,0.08f,0.08f,1.0f]} ~ ~ ~ 0.2 0.2 0.2 0 $(count)
+$execute if entity @s[tag=SakuraTea] run return run particle minecraft:entity_effect{color:[1.0f,0.19f,0.53f,0.4f]} ~ ~ ~ 0.2 0.2 0.2 0 $(count)

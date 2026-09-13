@@ -1,0 +1,3 @@
+#Если у игрока нет предмета в слоте, то берем предмет из могилы из этого же слота. Так же удаляем его из инвентаря могилы
+$execute unless data storage dsb:grave db.PlayerInventory[{Slot:$(TargetSlot)b}] run data modify block 17112022 255 0 Items append from storage dsb:grave db.$(Namespace)[{Slot:$(NewSlot)b}]
+$execute unless data storage dsb:grave db.PlayerInventory[{Slot:$(TargetSlot)b}] run data remove storage dsb:grave db.GraveInventory[{Slot:$(TargetSlot)b}]

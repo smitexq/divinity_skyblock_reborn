@@ -1,0 +1,1 @@
+$function gen:templates/biomes/$(TemplateId)

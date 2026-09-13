@@ -1,0 +1,1 @@
+$spreadplayers ~ ~ $(range) under $(maxHeight) false $(target)

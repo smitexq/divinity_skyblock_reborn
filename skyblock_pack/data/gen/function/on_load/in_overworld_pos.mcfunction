@@ -1,0 +1,1 @@
+$execute in minecraft:overworld positioned $(x) $(y) $(z) run function gen:on_load/set_new_worldspawn

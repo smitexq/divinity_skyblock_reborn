@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"dsb.items.tool.building_plan\",\"color\":\"aqua\"}",
+                "minecraft:item_model": "dsb:tools/building_plan",
+                "minecraft:custom_data": "{id:\"building_plan\"}",
+                "minecraft:entity_data": {
+                  "id": "marker",
+                  "Tags": [
+                    "structure_spawn_pos"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

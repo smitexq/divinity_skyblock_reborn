@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:paper",
+    "#minecraft:leaves"
+  ],
+  "result": {
+    "id": "minecraft:structure_block",
+        "components": {
+            "minecraft:custom_name": "{\"translate\":\"dsb.items.tea_map\",\"color\":\"white\",\"italic\":false}",
+            "minecraft:item_model": "dsb:tools/tea_map",
+            "minecraft:custom_data": {
+              "id": "tea_map"
+            },
+            "minecraft:consumable": {
+              "consume_seconds": 10000000000,
+              "has_consume_particles": false
+            }
+          }
+  }
+}
