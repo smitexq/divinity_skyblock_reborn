@@ -1,1 +1,1 @@
-$execute as @a if dimension gen:winter_queen in minecraft:overworld run tp @s $(x) $(y) $(z)
+$execute as @a at @s if dimension gen:winter_queen in minecraft:overworld run tp @s $(x) $(y) $(z)

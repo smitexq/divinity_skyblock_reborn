@@ -519,7 +519,7 @@
     "offsetX": 4,
     "predicate": {
       "block": {
-        "blocks": "minecraft:candle"
+        "blocks": "#minecraft:candles"
       }
     }
   },
@@ -528,7 +528,7 @@
     "offsetX": -4,
     "predicate": {
       "block": {
-        "blocks": "minecraft:candle"
+        "blocks": "#minecraft:candles"
       }
     }
   },
@@ -537,7 +537,7 @@
     "offsetZ": 4,
     "predicate": {
       "block": {
-        "blocks": "minecraft:candle"
+        "blocks": "#minecraft:candles"
       }
     }
   },
@@ -546,7 +546,7 @@
     "offsetZ": -4,
     "predicate": {
       "block": {
-        "blocks": "minecraft:candle"
+        "blocks": "#minecraft:candles"
       }
     }
   },

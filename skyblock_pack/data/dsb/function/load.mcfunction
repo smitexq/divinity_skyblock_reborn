@@ -212,6 +212,7 @@ scoreboard objectives add dsb.adv.kill_mobs dummy
 ###Хранилища
 #Изучения рецептов
 function dsb:admin/set_recipes
+function dsb:admin/storages/recipes
 #Столы
 function dsb:admin/storages/composter
 function dsb:admin/storages/research_table
