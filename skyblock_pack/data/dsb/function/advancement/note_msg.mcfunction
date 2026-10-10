@@ -22,6 +22,8 @@ execute if entity @a[advancements={dsb:notes/desert_temple=true}] run advancemen
 
 execute if entity @a[advancements={dsb:notes/find_eleum_lois=true}] run advancement grant @a only dsb:notes/find_eleum_lois
 
+execute if entity @a[advancements={dsb:notes/tp_to_tomb=true}] run advancement grant @a only dsb:notes/tp_to_tomb
+
 execute if entity @a[advancements={dsb:notes/end_portal=true}] run advancement grant @a only dsb:notes/end_portal
 
 execute if entity @a[advancements={dsb:notes/ender_dragon=true}] run advancement grant @a only dsb:notes/ender_dragon

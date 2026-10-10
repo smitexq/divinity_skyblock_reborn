@@ -84,7 +84,7 @@
       "offsetZ": 1,
       "predicate": {
         "block": {
-          "blocks": "minecraft:copper_bulb"
+          "blocks": "#dsb:copper_bulbs"
         }
       }
     },

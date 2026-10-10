@@ -1,11 +1,16 @@
 #устанавливаем шалкер для возврата предметов
 setblock 17112022 255 0 light_blue_shulker_box
+
 ###Записываем в хранилище инвентарь из могилы а так же, уровень опыта
 #out - UUID могилки (взаимодействие)
 $data modify storage dsb:grave db.GraveInventory set from storage dsb:grave All[{UUID:$(out)}].Inventory
 $data modify storage dsb:grave lvl.XpLevel set from storage dsb:grave All[{UUID:$(out)}].XpLevel
 $data modify storage dsb:grave lvl.XpPoints set from storage dsb:grave All[{UUID:$(out)}].XpPoints
 $data modify storage dsb:grave acces.SaveAccessories set from storage dsb:grave All[{UUID:$(out)}].SaveAccessories
+#dev_beta_1.1 - дюп: в случае изначального отсутствия колец, хранилища (acces.SaveAccessories) не существует. Из-за чего предметы в шалкере не перезаписываются
+execute unless data storage dsb:grave acces.SaveAccessories run data modify storage dsb:grave acces.SaveAccessories set value []
+###
+
 #Уничтожаем взаимодействие, далее работаем с хранилищем
 kill @s
 

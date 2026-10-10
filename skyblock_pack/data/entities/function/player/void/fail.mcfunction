@@ -4,6 +4,10 @@ tellraw @s {"fallback":"Unfortunate, the grave did not spawn","translate":"dsb.e
 #Очистка хранилища
 data remove storage dsb:temp Grave
 
+###Очистка записанных колец
+function entities:player/void/clear_storage with storage dsb:grave new
+###
+
 #очищаем инвентарь игрока и его уровень опыта
 experience set @s 0 levels
 experience set @s 0 points

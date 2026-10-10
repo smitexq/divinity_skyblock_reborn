@@ -2,6 +2,7 @@ advancement revoke @s only entities:bosses/kill_a_winter_queen
 
 execute if score *summon WinterQueen matches 0 run return fail
 scoreboard players set *summon WinterQueen 0
+scoreboard players set *prepare_to_teleport gameplay 0
 
 bossbar set dsb:boss.winter visible false
 execute as @a at @s run playsound minecraft:event.mob_effect.raid_omen ambient @s

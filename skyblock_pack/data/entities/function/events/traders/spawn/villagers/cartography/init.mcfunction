@@ -16,7 +16,7 @@ function entities:events/traders/spawn/villagers/cartography/add_map {path:"old_
 #
 
 #Карта к Незерской крепости
-execute if score *nether GameStage matches 1 run function entities:events/traders/spawn/villagers/cartography/add_map {path:"fortress", id:"blaze_rod", count:20}
+execute if score *nether GameStage matches 1 run function entities:events/traders/spawn/villagers/cartography/add_map {path:"fortress", id:"magma_cream", count:8}
 #
 
 #Карта к Заброшенной библиотеке

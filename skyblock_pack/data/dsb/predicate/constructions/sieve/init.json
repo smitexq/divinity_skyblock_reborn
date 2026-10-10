@@ -4,7 +4,7 @@
     "offsetZ": -1,
     "predicate": {
       "block": {
-        "block": "#minecraft:wooden_trapdoors",
+        "blocks": "#minecraft:wooden_trapdoors",
         "state": {
           "open": "true",
           "facing": "north",
@@ -18,7 +18,7 @@
     "offsetX": -1,
     "predicate": {
       "block": {
-        "block": "#minecraft:wooden_trapdoors",
+        "blocks": "#minecraft:wooden_trapdoors",
         "state": {
           "open": "true",
           "facing": "west",
@@ -32,7 +32,7 @@
     "offsetZ": 1,
     "predicate": {
       "block": {
-        "block": "#minecraft:wooden_trapdoors",
+        "blocks": "#minecraft:wooden_trapdoors",
         "state": {
           "facing": "south",
           "open": "true",
@@ -46,7 +46,7 @@
     "offsetX": 1,
     "predicate": {
       "block": {
-        "block": "#minecraft:wooden_trapdoors",
+        "blocks": "#minecraft:wooden_trapdoors",
         "state": {
           "facing": "east",
           "open": "true",
@@ -60,7 +60,7 @@
     "offsetY": -1,
     "predicate": {
       "block": {
-        "block": "#minecraft:planks"
+        "blocks": "#minecraft:planks"
       }
     }
   },
@@ -68,7 +68,7 @@
     "condition": "minecraft:location_check",
     "predicate": {
       "block": {
-        "block": "minecraft:scaffolding",
+        "blocks": "minecraft:scaffolding",
         "state": {
           "waterlogged": "false"
         }

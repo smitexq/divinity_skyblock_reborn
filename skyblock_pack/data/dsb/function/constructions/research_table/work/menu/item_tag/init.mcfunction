@@ -11,7 +11,7 @@ scoreboard players operation *var1 variables -= *var2 variables
 execute if score *var1 variables matches 1.. store result block ~ ~ ~ Items[{Slot:12b}].count int 1 run return run scoreboard players get *var1 variables
 
 #иначе заменяем на "готово" и выставляем успех на этот предмет 1
-item replace block ~ ~ ~ container.12 with minecraft:orange_stained_glass_pane[minecraft:hide_tooltip={}, minecraft:custom_data={null:1b}]
+item replace block ~ ~ ~ container.12 with minecraft:orange_stained_glass_pane[minecraft:hide_tooltip={}, minecraft:custom_data={null:1b}, minecraft:item_model="dsb:ui/complete_button"]
 $data modify storage dsb:cts ResearchTable.$(uuid).successResult[$(index)].num set value 1
 
 

@@ -3,6 +3,7 @@ data modify block 17112022 255 0 Items set from storage dsb:grave db.GraveInvent
 #возвращаем 3 строчки
 loot spawn ~ ~ ~ mine 17112022 255 0 minecraft:stick[minecraft:custom_data={drop_contents:true}]
 
+#dev_beta_1.1 - дюп: в случае изначального отсутствия колец, хранилища (acces.SaveAccessories) не существует. Из-за чего предметы в шалкере не перезаписываются
 #записываем оставшиеся предметы из сохранившихся аксессуаров
 data modify block 17112022 255 0 Items set from storage dsb:grave acces.SaveAccessories
 #возвращаем их
