@@ -1,9 +1,7 @@
 #В первый слот вставляем душу
-setblock 17112022 1 0 minecraft:light_blue_shulker_box{Items:[{Slot:0b, id:"minecraft:structure_block", count:1, components:{"minecraft:item_model": "dsb:fire_soul", "minecraft:custom_data": "{id:\"fire_soul\"}", "minecraft:enchantment_glint_override": true, "minecraft:custom_name": "{\"translate\":\"dsb.items.fire_soul\",\"color\":\"white\",\"italic\":false}"}}]}
+setblock 17112022 1 0 minecraft:light_blue_shulker_box
 setblock 17112022 0 0 minecraft:shulker_box
-loot insert 17112022 0 0 mine 17112022 1 0 minecraft:stick[minecraft:custom_data={drop_contents:true}]
-#
-data remove block 17112022 1 0 Items
+item replace block 17112022 0 0 container.0 from entity @s weapon.mainhand food:set_count_1
 
 ###Вставляем кол-во душ из хранилища. Если его там 0, то заменяем на воздух
 $data modify block 17112022 0 0 Items[0].count set from storage dsb:cts BlazeSpawner.$(out).itemCount
@@ -13,7 +11,7 @@ $execute if data storage dsb:cts BlazeSpawner.$(out){itemCount:0} run item repla
 execute unless predicate dsb:events/is_sneaking run item replace block 17112022 1 0 container.0 from entity @s weapon.mainhand food:set_count_1
 execute if predicate dsb:events/is_sneaking run item replace block 17112022 1 0 container.0 from entity @s weapon.mainhand
 
-#Добавляем предмет из руки к предметам в котле
+#Добавляем предмет из руки к предметам в спавнере
 loot insert 17112022 0 0 mine 17112022 1 0 minecraft:stick[minecraft:custom_data={drop_contents:true}]
 
 ### Убираем из руки, при этом блокируем обновление колец, дабы не вызвать конфликт gu:main

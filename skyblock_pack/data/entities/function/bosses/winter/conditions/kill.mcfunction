@@ -1,5 +1,9 @@
 advancement revoke @s only entities:bosses/kill_a_winter_queen
 
+#Для финального достижения на всех боссов
+scoreboard players set #kill_winter_queen gameplay 1
+#
+
 execute if score *summon WinterQueen matches 0 run return fail
 scoreboard players set *summon WinterQueen 0
 scoreboard players set *prepare_to_teleport gameplay 0

@@ -1,6 +1,11 @@
 ﻿{
 	"pack": {
 		"pack_format": 57,
-		"description": "§6§nSkyBlock made by Smite (discord: Smite#9239)"
-	}
+		"description": "§6§nCоздано Smite (discord.gg/f6WfXqW6zU - сообщество участников проекта)"
+	},
+	"features": {
+    	"enabled": [
+	      "minecraft:trade_rebalance"
+	    ]
+  	}
 }

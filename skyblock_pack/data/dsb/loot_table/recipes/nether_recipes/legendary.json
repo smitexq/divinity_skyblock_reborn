@@ -43,7 +43,7 @@
                 "type": "minecraft:score",
                 "target": {
                   "type": "minecraft:fixed",
-                  "name": "*nether_boss"
+                  "name": "*desert_archives"
                 },
                 "score": "GameStage"
               },
@@ -61,21 +61,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dsb:items/recipes/rituals/totem",
-          "conditions": [
-            {
-              "condition": "minecraft:value_check",
-              "value": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "*nether"
-                },
-                "score": "GameStage"
-              },
-              "range": 1
-            }
-          ]
+          "value": "dsb:items/recipes/rituals/totem"
         }
       ]
     }

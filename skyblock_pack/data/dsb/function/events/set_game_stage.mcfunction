@@ -3,6 +3,7 @@ execute if entity @a[advancements={dsb:game_stages/traveler_ring=true}] run scor
 execute if entity @a[advancements={dsb:game_stages/scholar_ring=true}] run scoreboard players set *scholar_ring GameStage 1
 execute if entity @a[advancements={dsb:game_stages/nether=true}] run scoreboard players set *nether GameStage 1
 execute if entity @a[advancements={dsb:game_stages/nether_boss=true}] run scoreboard players set *nether_boss GameStage 1
+execute if entity @a[advancements={dsb:skyblock/travel/escape=true}] run scoreboard players set *desert_archives GameStage 1
 # execute if entity @a[advancements={dsb:game_stages/eleum_lois=true}] run scoreboard players set *eleum_lois GameStage 1
 
 

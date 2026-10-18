@@ -18,7 +18,7 @@ execute if score *var1 variables matches 1 run return run function dsb:events/di
 
 
 # высчитываем день
-execute store result storage dsb:grave new.day int 1 run function dsb:events/calculate_day
+execute store result storage dsb:grave new.day int 1 run function dsb:events/calculate_day/get
 
 # второй вариант
 execute as @e[type=text_display, sort=nearest, limit=1] at @s run tp @s ~ ~0.8 ~

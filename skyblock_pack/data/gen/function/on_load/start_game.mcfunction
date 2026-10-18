@@ -1,7 +1,10 @@
+gamerule sendCommandFeedback false
 scoreboard players set *start gameplay 1
+scoreboard players set #tp_to_overworld gameplay 1
 
 function gen:on_load/in_overworld_pos with storage dsb_gen:values SpawnCoords
 
+tag @a remove hub
 #выдача менюшки на закрытый слот колец
 execute as @a run function rings:api/return_open_gui_button
 #гайдбук
@@ -10,7 +13,6 @@ execute as @a run loot give @s loot dsb:items/books/start
 advancement grant @a only dsb:skyblock/root
 
 
-gamerule sendCommandFeedback false
 #Настройки игры
 difficulty hard
 defaultgamemode survival

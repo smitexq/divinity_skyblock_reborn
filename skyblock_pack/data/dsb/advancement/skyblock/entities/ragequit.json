@@ -15,9 +15,61 @@
     "hidden": false
   },
   "criteria": {
-    "1": {
-      "trigger": "minecraft:impossible"
+    "drowned": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "dsb.adv.drowned_kill_pl": {
+                "min": 11
+              }
+            }
+          }
+        ]
+      }
+    },
+    "soul": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "dsb.adv.soul_kill_pl": {
+                "min": 11
+              }
+            }
+          }
+        ]
+      }
+    },
+    "queen": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "dsb.adv.queen_kill_pl": {
+                "min": 11
+              }
+            }
+          }
+        ]
+      }
     }
   },
+  "requirements": [
+    [
+      "drowned",
+      "soul",
+      "queen"
+    ]
+  ],
   "parent": "dsb:skyblock/entities/sea_king"
 }

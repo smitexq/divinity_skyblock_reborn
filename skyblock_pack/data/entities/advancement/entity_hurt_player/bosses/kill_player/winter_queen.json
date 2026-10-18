@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:stray",
+          "nbt": "{Tags:[\"WinterBoss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "entities:entity_hurt_player/bosses/kill_player/winter_queen"
+  }
+}

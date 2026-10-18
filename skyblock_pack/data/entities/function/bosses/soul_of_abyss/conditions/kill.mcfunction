@@ -1,5 +1,9 @@
 advancement revoke @s only entities:bosses/kill_a_soul_of_abyss
 
+#Для финального достижения на всех боссов
+scoreboard players set #kill_soul_of_abyss gameplay 1
+#
+
 bossbar set dsb:boss.soul_of_abyss visible false
 execute as @a at @s run playsound minecraft:entity.wither.death ambient @s ~ ~ ~ 1
 

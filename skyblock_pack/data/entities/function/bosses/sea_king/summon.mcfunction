@@ -3,6 +3,9 @@ execute summon minecraft:drowned run function entities:bosses/sea_king/on_summon
 
 #Забираем у всех достижение, кто раньше бил босса
 advancement revoke @a only entities:player_hurt_entity/bosses_for_reward/drowned_king
+#Так же обнуляем счетчик для достижения "Фотограф"
+scoreboard players set @a dsb.adv.mvp 0
+#
 
 bossbar set dsb:boss.drowned_king max 3000
 bossbar set dsb:boss.drowned_king value 3000

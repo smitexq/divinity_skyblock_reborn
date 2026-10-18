@@ -16,11 +16,18 @@
   "parent": "dsb:notes/flying_boat",
   "criteria": {
     "1": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": {
-          "nbt": "{Tags:[\"RecipeOf_FlyingBoat\"]}"
-        }
+        "items": [
+          {
+            "items": "minecraft:structure_block",
+            "predicates": {
+              "minecraft:custom_data": {
+                "id": "RecipeOf_FlyingBoat"
+              }
+            }
+          }
+        ]
       }
     }
   },

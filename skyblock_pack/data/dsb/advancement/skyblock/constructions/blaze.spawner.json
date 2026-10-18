@@ -20,5 +20,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "dsb:skyblock/constructions/lanter_of_piece"
+  "parent": "dsb:skyblock/constructions/lantern_of_piece"
 }

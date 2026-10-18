@@ -1,6 +1,8 @@
 #Забираем у всех достижение, кто раньше бил босса
 advancement revoke @a only entities:player_hurt_entity/bosses_for_reward/soul_of_abyss
-
+#Так же обнуляем счетчик для достижения "Фотограф"
+scoreboard players set @a dsb.adv.mvp 0
+#
 
 scoreboard players set *summon SoulOfAbyss 1
 execute as @a at @s run playsound minecraft:block.end_portal.spawn ambient @s ~ ~ ~ 1 0.8

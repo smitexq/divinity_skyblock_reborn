@@ -27,6 +27,7 @@ tag @s add RecipeOf_saplings
 
 
 ###Если еще не началась игра, то ничего не делаем
+execute unless score *start gameplay matches 1 run tag @s add hub
 execute unless score *start gameplay matches 1 run return fail
 ###иначе нужно выдать книгу и меню
 

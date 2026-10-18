@@ -2,6 +2,10 @@ advancement revoke @s only entities:bosses/kill_a_drowned_king
 
 function entities:bosses/sea_king/conditions/remove_tasks
 
+#Для финального достижения на всех боссов
+scoreboard players set #kill_sea_king gameplay 1
+#
+
 tellraw @a {"translate":"dsb.events.bosses.kill_a_drowned_king","color":"gold"}
 execute as @a at @s run playsound minecraft:entity.blaze.death ambient @a ~ ~ ~ 2 2
 

@@ -1,7 +1,7 @@
 function dc:get_call {tick:1200, command:"function entities:events/traders/load/detect_time", requirePos:false, requireEntity:false}
 
 #Проверяем разницу между прошлым спавном и текущим днем
-execute store result score *var1 variables run function dsb:events/calculate_day
+execute store result score *var1 variables run function dsb:events/calculate_day/get
 scoreboard players operation *var1 variables -= #previousDay variables
 
 #Если не прошло минимум 4 дня, то ничего не делаем
@@ -20,7 +20,5 @@ scoreboard players set *var1 variables 60
 execute as @a[sort=random, limit=3] run function entities:events/traders/load/on_players
 
 execute store result score *var2 variables run random value 1..100 dsb:traders/spawn/get_chance_per_players
-# tellraw @a {"score":{"objective":"variables","name":"*var1"},"color":"gold"}
-# tellraw @a {"score":{"objective":"variables","name":"*var2"},"color":"red"}
 #Если сработал шанс
 execute if score *var2 variables <= *var1 variables run function entities:events/traders/load/success

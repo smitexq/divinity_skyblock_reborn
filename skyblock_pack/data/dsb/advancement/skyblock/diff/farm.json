@@ -16,7 +16,19 @@
   },
   "criteria": {
     "1": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:wheat"
+              }
+            }
+          }
+        ]
+      }
     }
   },
   "parent": "dsb:skyblock/diff/sea_king_summon"

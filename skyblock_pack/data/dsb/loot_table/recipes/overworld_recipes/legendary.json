@@ -43,7 +43,7 @@
                 "type": "minecraft:score",
                 "target": {
                   "type": "minecraft:fixed",
-                  "name": "*nether_boss"
+                  "name": "*desert_archives"
                 },
                 "score": "GameStage"
               },

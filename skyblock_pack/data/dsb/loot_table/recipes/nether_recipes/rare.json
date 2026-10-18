@@ -73,21 +73,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dsb:items/recipes/rituals/ender_chest",
-          "conditions": [
-            {
-              "condition": "minecraft:value_check",
-              "value": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "*nether"
-                },
-                "score": "GameStage"
-              },
-              "range": 1
-            }
-          ]
+          "value": "dsb:items/recipes/rituals/ender_chest"
         }
       ]
     }

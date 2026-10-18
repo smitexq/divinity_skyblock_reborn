@@ -28,7 +28,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "dsb.adv.research_recipe": 55
+              "dsb.adv.research_recipe": 52
             }
           }
         ]

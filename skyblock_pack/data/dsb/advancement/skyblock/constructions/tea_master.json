@@ -26,19 +26,25 @@
                 "condition": "minecraft:all_of",
                 "terms": [
                   {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                      "nbt": "{Tags:[\"GreenTea1\"]}"
-                    }
-                  },
-                  {
                     "condition": "minecraft:inverted",
                     "term": {
                       "condition": "minecraft:entity_properties",
                       "entity": "this",
                       "predicate": {
                         "nbt": "{Tags:[\"WearingAmuletOfLuck\"]}"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "effects": {
+                        "minecraft:luck": {
+                          "amplifier": {
+                            "min": 0
+                          }
+                        }
                       }
                     }
                   }
@@ -48,14 +54,14 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "nbt": "{Tags:[\"GreenTea2\"]}"
-                }
-              },
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "nbt": "{Tags:[\"GreenTea3\"]}"
+                  "nbt": "{Tags:[\"WearingAmuletOfLuck\"]}",
+                  "effects": {
+                    "minecraft:luck": {
+                      "amplifier": {
+                        "min": 1
+                      }
+                    }
+                  }
                 }
               }
             ]

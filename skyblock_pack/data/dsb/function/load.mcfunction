@@ -28,6 +28,7 @@ scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_d
 scoreboard objectives add TravelLevel dummy
 scoreboard objectives add RemoveFuel dummy
 scoreboard objectives add QuestTime dummy
+scoreboard objectives add CalcDay dummy
 #настройки
 scoreboard objectives add settings_death_info dummy
 scoreboard objectives add settings_vizual_time dummy
@@ -128,6 +129,10 @@ schedule function dsb:events/fire/find_player 2s
 #
 schedule clear dsb:events/schedules/1s
 schedule function dsb:events/schedules/1s 1s
+# Проверка прогруженности чанков для шалкера
+schedule clear dsb:events/schedules/15s
+schedule function dsb:events/schedules/15s 15s
+
 
 #Подсчет кол-ва убитых мобов для квестов
 scoreboard objectives add QuestReputation dummy
@@ -204,8 +209,13 @@ scoreboard objectives add dsb.adv.lose_hammer dummy
 scoreboard objectives add dsb.adv.constructions_count dummy
 scoreboard objectives add dsb.adv.research_recipe dummy
 scoreboard objectives add dsb.adv.true_compost dummy
-scoreboard objectives add dsb.adv.chill_guy minecraft.killed:minecraft.player
+scoreboard objectives add dsb.adv.chill_guy totalKillCount
 scoreboard objectives add dsb.adv.kill_mobs dummy
+scoreboard objectives add dsb.adv.mvp dummy
+
+scoreboard objectives add dsb.adv.drowned_kill_pl dummy
+scoreboard objectives add dsb.adv.soul_kill_pl dummy
+scoreboard objectives add dsb.adv.queen_kill_pl dummy
 ###
 
 
@@ -223,5 +233,6 @@ function dsb:admin/storages/ench_pages
 
 
 ###Оптимизация сфер опыта
+schedule clear optimization:load
 function optimization:load
 ###

@@ -19,5 +19,8 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "dsb:skyblock/travel/desert_archives"
+  "parent": "dsb:skyblock/travel/desert_archives",
+  "rewards": {
+    "function": "dsb:events/set_game_stage"
+  }
 }

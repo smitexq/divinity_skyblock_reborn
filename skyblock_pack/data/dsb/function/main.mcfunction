@@ -10,11 +10,13 @@ execute as @a if score @s Settings matches 1.. run function dsb:events/settings/
 #Невидимые вагонетки
 execute as @e[type=#minecraft:minecarts,tag=!invisible_minecart] run function dsb:events/invisible_minecarts
 
-#Достижения
-execute as @e[type=marker, tag=dsb.adv.escape] at @s unless block ~ ~ ~ sand run advancement grant @a[distance=..200] only dsb:skyblock/travel/escape
+##Достижения
 execute as @e[type=marker, tag=dsb.adv.desert_archives] at @s run advancement grant @a[distance=..1] only dsb:skyblock/travel/desert_archives
 execute as @e[type=marker, tag=dsb.adv.desert_archives_deep] at @s run advancement grant @a[distance=..1] only dsb:skyblock/travel/desert_archives_deep
+execute as @e[type=marker, tag=dsb.adv.escape] at @s unless block ~ ~ ~ sand run advancement grant @a[distance=..200] only dsb:skyblock/travel/escape
 
+execute as @e[type=marker, tag=dsb.adv.old_island] at @s run advancement grant @a[distance=..7] only dsb:skyblock/travel/old_island
+##
 
 #Очистка менюшки
 execute as @a if items entity @s player.cursor *[minecraft:custom_data~{null:1b}] run item replace entity @s player.cursor with minecraft:air

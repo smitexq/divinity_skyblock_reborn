@@ -67,75 +67,19 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dsb:items/recipes/rituals/netherite_ingot",
-          "conditions": [
-            {
-              "condition": "minecraft:value_check",
-              "value": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "*nether"
-                },
-                "score": "GameStage"
-              },
-              "range": 1
-            }
-          ]
+          "value": "dsb:items/recipes/rituals/netherite_ingot"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dsb:items/recipes/rituals/ender_eye",
-          "conditions": [
-            {
-              "condition": "minecraft:value_check",
-              "value": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "*nether"
-                },
-                "score": "GameStage"
-              },
-              "range": 1
-            }
-          ]
+          "value": "dsb:items/recipes/rituals/ender_eye"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dsb:items/recipes/rituals/diamond",
-          "conditions": [
-            {
-              "condition": "minecraft:value_check",
-              "value": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "*nether"
-                },
-                "score": "GameStage"
-              },
-              "range": 1
-            }
-          ]
+          "value": "dsb:items/recipes/rituals/diamond"
         },
         {
           "type": "minecraft:loot_table",
-          "value": "dsb:items/recipes/rituals/base_end_frame",
-          "conditions": [
-            {
-              "condition": "minecraft:value_check",
-              "value": {
-                "type": "minecraft:score",
-                "target": {
-                  "type": "minecraft:fixed",
-                  "name": "*nether"
-                },
-                "score": "GameStage"
-              },
-              "range": 1
-            }
-          ]
+          "value": "dsb:items/recipes/rituals/base_end_frame"
         }
       ]
     }

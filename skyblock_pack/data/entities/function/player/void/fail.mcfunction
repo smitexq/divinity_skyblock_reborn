@@ -8,10 +8,17 @@ data remove storage dsb:temp Grave
 function entities:player/void/clear_storage with storage dsb:grave new
 ###
 
-#очищаем инвентарь игрока и его уровень опыта
+#очищаем его уровень опыта
 experience set @s 0 levels
 experience set @s 0 points
-clear @s
+
+#Отдельно очищаем меню колец, чтобы посчитать, сколько предметов он потерял
+clear @s minecraft:gray_stained_glass_pane[minecraft:custom_data~{accessories_font:1b}]
+clear @s minecraft:black_stained_glass_pane[minecraft:custom_data~{accessories_font:1b}]
+execute store result score *var1 variables run clear @s
+##Достижение
+execute if score *var1 variables matches 1.. run advancement grant @s only dsb:skyblock/travel/void
+##
 
 #Возврат менюшки для открытия слотов колец
 function rings:api/return_open_gui_button
