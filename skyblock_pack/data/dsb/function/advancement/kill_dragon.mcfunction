@@ -6,4 +6,4 @@ scoreboard players set #kill_dragon gameplay 1
 
 # Элитры
 loot give @a loot dsb:items/recipes/rituals/elytra
-execute in minecraft:the_end run setblock 0 67 0 chest{LootTable:"dsb:items/recipes/rituals/elytra"}
+execute in minecraft:the_end run setblock 0 70 0 chest{LootTable:"dsb:items/recipes/rituals/elytra"}

@@ -24,7 +24,7 @@
               "add": false,
               "enchantments": {
                 "minecraft:knockback": 2,
-                "minecraft:sharpness": 1
+                "minecraft:sharpness": 3
               },
               "function": "minecraft:set_enchantments"
             }
@@ -60,7 +60,21 @@
             {
               "add": false,
               "enchantments": {
-                "minecraft:sharpness": 2
+                "minecraft:sharpness": 3
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 1,
+          "functions": [
+            {
+              "add": false,
+              "enchantments": {
+                "minecraft:sharpness": 1
               },
               "function": "minecraft:set_enchantments"
             }

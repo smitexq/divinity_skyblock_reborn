@@ -6,6 +6,7 @@
 		"minecraft:granite",
 		"minecraft:dripstone_block",
 		"minecraft:cracked_stone_bricks",
-		"minecraft:mossy_cobblestone"
+		"minecraft:mossy_cobblestone",
+		"minecraft:cobbled_deepslate"
 	]
 }

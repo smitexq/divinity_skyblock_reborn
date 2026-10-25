@@ -6,8 +6,9 @@
     }
   ],
   "spawn_range": 6,
-  "total_mobs": 8,
-  "simultaneous_mobs": 6,
+  "total_mobs": 7,
+  "total_mobs_added_per_player": 0.5,
+  "simultaneous_mobs": 5,
   "simultaneous_mobs_added_per_player": 2,
   "spawn_potentials": [
     {
@@ -19,6 +20,7 @@
             {"id": "minecraft:max_health", "base":40},
             {"id": "minecraft:attack_damage", "base":5}
           ],
+          "Health": 40,
           "Team": "DesertArchivesEntities",
           "Tags": [
             "entity",

@@ -23,7 +23,7 @@
             {
               "add": false,
               "enchantments": {
-                "minecraft:sharpness": 2.0
+                "minecraft:sharpness": 1.0
               },
               "function": "minecraft:set_enchantments"
             }

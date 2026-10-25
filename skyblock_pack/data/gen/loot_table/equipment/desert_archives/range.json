@@ -39,14 +39,15 @@
             {
               "add": false,
               "enchantments": {
-                "minecraft:multishot": 1,
-                "minecraft:piercing": 2
+                "minecraft:power": 3.0,
+                "minecraft:flame": 1.0,
+                "minecraft:punch": 2.0
               },
               "function": "minecraft:set_enchantments"
             }
           ],
-          "name": "minecraft:crossbow",
-          "weight": 2
+          "name": "minecraft:bow",
+          "weight": 1
         }
       ],
       "rolls": 1.0

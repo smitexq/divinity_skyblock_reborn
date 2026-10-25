@@ -7,8 +7,9 @@
   ],
   "spawn_range": 6,
   "total_mobs": 5,
+  "total_mobs_added_per_player": 0.25,
   "simultaneous_mobs": 3,
-  "simultaneous_mobs_added_per_player": 1,
+  "simultaneous_mobs_added_per_player": 0.5,
   "spawn_potentials": [
     {
       "data": {
@@ -17,9 +18,10 @@
           "CustomName": "{\"translate\":\"dsb.entity.curse_tomb_guardian\",\"color\":\"dark_purple\"}",
           "attributes": [
             {"id": "minecraft:max_health", "base":40},
-            {"id": "minecraft:armor", "base":6},
+            {"id": "minecraft:armor", "base":7},
             {"id": "minecraft:attack_damage", "base":7}
           ],
+          "Health": 40,
           "Team": "DesertArchivesEntities",
           "Tags": [
             "entity"

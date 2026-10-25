@@ -7,6 +7,7 @@
   ],
   "spawn_range": 6,
   "total_mobs": 4,
+  "total_mobs_added_per_player": 0.35,
   "simultaneous_mobs": 2,
   "simultaneous_mobs_added_per_player": 1,
   "spawn_potentials": [
@@ -20,6 +21,7 @@
             {"id": "minecraft:attack_damage", "base":2},
             {"id": "minecraft:scale", "base":0.5}
           ],
+          "Health": 12,
           "Team": "DesertArchivesEntities",
           "Tags": [
             "entity",
